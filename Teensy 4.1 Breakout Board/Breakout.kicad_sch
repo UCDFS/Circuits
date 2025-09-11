@@ -2712,6 +2712,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Keelan Test"
+		(exclude_from_sim no)
+		(at 222.758 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6089d325-4009-4c76-8ae9-70b14a4304bd")
+	)
 	(junction
 		(at 163.83 26.67)
 		(diameter 0)
