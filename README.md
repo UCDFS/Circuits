@@ -1,10 +1,10 @@
-# UCFS Circuits Repository
+# UCDFS Circuits Repository
 
-Welcome to the University of California Fusion Studies (UCFS) KiCad circuits repository! This is the central location for all our electronic circuit designs, schematics, and PCB layouts.
+Welcome to the University College Dublin Formula Student (UCDFS) KiCad circuits repository! This is the central location for all our electronic circuit designs, schematics, and PCB layouts.
 
 ## About
 
-This repository contains KiCad project files for various electronic circuits used in our fusion research and experiments. All designs are created using KiCad, an open-source electronic design automation (EDA) suite.
+This repository contains KiCad project files for various electronic circuits used in our Formula Student vehicle and projects. All designs are created using KiCad, an open-source electronic design automation (EDA) suite.
 
 ## Current Projects
 
@@ -81,8 +81,8 @@ For questions about these circuits or KiCad usage:
 
 - Check the [KiCad documentation](https://docs.kicad.org/)
 - Visit the [KiCad community forum](https://forum.kicad.info/)
-- Contact the UCFS engineering team
+- Contact the UCDFS engineering team
 
 ## License
 
-Circuit designs in this repository are created for research and educational purposes at UCFS. Please contact the repository maintainers for usage permissions and licensing information.
+Circuit designs in this repository are created for research and educational purposes at UCDFS. Please contact the repository maintainers for usage permissions and licensing information.
