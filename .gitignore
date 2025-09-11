@@ -9,4 +9,5 @@ fp-info-cache
 _autosave-*
 *.tmp
 *.bak
+*.lck
 *~
