@@ -6,26 +6,6 @@ Welcome to the University College Dublin Formula Student (UCDFS) KiCad circuits 
 
 This repository contains KiCad project files for various electronic circuits used in our Formula Student vehicle and projects. All designs are created using KiCad, an open-source electronic design automation (EDA) suite.
 
-## Current Projects
-
-### Teensy 4.1 Breakout Board
-A custom breakout board design for the Teensy 4.1 microcontroller development board.
-
-**Location:** `Teensy 4.1 Breakout Board/`
-**Files:**
-- `Breakout.kicad_pro` - Project configuration
-- `Breakout.kicad_sch` - Schematic design
-- `Breakout.kicad_pcb` - PCB layout
-
-## Requirements
-
-To work with these circuit designs, you'll need:
-
-- **KiCad EDA Suite** (version 6.0 or later recommended)
-  - Download from: https://www.kicad.org/download/
-  - Free and open-source
-  - Available for Windows, macOS, and Linux
-
 ## Getting Started
 
 1. **Clone this repository:**
@@ -66,23 +46,4 @@ When contributing new circuits or modifications:
 2. **Organize projects** in clearly named directories
 3. **Follow naming conventions:** Use descriptive names for projects and files
 4. **Include all necessary files:** Ensure `.kicad_pro`, `.kicad_sch`, and `.kicad_pcb` files are included
-5. **Test your designs** before submitting
-6. **Document your work:** Add project details to this README when adding new circuits
-
-### File Management
-
-- KiCad backup files and temporary files are automatically ignored via `.gitignore`
-- Only commit the main project files (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`)
-- Avoid committing generated files like Gerber files unless specifically needed
-
-## Support
-
-For questions about these circuits or KiCad usage:
-
-- Check the [KiCad documentation](https://docs.kicad.org/)
-- Visit the [KiCad community forum](https://forum.kicad.info/)
-- Contact the UCDFS engineering team
-
-## License
-
-Circuit designs in this repository are created for research and educational purposes at UCDFS. Please contact the repository maintainers for usage permissions and licensing information.
+5. **Document your work:** Add project details to a README in each circuit subfolder
