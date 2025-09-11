@@ -1,2 +1,12 @@
 # Ignore macOS Finder metadata files
 .DS_Store
+
+# KiCad backups and caches
+*-backups/
+*.kicad_prl
+*.kicad_sch-bak
+fp-info-cache
+_autosave-*
+*.tmp
+*.bak
+*~
