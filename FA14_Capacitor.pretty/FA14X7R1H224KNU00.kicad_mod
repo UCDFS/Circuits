@@ -1,0 +1,241 @@
+(footprint "FA14X7R1H224KNU00"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FA14")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "713f1f9d-098b-4b26-9871-4882029ef2d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FA14X7R1H224KNU00"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "58962c59-7bf4-4c98-8d87-a890db2e352c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "437fdacf-7e5a-4c46-b091-45c667641e22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b59a5f07-5d3b-4322-bcea-b47edf7e9389")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81e682c0-0d0b-4550-a369-59b90dfb4a91")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.45 -1.5)
+		(end 2.05 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a491090-6a5f-4cf0-ae71-ed843d56e5b6")
+	)
+	(fp_line
+		(start 2.05 1.5)
+		(end 0.45 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "772dc379-ece5-403f-8f91-51b495795955")
+	)
+	(fp_arc
+		(start 0.45 1.5)
+		(mid -1.05 0)
+		(end 0.45 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ef66e3c-57d0-4a38-b2cf-efded69f5d9e")
+	)
+	(fp_arc
+		(start 2.05 -1.5)
+		(mid 3.55 0)
+		(end 2.05 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55b7d2a1-65e6-43a9-9c55-15bf16f6321d")
+	)
+	(fp_circle
+		(center -2.15 0)
+		(end -2.15 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3f55fef4-1c1d-411c-90b9-f6ffc43fcf53")
+	)
+	(fp_line
+		(start -1.44 -1.79)
+		(end 3.81 -1.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "adb125aa-0354-4bd3-888f-ef1070e91af4")
+	)
+	(fp_line
+		(start -1.44 1.79)
+		(end -1.44 -1.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97ca883b-1cdc-4ac9-9665-902e397a756e")
+	)
+	(fp_line
+		(start 3.81 -1.79)
+		(end 3.81 1.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99f57a3b-f2c1-4262-ab1e-47bee22ba925")
+	)
+	(fp_line
+		(start 3.81 1.79)
+		(end -1.44 1.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ba28b9c-243d-4e07-8c94-0b10b969560c")
+	)
+	(fp_line
+		(start 0.45 -1.5)
+		(end 2.05 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8070f7c1-7b00-400b-a7dc-9142b32a56b4")
+	)
+	(fp_line
+		(start 2.05 1.5)
+		(end 0.45 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "204fab7d-3ab9-4364-94b4-12d8220722dc")
+	)
+	(fp_arc
+		(start 0.45 1.5)
+		(mid -1.05 0)
+		(end 0.45 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "732d5692-2a11-4648-a437-ec9c438d9d86")
+	)
+	(fp_arc
+		(start 2.05 -1.5)
+		(mid 3.55 0)
+		(end 2.05 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de15f296-7e2f-400d-9a25-83d13d396afb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "43e61cae-fad4-4000-9f48-7d804760fd18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e7d0d6e-3bf4-4afe-8e21-3f950a79dc9e")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "08667d9e-d8a0-44aa-8a0f-805f81286887")
+	)
+	(model "FA14X7R1H224KNU00.stp"
+		(offset
+			(xyz 1.249999981 0 4.05000013)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

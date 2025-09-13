@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Phoenix 1x2 Connector")(type "KiCad")(uri "/Users/keelanreilly/Desktop/Formula Stuff/Discharge_KR/Phoenix 1x2 Connector.pretty")(options "")(descr ""))
+  (lib (name "Pickering Relay")(type "KiCad")(uri "${KIPRJMOD}/Pickering Relay.pretty")(options "")(descr ""))
+  (lib (name "AL589010D13")(type "KiCad")(uri "${KIPRJMOD}/AL589010D13.pretty")(options "")(descr ""))
+  (lib (name "TLV1701AIDBVT")(type "KiCad")(uri "${KIPRJMOD}/TLV1701AIDBVT.pretty")(options "")(descr ""))
+  (lib (name "MPF1212S-1W")(type "KiCad")(uri "${KIPRJMOD}/MPF1212S-1W.pretty")(options "")(descr ""))
+  (lib (name "LM339N")(type "KiCad")(uri "/Users/keelanreilly/Desktop/Formula Stuff/BSPD_KR/LM339N.pretty")(options "")(descr ""))
+)

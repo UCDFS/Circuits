@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LM339N")(type "KiCad")(uri "${KIPRJMOD}/LM339N.pretty")(options "")(descr ""))
+  (lib (name "LTL1CHG")(type "KiCad")(uri "${KIPRJMOD}/LTL1CHG.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,241 @@
+(footprint "FA16X7R1E225KNU00"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FA16")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f7b11c8e-9f2c-42a2-a427-58a5208a9b03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FA16X7R1E225KNU00"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "84e1742b-2b6f-440c-bc29-7d9555cdbbc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5ae69e4-e4ca-495e-9182-fc6318a3d8c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef021de9-d9f5-4d99-8999-795dee11c9e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adf048f3-b88b-4df7-a0b7-4c127af833d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.25 -1.75)
+		(end 2.25 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "546cde46-756e-41e3-ad23-d5341b211f35")
+	)
+	(fp_line
+		(start 2.25 1.75)
+		(end 0.25 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8711f95a-18c2-44ef-9de6-ef43b84c7b32")
+	)
+	(fp_arc
+		(start 0.25 1.75)
+		(mid -1.5 0)
+		(end 0.25 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "728029e1-d2be-4146-8e33-20c0d7a8551a")
+	)
+	(fp_arc
+		(start 2.25 -1.75)
+		(mid 4 0)
+		(end 2.25 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9dbb34b-34dd-482c-82c3-a61b07eae88c")
+	)
+	(fp_circle
+		(center -2.15 0)
+		(end -2.15 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "64376087-10fb-4128-81a1-df1968e45921")
+	)
+	(fp_line
+		(start -1.75 -2.04)
+		(end 4.26 -2.04)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0683e07-abad-4604-bb00-33132224a7f2")
+	)
+	(fp_line
+		(start -1.75 2.05)
+		(end -1.75 -2.04)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca3142fc-caa8-4515-a1e1-243e4e34e6ee")
+	)
+	(fp_line
+		(start 4.26 -2.04)
+		(end 4.26 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb800757-0ff7-41d4-b8ba-2dd70ba31f91")
+	)
+	(fp_line
+		(start 4.26 2.05)
+		(end -1.75 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "752724d6-c953-4352-b98f-e9c5b0954694")
+	)
+	(fp_line
+		(start 0.25 -1.75)
+		(end 2.25 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a62f86c6-089c-4f13-98c6-383d6f179282")
+	)
+	(fp_line
+		(start 2.25 1.75)
+		(end 0.25 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d187d59-76f9-4e4f-860d-fd34cb0c3395")
+	)
+	(fp_arc
+		(start 0.25 1.75)
+		(mid -1.5 0)
+		(end 0.25 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a6faa37-0b2b-481a-a47e-0bed230c8f7c")
+	)
+	(fp_arc
+		(start 2.25 -1.75)
+		(mid 4 0)
+		(end 2.25 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1856d776-c593-4574-951c-11342f0e8600")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a717e6cd-c778-4a2c-9af2-2d3c65015d6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "414464a3-03a1-4783-9870-b8437cab2d7b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e0e83998-18e0-45cb-a421-fb04d1e9a46d")
+	)
+	(model "FA16X7R1E225KNU00.stp"
+		(offset
+			(xyz 1.249999981 0 4.280000146)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Phoenix 1x2 Connector")(type "KiCad")(uri "${KIPRJMOD}/Phoenix 1x2 Connector.pretty")(options "")(descr ""))
+  (lib (name "DBR71210")(type "KiCad")(uri "${KIPRJMOD}/DBR71210.pretty")(options "")(descr ""))
+  (lib (name "AL5890_10_D13")(type "KiCad")(uri "${KIPRJMOD}/AL5890_10_D13.pretty")(options "")(descr ""))
+)
