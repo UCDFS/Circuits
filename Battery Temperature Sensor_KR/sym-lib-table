@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "TEC_2-1211")(type "KiCad")(uri "${KIPRJMOD}/TEC_2-1211.kicad_sym")(options "")(descr ""))
-)

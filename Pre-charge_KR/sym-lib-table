@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "AL5890-10D-13")(type "KiCad")(uri "${KIPRJMOD}/AL5890-10D-13.kicad_sym")(options "")(descr ""))
-  (lib (name "TLV1701AIDBVT")(type "KiCad")(uri "${KIPRJMOD}/TLV1701AIDBVT.pretty/TLV1701AIDBVT.kicad_sym")(options "")(descr ""))
-)

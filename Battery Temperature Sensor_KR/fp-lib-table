@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Phoenix 1x2 Connector")(type "KiCad")(uri "/Users/keelanreilly/Desktop/Formula Stuff/Discharge_KR/Phoenix 1x2 Connector.pretty")(options "")(descr ""))
-  (lib (name "TEC_2")(type "KiCad")(uri "${KIPRJMOD}/TEC_2.pretty")(options "")(descr ""))
-)
