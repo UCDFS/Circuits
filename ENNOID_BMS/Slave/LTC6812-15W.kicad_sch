@@ -6266,6 +6266,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "HV"
+		(exclude_from_sim no)
+		(at 875.03 158.75 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "13244843-e3c6-4b09-899a-75698e499dba")
+	)
 	(text "Cell Voltage and Balancing - Ennoid Slave with Thermistor GPIO inputs removed"
 		(exclude_from_sim no)
 		(at 159.004 33.274 0)
@@ -6276,15 +6286,35 @@
 		)
 		(uuid "1896791f-c412-42dd-9bd5-0816b456760f")
 	)
-	(text "Meas- must be tied to its cell's negative. it is electrically isolated so this must be done\nThis can either be done at the cells, or routed here and sent back, but this adds an additional 18 input wires"
+	(text "LV"
 		(exclude_from_sim no)
-		(at 738.378 281.686 0)
+		(at 449.326 89.408 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
 		)
-		(uuid "ac34780b-4867-4d25-a5d3-4a08bc9710cc")
+		(uuid "530bb3e3-63fe-46bd-9755-db05ef865ef8")
+	)
+	(text "LV"
+		(exclude_from_sim no)
+		(at 932.18 161.036 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "78dbf429-3179-4b48-9e3b-ceaf41db12ef")
+	)
+	(text "HV"
+		(exclude_from_sim no)
+		(at 392.176 87.122 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8d5e754b-8014-46f9-a58f-b42b62c723ea")
 	)
 	(text "Proposed Temperature Sensing circuit"
 		(exclude_from_sim no)

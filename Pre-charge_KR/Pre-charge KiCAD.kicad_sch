@@ -3818,16 +3818,6 @@
 		)
 		(uuid "2bda4251-a105-4d83-92db-ea7599f51418")
 	)
-	(text "This is for monitoring/debugging, most likely to esp32\n\n"
-		(exclude_from_sim no)
-		(at 250.444 185.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4586e654-8963-466a-b681-74d269c4268b")
-	)
 	(text "hysteresis resistor"
 		(exclude_from_sim no)
 		(at 133.096 274.066 0)
@@ -3959,6 +3949,16 @@
 		)
 		(uuid "c777f1fe-2d85-4f09-a034-8dd64a5bf459")
 	)
+	(text "This is active low. "
+		(exclude_from_sim no)
+		(at 245.872 189.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc29af99-09c9-4f8e-a9ea-c6269efca45a")
+	)
 	(text "This delay stops race condition of precharge closing and AIR opening unpredictably at the same time\n220ms is orders of magnitude long enough"
 		(exclude_from_sim no)
 		(at 279.4 117.856 0)
@@ -4017,12 +4017,6 @@
 		(uuid "1cc8000a-914a-456d-9757-2720bd8eae1e")
 	)
 	(junction
-		(at 158.75 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22e91872-4447-4dd0-bb62-4b2ca1cb385f")
-	)
-	(junction
 		(at 187.96 344.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4033,6 +4027,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b9e8f2c-41b0-4800-a530-0359402046ca")
+	)
+	(junction
+		(at 210.82 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b5421b4-388d-4582-aa52-e7f5e8973756")
+	)
+	(junction
+		(at 203.2 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "511440aa-94ee-4daa-91ba-5e1a986106ef")
 	)
 	(junction
 		(at 63.5 283.21)
@@ -4095,6 +4101,12 @@
 		(uuid "930b8306-23f8-42ad-ba99-7dd6fb3f9c38")
 	)
 	(junction
+		(at 158.75 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9398c66e-2e1c-4328-a250-758c8f70efa3")
+	)
+	(junction
 		(at 295.91 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4111,12 +4123,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a693cd3a-9c16-42a8-877d-202f2fdd86f7")
-	)
-	(junction
-		(at 210.82 298.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af19005b-d3a1-42b1-aefd-ed9f8e633ad3")
 	)
 	(junction
 		(at 374.65 355.6)
@@ -4159,12 +4165,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e44309f1-d14e-4b8e-95b2-b8327c158cc2")
-	)
-	(junction
-		(at 204.47 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5dc62d4-a0fe-4500-8a43-93661ad43fbe")
 	)
 	(wire
 		(pts
@@ -4279,16 +4279,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 194.31) (xy 204.47 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c01541c-7527-432e-acec-ae0e306c8f69")
-	)
-	(wire
-		(pts
 			(xy 76.2 334.01) (xy 76.2 337.82)
 		)
 		(stroke
@@ -4296,6 +4286,16 @@
 			(type default)
 		)
 		(uuid "0cc19c0b-d5dd-4304-b1c0-baa7a7084187")
+	)
+	(wire
+		(pts
+			(xy 158.75 166.37) (xy 158.75 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc29748-7ae2-48de-8dd0-2965d39a6634")
 	)
 	(wire
 		(pts
@@ -4399,6 +4399,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 278.13) (xy 285.75 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1897be66-6a59-4206-bb4c-1306c4c89dfc")
+	)
+	(wire
+		(pts
 			(xy 160.02 288.29) (xy 160.02 298.45)
 		)
 		(stroke
@@ -4426,26 +4436,6 @@
 			(type default)
 		)
 		(uuid "19fa58c7-8518-440f-b1e3-2643c0b20974")
-	)
-	(wire
-		(pts
-			(xy 158.75 166.37) (xy 158.75 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b0b0db7-cad9-489e-b93b-9971625f0b90")
-	)
-	(wire
-		(pts
-			(xy 210.82 298.45) (xy 220.98 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f35db70-ae48-4010-b7c1-d2399f9f1939")
 	)
 	(wire
 		(pts
@@ -4499,16 +4489,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 201.93) (xy 204.47 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23a54224-fd8b-4e42-92a9-d292adaf39ea")
-	)
-	(wire
-		(pts
 			(xy 383.54 339.09) (xy 374.65 339.09)
 		)
 		(stroke
@@ -4516,16 +4496,6 @@
 			(type default)
 		)
 		(uuid "24530e54-ee58-4113-9700-812f5bd8f8ca")
-	)
-	(wire
-		(pts
-			(xy 210.82 311.15) (xy 210.82 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24febeef-265f-4741-9162-db7b475d71ed")
 	)
 	(wire
 		(pts
@@ -4549,7 +4519,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 194.31) (xy 214.63 194.31)
+			(xy 203.2 189.23) (xy 213.36 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4649,23 +4619,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 184.15) (xy 207.01 184.15)
+			(xy 203.2 177.8) (xy 207.01 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "367c2ef8-37d3-4083-ba1b-3cb61beaa5a5")
-	)
-	(wire
-		(pts
-			(xy 203.2 189.23) (xy 203.2 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38881a55-5ef0-443f-99e9-ae48f819535c")
 	)
 	(wire
 		(pts
@@ -4796,16 +4756,6 @@
 			(type default)
 		)
 		(uuid "4a308deb-7f5d-40b1-beb4-542501486a18")
-	)
-	(wire
-		(pts
-			(xy 198.12 194.31) (xy 204.47 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a9c4c0d-79d1-4ae6-8ea7-87a393b14699")
 	)
 	(wire
 		(pts
@@ -5039,16 +4989,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 278.13) (xy 285.75 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6638cab2-9dac-4224-95ee-e59cbce75eb3")
-	)
-	(wire
-		(pts
 			(xy 207.01 298.45) (xy 210.82 298.45)
 		)
 		(stroke
@@ -5096,6 +5036,16 @@
 			(type default)
 		)
 		(uuid "6af8ad78-5e10-4d72-812b-c83a420579cc")
+	)
+	(wire
+		(pts
+			(xy 203.2 194.31) (xy 203.2 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b07aafe-67ee-4d87-ae57-f8042d1dc0f7")
 	)
 	(wire
 		(pts
@@ -5289,7 +5239,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 298.45) (xy 210.82 306.07)
+			(xy 210.82 298.45) (xy 210.82 307.34)
 		)
 		(stroke
 			(width 0)
@@ -5450,6 +5400,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 289.56) (xy 210.82 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3ab9c9-e6e0-4692-a32a-cd29494ec1ad")
+	)
+	(wire
+		(pts
 			(xy 335.28 327.66) (xy 331.47 327.66)
 		)
 		(stroke
@@ -5457,16 +5417,6 @@
 			(type default)
 		)
 		(uuid "a0371f78-ceb6-4b47-bcbd-f42f74f18faa")
-	)
-	(wire
-		(pts
-			(xy 210.82 293.37) (xy 210.82 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a12eb0bf-db2b-4eb4-b2b1-ff8f938d574d")
 	)
 	(wire
 		(pts
@@ -5490,7 +5440,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 288.29) (xy 213.36 288.29)
+			(xy 210.82 279.4) (xy 213.36 279.4)
 		)
 		(stroke
 			(width 0)
@@ -5581,6 +5531,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 279.4) (xy 210.82 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b706724f-0515-4ff6-ba75-ee024071db6c")
+	)
+	(wire
+		(pts
 			(xy 297.18 142.24) (xy 289.56 142.24)
 		)
 		(stroke
@@ -5608,6 +5568,16 @@
 			(type default)
 		)
 		(uuid "bbf440ae-4a49-4be4-94fc-bb355715e9cf")
+	)
+	(wire
+		(pts
+			(xy 203.2 186.69) (xy 203.2 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb4a5e1-b79b-47f1-96e3-07526387321e")
 	)
 	(wire
 		(pts
@@ -5671,6 +5641,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 194.31) (xy 203.2 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6163f94-1015-4542-b1e1-dd4343734f03")
+	)
+	(wire
+		(pts
 			(xy 309.88 265.43) (xy 307.34 265.43)
 		)
 		(stroke
@@ -5729,6 +5709,16 @@
 		)
 		(uuid "ce2100ea-6ebb-4a6d-80db-e2c490db2d74")
 	)
+	(wire
+		(pts
+			(xy 313.69 278.13) (xy 325.12 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8215e6-60e2-4574-9270-d4c2e8f5a3c7")
+	)
 	(polyline
 		(pts
 			(xy 170.18 166.37) (xy 339.09 165.1)
@@ -5758,6 +5748,16 @@
 			(type default)
 		)
 		(uuid "d3295ae8-cca4-48c8-9e7c-e7f92c98c71f")
+	)
+	(wire
+		(pts
+			(xy 203.2 177.8) (xy 203.2 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7271a67-2f6c-4c37-9ec3-cfacb13e5a9c")
 	)
 	(wire
 		(pts
@@ -5801,6 +5801,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 177.8) (xy 158.75 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8bbd90-cd8d-45f1-9c14-5e4aaf890a91")
+	)
+	(wire
+		(pts
 			(xy 218.44 132.08) (xy 238.76 132.08)
 		)
 		(stroke
@@ -5808,16 +5818,6 @@
 			(type default)
 		)
 		(uuid "de56bf6f-4d6a-46a9-8e72-908fd21848e7")
-	)
-	(wire
-		(pts
-			(xy 313.69 278.13) (xy 326.39 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df455018-4833-4cc7-8100-629fcdcbd873")
 	)
 	(wire
 		(pts
@@ -5868,6 +5868,16 @@
 			(type default)
 		)
 		(uuid "e1983a2a-40d6-4b59-bcd8-d8e8f9f6875e")
+	)
+	(wire
+		(pts
+			(xy 210.82 293.37) (xy 220.98 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c6de28-463d-40b3-8108-613b75336b0e")
 	)
 	(wire
 		(pts
@@ -5959,16 +5969,6 @@
 			(type default)
 		)
 		(uuid "f1db678b-2edd-479b-9943-85732779b126")
-	)
-	(wire
-		(pts
-			(xy 158.75 180.34) (xy 158.75 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4055715-0497-4ba3-b46f-f881cf7d516d")
 	)
 	(wire
 		(pts
@@ -6178,9 +6178,9 @@
 			)
 		)
 	)
-	(global_label "Precharge_ON"
+	(global_label "Precharge_ON_N"
 		(shape output)
-		(at 214.63 194.31 0)
+		(at 213.36 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6189,7 +6189,7 @@
 		)
 		(uuid "2201048b-d247-4a73-9170-b4c0ad6d88ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.5866 194.2306 0)
+			(at 222.3166 189.1506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,23 +6200,23 @@
 		)
 	)
 	(global_label "Precharge_done"
-		(shape input)
-		(at 276.86 278.13 180)
+		(shape output)
+		(at 325.12 278.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "227d0eff-2094-4c0f-a690-a7c49856ef27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.7213 278.13 0)
+			(at 343.2587 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6288,22 +6288,22 @@
 		)
 	)
 	(global_label "Precharge NOT done"
-		(shape output)
-		(at 326.39 278.13 0)
+		(shape input)
+		(at 278.13 278.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "35720e02-52c4-4a66-936b-1a30547028ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.3942 278.0506 0)
+			(at 263.1258 278.2094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6330,7 +6330,7 @@
 			)
 		)
 	)
-	(global_label "Precharge_ON"
+	(global_label "Precharge_ON_N"
 		(shape output)
 		(at 429.26 228.6 180)
 		(effects
@@ -6725,7 +6725,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 213.36 288.29 0)
+		(at 213.36 279.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6735,7 +6735,7 @@
 		)
 		(uuid "bb900bbf-bef1-45d7-95f6-ec3ea9f0aea7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.5527 288.29 0)
+			(at 220.5527 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6899,7 +6899,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 207.01 184.15 0)
+		(at 207.01 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6909,7 +6909,7 @@
 		)
 		(uuid "e413bfd8-c0f7-4578-aaff-0c6cbfa383b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.2027 184.15 0)
+			(at 214.2027 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,9 +7029,9 @@
 			)
 		)
 	)
-	(global_label "Precharge_done"
+	(global_label "Precharge NOT done"
 		(shape output)
-		(at 220.98 298.45 0)
+		(at 220.98 293.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7041,7 +7041,7 @@
 		)
 		(uuid "f2879085-1caf-45ec-b8eb-69a215a368d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.1187 298.45 0)
+			(at 243.7149 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,84 +7388,6 @@
 			(project "Pre-charge KiCAD"
 				(path "/d765a512-e851-402d-ada8-2703616db77a"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 210.82 308.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "100878d3-0a8e-404c-ad0b-8e908bf0cc17")
-		(property "Reference" "R1"
-			(at 215.9 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 209.55 308.6101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 210.82 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3436052.pdf?_gl=1*1pxxutc*_gcl_au*OTY1ODIxNDc3LjE3MzU0MDg2OTk"
-			(at 210.82 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "MCF 0.25W 100K"
-			(at 210.82 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "518f2514-f3f3-412a-8133-d35dc975e4a3")
-		)
-		(pin "2"
-			(uuid "2e9419af-61bf-4b80-9859-ce96b891f429")
-		)
-		(instances
-			(project "Pre-charge KiCAD"
-				(path "/d765a512-e851-402d-ada8-2703616db77a"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8616,7 +8538,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 316.23 0)
+		(at 210.82 307.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8625,7 +8547,7 @@
 		(fields_autoplaced yes)
 		(uuid "41f499a1-075b-4913-9b66-2cb0c8da2203")
 		(property "Reference" "#PWR01"
-			(at 210.82 322.58 0)
+			(at 210.82 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 321.31 0)
+			(at 210.82 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8642,7 +8564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 316.23 0)
+			(at 210.82 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,7 +8573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 316.23 0)
+			(at 210.82 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,7 +8582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 316.23 0)
+			(at 210.82 307.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,85 +9665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 158.75 177.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72153f74-b868-4572-9d7b-a3b72301a1bd")
-		(property "Reference" "R11"
-			(at 161.29 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330"
-			(at 161.29 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 158.75 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3436052.pdf?_gl=1*1pxxutc*_gcl_au*OTY1ODIxNDc3LjE3MzU0MDg2OTk"
-			(at 158.75 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "MCF 0.25W 330"
-			(at 158.75 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc70e090-818e-4262-8048-a9559525056e")
-		)
-		(pin "2"
-			(uuid "be27777f-fa59-4f99-b729-d09291d88b8c")
-		)
-		(instances
-			(project "Pre-charge KiCAD"
-				(path "/d765a512-e851-402d-ada8-2703616db77a"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 149.86 0)
 		(unit 1)
@@ -10031,6 +9874,85 @@
 			(project "Pre-charge KiCAD"
 				(path "/d765a512-e851-402d-ada8-2703616db77a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 158.75 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bca5d00-64cd-46af-bf31-0f1feeca6cdf")
+		(property "Reference" "R11"
+			(at 161.29 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56k"
+			(at 161.29 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/3436052.pdf?_gl=1*1pxxutc*_gcl_au*OTY1ODIxNDc3LjE3MzU0MDg2OTk"
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCF 0.5W 56K"
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd009977-87db-4d2d-b371-b9f6c32fd306")
+		)
+		(pin "2"
+			(uuid "67a0379c-c73d-4647-abbe-6b4d717a9a19")
+		)
+		(instances
+			(project "Pre-charge KiCAD"
+				(path "/d765a512-e851-402d-ada8-2703616db77a"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10533,7 +10455,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 204.47 199.39 180)
+		(at 203.2 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10541,7 +10463,7 @@
 		(dnp no)
 		(uuid "a1be77b8-6bea-4363-9df5-6b073bd4ef36")
 		(property "Reference" "R3"
-			(at 209.55 199.39 0)
+			(at 208.28 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10549,8 +10471,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 203.2 199.3901 0)
+		(property "Value" "10k"
+			(at 201.93 184.1501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10559,7 +10481,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 204.47 199.39 0)
+			(at 203.2 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,7 +10490,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/3436052.pdf?_gl=1*1pxxutc*_gcl_au*OTY1ODIxNDc3LjE3MzU0MDg2OTk"
-			(at 204.47 199.39 0)
+			(at 203.2 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +10499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 199.39 0)
+			(at 203.2 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,8 +10507,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 100K"
-			(at 204.47 199.39 0)
+		(property "Part Number" "MCF 0.25W 10K"
+			(at 203.2 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,6 +10936,84 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 210.82 287.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0850396-bda4-4ada-832c-6cf032bb4694")
+		(property "Reference" "R1"
+			(at 215.9 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 209.55 287.0201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 210.82 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/3436052.pdf?_gl=1*1pxxutc*_gcl_au*OTY1ODIxNDc3LjE3MzU0MDg2OTk"
+			(at 210.82 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MCF 0.25W 10K"
+			(at 210.82 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31fb92a5-cac6-43a1-89a6-184743b3c068")
+		)
+		(pin "2"
+			(uuid "567b989d-040e-4f4e-85cb-6d2ec8534e52")
+		)
+		(instances
+			(project "Pre-charge KiCAD"
+				(path "/d765a512-e851-402d-ada8-2703616db77a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 356.87 345.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11418,7 +11418,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 204.47 0)
+		(at 203.2 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11427,7 +11427,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4e4dcef-3d60-4807-ace1-204bca9dc894")
 		(property "Reference" "#PWR03"
-			(at 204.47 210.82 0)
+			(at 203.2 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11436,7 +11436,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 209.55 0)
+			(at 203.2 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11444,7 +11444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 204.47 0)
+			(at 203.2 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11453,7 +11453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 204.47 0)
+			(at 203.2 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11462,7 +11462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 204.47 0)
+			(at 203.2 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
