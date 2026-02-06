@@ -1491,7 +1491,7 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J4"
-			(at 1.25 5.225 0)
+			(at -4.95 -0.85 0)
 			(layer "F.SilkS")
 			(uuid "fa06c65b-3b16-4833-9756-3b7075547ee3")
 			(effects
@@ -16150,6 +16150,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "de8adc53-e437-4f59-bef9-16bf0ff34364")
+	)
+	(gr_text "HV"
+		(at 221.025 46.425 0)
+		(layer "F.SilkS")
+		(uuid "9f496873-c94b-48cc-b1b2-bef1f4722e78")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LV"
+		(at 235.875 46.2 0)
+		(layer "F.SilkS")
+		(uuid "b6ba983e-7ea0-46d5-b49e-e37d178b925a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 242.6 64.35)

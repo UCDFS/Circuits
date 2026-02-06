@@ -8403,6 +8403,30 @@
 		(layer "Edge.Cuts")
 		(uuid "da1a9062-796a-4496-9be4-bac37f909b65")
 	)
+	(gr_text "HV"
+		(at 141.35 58.35 0)
+		(layer "F.SilkS")
+		(uuid "936ba31f-2d5c-41de-add0-30a717c29029")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "LV"
+		(at 144.6 101.125 0)
+		(layer "F.SilkS")
+		(uuid "e627d3c4-920a-4321-bead-c9dcb136c72c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 116.975 98.2375)
 		(end 117.4275 98.2375)
