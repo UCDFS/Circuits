@@ -3121,7 +3121,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "26cf44c2-e50b-4caf-a6c7-a49d17bfb990")
@@ -3156,7 +3156,7 @@
 				)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 10k"
+		(property "Part Number" "MCF 0.25W 100k"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

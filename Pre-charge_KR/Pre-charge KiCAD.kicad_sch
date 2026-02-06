@@ -9,10 +9,7 @@
 		(date "2024-10-20")
 		(rev "v10")
 		(company "UCD Formula Student")
-		(comment 1 "Original Author: Nebojša Cvetković")
-		(comment 2 "Amended by: Darren Garrett in 2022 V09")
-		(comment 3 "Amended by: Kieran Mcilreavy")
-		(comment 4 "Amended by: Rebecca McDonald ")
+		(comment 1 "Author: Keelan Reilly")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1GU04DRL"
@@ -7933,7 +7930,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 162.56 287.0199 0)
 			(effects
 				(font
@@ -7969,7 +7966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 10k"
+		(property "Part Number" "MCF 0.25W 100k"
 			(at 160.02 285.75 0)
 			(effects
 				(font
