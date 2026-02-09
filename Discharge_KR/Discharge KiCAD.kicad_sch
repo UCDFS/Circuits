@@ -9,9 +9,7 @@
 		(date "2024-10-20")
 		(rev "v08.1")
 		(company "UCD Formula Student")
-		(comment 1 "Authors: Nebojša Cvetković, Darren Garrett")
-		(comment 2 "Ammended by: Kieran Mcilreavy")
-		(comment 3 "Amended by: Rebecca McDonald")
+		(comment 1 "Author: Keelan Reilly")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"

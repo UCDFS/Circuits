@@ -523,7 +523,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Breakout.step",
       "svg": "",
       "vrml": ""
     },

@@ -4186,8 +4186,8 @@
 		(uuid 5b733548-6b60-4a6c-a1a2-184a31c9367d)
 	)
 	(rectangle
-		(start 76.2 273.05)
-		(end 193.04 351.79)
+		(start 73.66 273.05)
+		(end 199.39 351.79)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5969,6 +5969,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 335.28) (xy 157.48 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27ab519-c21f-4ab5-9622-cc8d7efa04e6")
+	)
+	(wire
+		(pts
 			(xy 270.51 215.9) (xy 276.86 215.9)
 		)
 		(stroke
@@ -5976,6 +5986,16 @@
 			(type default)
 		)
 		(uuid "b36f103c-859a-41cf-acf8-77a288fc027b")
+	)
+	(wire
+		(pts
+			(xy 152.4 337.82) (xy 157.48 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d30dc2-dc66-4c31-8f92-de4d9c3ecdb9")
 	)
 	(wire
 		(pts
@@ -6969,6 +6989,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape output)
+		(at 152.4 335.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "437dc2b0-7aed-415e-8aca-b2c45f92b714")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.1648 335.2006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8388,6 +8429,112 @@
 			(project "Breakout"
 				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 162.56 335.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08d67cd2-884d-467e-8bbe-f7e2c3fb568f")
+		(property "Reference" "J11"
+			(at 165.1 335.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Current Sensor Power source"
+			(at 165.1 337.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 162.56 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 162.56 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 162.56 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 162.56 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 162.56 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "B2B-XH-A"
+			(at 162.56 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "323d7c8f-50ee-4358-b9cb-1625efc6af93")
+		)
+		(pin "1"
+			(uuid "2eff8ccb-c186-4f77-aed0-d206b5363ddb")
+		)
+		(instances
+			(project "Breakout"
+				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -10529,6 +10676,73 @@
 			(project "Breakout"
 				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 337.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b328391-62d8-4eae-aefa-36e5da92d03c")
+		(property "Reference" "#PWR031"
+			(at 146.05 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 337.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "416ab063-b98f-4f8e-9d0c-5ed7ec783912")
+		)
+		(instances
+			(project "Breakout"
+				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

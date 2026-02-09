@@ -525,7 +525,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Voltage_Measurement_KR.step",
       "svg": "",
       "vrml": ""
     },

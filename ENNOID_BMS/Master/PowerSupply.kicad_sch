@@ -1816,6 +1816,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 176.53) (xy 353.06 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09486a7a-0919-42af-8472-86d329483545")
+	)
+	(wire
+		(pts
 			(xy 396.24 172.72) (xy 388.62 172.72)
 		)
 		(stroke
@@ -2286,6 +2296,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 166.37) (xy 349.25 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83559a5c-9653-442b-aa30-4b76486cd039")
+	)
+	(wire
+		(pts
 			(xy 370.84 231.14) (xy 363.22 231.14)
 		)
 		(stroke
@@ -2386,6 +2406,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 173.99) (xy 349.25 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992beb4d-c79f-4a0c-89bf-d0b199e6d3d0")
+	)
+	(wire
+		(pts
 			(xy 365.76 187.96) (xy 365.76 193.04)
 		)
 		(stroke
@@ -2403,16 +2433,6 @@
 			(type default)
 		)
 		(uuid "9ed1d49f-1af6-414d-835b-e5bff1e35313")
-	)
-	(wire
-		(pts
-			(xy 349.25 176.53) (xy 353.06 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ca42bb-8a9f-41ab-8d55-5b77583cab04")
 	)
 	(wire
 		(pts
@@ -2443,16 +2463,6 @@
 			(type default)
 		)
 		(uuid "b5039d47-2fb4-47c3-bd55-05e5b1622406")
-	)
-	(wire
-		(pts
-			(xy 349.25 162.56) (xy 349.25 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e13dd0-bc1a-41d0-bc70-91e1f5605e04")
 	)
 	(wire
 		(pts
@@ -3853,7 +3863,7 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-rescue:R-Device-BMS-Master-rescue")
-		(at 349.25 172.72 180)
+		(at 349.25 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3861,7 +3871,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c627140")
 		(property "Reference" "R177"
-			(at 351.028 171.5516 0)
+			(at 351.028 169.0116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3880,7 @@
 			)
 		)
 		(property "Value" "4.7M"
-			(at 351.028 173.863 0)
+			(at 351.028 171.323 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3889,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 351.028 172.72 90)
+			(at 351.028 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 172.72 0)
+			(at 349.25 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3907,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 349.25 172.72 0)
+			(at 349.25 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3915,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-074M7L"
-			(at 349.25 172.72 0)
+			(at 349.25 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
