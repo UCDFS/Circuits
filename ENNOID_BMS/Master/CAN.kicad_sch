@@ -2606,7 +2606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 183.515 100.33 0)
 			(effects
 				(font
@@ -2686,7 +2686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Housings_DIP:SMDIP-4_W9.53mm_Clearance8mm"
+		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm"
 			(at 142.24 163.83 0)
 			(effects
 				(font

@@ -1257,6 +1257,16 @@
 		)
 		(uuid "2292297b-176b-4585-a0f3-76c535aad9d1")
 	)
+	(text "this prevents the AIRS from accidentally being opened, but the condition for this should be understood\nmaybe it can be used for the AMS OK signal"
+		(exclude_from_sim no)
+		(at 31.496 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c7c26ec-f2c3-4757-847b-80323472c7fa")
+	)
 	(junction
 		(at 133.35 189.23)
 		(diameter 0)
@@ -2816,7 +2826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 149.86 172.085 0)
 			(effects
 				(font
@@ -4276,7 +4286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 175.26 172.085 0)
 			(effects
 				(font

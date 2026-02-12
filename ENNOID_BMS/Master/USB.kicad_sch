@@ -2616,7 +2616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
 			(at 132.08 111.76 0)
 			(effects
 				(font
@@ -2977,7 +2977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 178.435 97.79 0)
 			(effects
 				(font
@@ -3901,7 +3901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 242.57 46.355 0)
 			(effects
 				(font
@@ -4048,7 +4048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
 			(at 83.82 95.25 0)
 			(effects
 				(font

@@ -3120,9 +3120,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Need to decide on what conditions will replace active low discharge enable and multipurpose enable of the orion to give AMS ok. \n\nThese enable switches to AIR coils will bypass the SDC which is illegal so they should be removed or ignored. \n\nCharger and cooling are presumed to be corrent for now\n\nThe firmware should be understood in this section to determine what the actual behaviour is"
+		(exclude_from_sim no)
+		(at 346.71 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08c200cb-cf8f-45e3-b004-7d61eecaca86")
+	)
 	(text "Ground domains:\n	•	GND: Low-voltage logic ground (MCU, CAN, I²C)\n	•	GNDA: Accumulator negative (BAT−, TS−)\n	•	GNDREF: Vehicle-side HV negative (Load−, inverter DC-link reference)\nGNDA and GNDREF are connected only when the negative AIR is closed."
 		(exclude_from_sim no)
-		(at -28.702 64.516 0)
+		(at 32.004 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3130,19 +3140,29 @@
 		)
 		(uuid "0b53e351-3660-4b39-8c14-933d21f0d887")
 	)
-	(text "This is for external HV circuitry if needed\nBAT+ Lug is the HV connector"
+	(text "Goes to all HV PCBs as TS+ and TS-"
 		(exclude_from_sim no)
-		(at -7.874 42.926 0)
+		(at 24.13 33.782 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "1f1fd8b9-40d6-4070-b74a-ed53fdf376c4")
+		(uuid "0e515395-e0db-4dae-a36c-9401bf70734d")
+	)
+	(text "AIR 1"
+		(exclude_from_sim no)
+		(at 58.166 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d2fb769-0126-4544-8fd8-889f4c9ac459")
 	)
 	(text "ISOLATED"
 		(exclude_from_sim no)
-		(at 125.476 159.258 0)
+		(at 121.412 154.686 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -3153,7 +3173,7 @@
 		)
 		(uuid "5b3ded5d-06c7-43cc-996e-d57251b30c61")
 	)
-	(text "This relay shouldnt be here. \nprecharge and shutdown circuit need to be checked to decide how this should be ignored or removed from BMS.\nSpecifically how load+ is being handled"
+	(text "this appears to be the precharge relay and resistor. These should not be here and resistor values are questionable\nThis needs to be thought out carefully with existing precharge and shutdown circuit topologies"
 		(exclude_from_sim no)
 		(at 351.282 77.216 0)
 		(effects
@@ -3163,9 +3183,9 @@
 		)
 		(uuid "71adf7c5-fb11-4356-93a9-390a6782e469")
 	)
-	(text "pin 4 is external power led?"
+	(text "pin 3 goes to external led, return path pin 4"
 		(exclude_from_sim no)
-		(at 60.96 113.03 0)
+		(at 49.53 119.126 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3183,6 +3203,16 @@
 		)
 		(uuid "7d0125be-684b-4302-8c87-1eebc9fac2da")
 	)
+	(text "AIR 2"
+		(exclude_from_sim no)
+		(at 60.706 57.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a012d88-6bab-4afb-8c46-b9e5efa151e8")
+	)
 	(text "ISOLATED"
 		(exclude_from_sim no)
 		(at 307.34 205.74 0)
@@ -3196,29 +3226,9 @@
 		)
 		(uuid "8a77fe1e-1a4e-4655-b74e-f5dc627aaef3")
 	)
-	(text "Load+ is the vehicle-side HV bus node downstream of the precharge resistor and contactors.\nVoltage seen by the inverter capacitor\nie. the PRE_RESIST- tap on the precharge circuit"
-		(exclude_from_sim no)
-		(at 347.218 86.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8f55c3d2-4270-4735-856a-d4cc92c02c9f")
-	)
-	(text "ADD Temp Sensor iso link"
-		(exclude_from_sim no)
-		(at 152.146 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aa69c3b3-5ed0-4d35-9bcb-44a36f144a0d")
-	)
 	(text "ISOLATED"
 		(exclude_from_sim no)
-		(at 73.66 34.29 0)
+		(at 10.16 10.922 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -3229,9 +3239,19 @@
 		)
 		(uuid "dceee471-d053-46ae-961d-3acb553cedca")
 	)
-	(text "pin 2 and 3 are push button"
+	(text "Goes to precharge and discharge \nas Load+ and load-"
 		(exclude_from_sim no)
-		(at 62.992 108.204 0)
+		(at 91.44 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e1e98062-31f2-4cf8-8ea2-83d93420e18d")
+	)
+	(text "pin 1 and 2 are external push button"
+		(exclude_from_sim no)
+		(at 55.372 109.728 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3312,12 +3332,6 @@
 		(uuid "9d4650a3-714c-4c60-8240-bea81419597d")
 	)
 	(junction
-		(at 55.88 61.595)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d12972ee-bf7f-45ef-904c-e8d7b3685950")
-	)
-	(junction
 		(at 293.37 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3391,7 +3405,7 @@
 	)
 	(polyline
 		(pts
-			(xy 16.51 13.97) (xy 16.51 76.2)
+			(xy -3.81 13.97) (xy -3.81 76.2)
 		)
 		(stroke
 			(width 0.508)
@@ -3511,6 +3525,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 43.18) (xy 87.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7b3fca-c68c-405f-b82c-c281ac54c5a2")
+	)
+	(wire
+		(pts
 			(xy 245.11 252.73) (xy 236.22 252.73)
 		)
 		(stroke
@@ -3559,19 +3583,9 @@
 		)
 		(uuid "25dd8c51-70db-49c3-8b2e-b89aeeb0bfd5")
 	)
-	(wire
-		(pts
-			(xy 180.34 149.86) (xy 181.61 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26e06a2f-ce9f-4778-a692-d6b79ca2b485")
-	)
 	(polyline
 		(pts
-			(xy 190.5 137.16) (xy 190.5 182.88)
+			(xy 190.5 160.02) (xy 190.5 193.04)
 		)
 		(stroke
 			(width 0.508)
@@ -3588,6 +3602,16 @@
 			(type default)
 		)
 		(uuid "2844d64c-a3dc-4146-bc98-a9ab5ba7ebeb")
+	)
+	(wire
+		(pts
+			(xy 85.09 44.45) (xy 85.09 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ffba69-230d-4daa-9d1b-767ee83f3aa0")
 	)
 	(wire
 		(pts
@@ -3631,7 +3655,7 @@
 	)
 	(polyline
 		(pts
-			(xy 16.51 13.97) (xy 129.54 13.97)
+			(xy -3.81 13.97) (xy 129.54 13.97)
 		)
 		(stroke
 			(width 0.508)
@@ -3708,16 +3732,6 @@
 			(type default)
 		)
 		(uuid "3a861ca8-a9d4-44c0-9f1f-498be3c587ee")
-	)
-	(wire
-		(pts
-			(xy 40.005 61.595) (xy 55.88 61.595)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b821051-2807-4c64-a7f8-0b67630f4eaa")
 	)
 	(wire
 		(pts
@@ -4391,7 +4405,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 182.88) (xy 119.38 182.88)
+			(xy 190.5 193.04) (xy 119.38 193.04)
 		)
 		(stroke
 			(width 0.508)
@@ -4501,16 +4515,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 147.32) (xy 181.61 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae68bca-9cfe-4c63-912a-6c5532f584e3")
-	)
-	(wire
-		(pts
 			(xy 176.53 57.15) (xy 181.61 57.15)
 		)
 		(stroke
@@ -4551,7 +4555,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.38 137.16) (xy 190.5 137.16)
+			(xy 119.38 160.02) (xy 190.5 160.02)
 		)
 		(stroke
 			(width 0.508)
@@ -4791,7 +4795,7 @@
 	)
 	(polyline
 		(pts
-			(xy 16.51 76.2) (xy 129.54 76.2)
+			(xy -3.81 76.2) (xy 129.54 76.2)
 		)
 		(stroke
 			(width 0.508)
@@ -4948,6 +4952,16 @@
 			(type default)
 		)
 		(uuid "debdb1d2-0160-435c-94e1-24b8e7278fbd")
+	)
+	(wire
+		(pts
+			(xy 71.12 40.64) (xy 87.63 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7ba56d-94ba-4e41-9ee0-4af7b710889a")
 	)
 	(wire
 		(pts
@@ -5171,7 +5185,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.38 182.88) (xy 119.38 137.16)
+			(xy 119.38 193.04) (xy 119.38 160.02)
 		)
 		(stroke
 			(width 0.508)
@@ -6500,7 +6514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
 			(at 88.9 107.95 0)
 			(effects
 				(font
@@ -6789,7 +6803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
 			(at 294.64 201.93 0)
 			(effects
 				(font
@@ -6875,7 +6889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 265.43 271.145 0)
 			(effects
 				(font
@@ -6958,7 +6972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
 			(at 283.21 234.95 0)
 			(effects
 				(font
@@ -7635,7 +7649,7 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue")
-		(at 175.26 147.32 0)
+		(at 176.53 170.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7644,7 +7658,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c6b096e")
 		(property "Reference" "J19"
-			(at 173.2534 147.5232 0)
+			(at 174.5234 170.3832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,8 +7666,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ISOSPI"
-			(at 173.2534 149.8346 0)
+		(property "Value" "ISOSPI_CELL"
+			(at 174.5234 172.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +7676,7 @@
 			)
 		)
 		(property "Footprint" "ENNOID:Pin_1x02-XL"
-			(at 175.26 147.32 0)
+			(at 176.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7685,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 147.32 0)
+			(at 176.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7694,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 147.32 0)
+			(at 176.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7688,7 +7702,7 @@
 			)
 		)
 		(property "MPN" "70543-0001 "
-			(at 175.26 147.32 0)
+			(at 176.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7821,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power"
+		(property "Value" "BAT_Power"
 			(at 22.7584 43.1546 0)
 			(effects
 				(font
@@ -9248,7 +9262,7 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue")
-		(at 175.26 160.02 0)
+		(at 176.53 182.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9257,7 +9271,7 @@
 		(dnp no)
 		(uuid "6d22b915-bc47-4ba4-9168-6c1a21bdbfa0")
 		(property "Reference" "J16"
-			(at 173.2534 160.2232 0)
+			(at 174.5234 183.0832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9265,8 +9279,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ISOSPI"
-			(at 173.2534 162.5346 0)
+		(property "Value" "ISOSPI_TEMP"
+			(at 174.5234 185.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9289,7 @@
 			)
 		)
 		(property "Footprint" "ENNOID:Pin_1x02-XL"
-			(at 175.26 160.02 0)
+			(at 176.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,7 +9298,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 160.02 0)
+			(at 176.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +9307,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 160.02 0)
+			(at 176.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9315,7 @@
 			)
 		)
 		(property "MPN" "70543-0001 "
-			(at 175.26 160.02 0)
+			(at 176.53 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,7 +9364,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ENNOID:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
 			(at 313.69 160.02 0)
 			(effects
 				(font
@@ -9432,6 +9446,148 @@
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe"
 					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 85.09 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e92cf73-7838-4981-bc6e-3ac231dbdb8d")
+		(property "Reference" "#PWR046"
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 85.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "462e8588-f364-4816-9d67-a41fe5e69aeb")
+		)
+		(instances
+			(project "BMS-Master"
+				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue")
+		(at 92.71 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a91b40ed-491f-470c-a235-b464cb859cb7")
+		(property "Reference" "J21"
+			(at 94.7166 40.8432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INV_Power"
+			(at 94.7166 43.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical"
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "30.102 "
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2564ae26-95ce-41dc-9228-7b25038e46dd")
+		)
+		(pin "2"
+			(uuid "4c988a9f-6a87-4440-8d57-505e571047c6")
+		)
+		(instances
+			(project "BMS-Master"
+				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -9858,26 +10014,6 @@
 				(justify left)
 			)
 		)
-		(pin "MA" input
-			(at 181.61 147.32 180)
-			(uuid "85be974c-4c4c-4323-ab38-28917dec41e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PA" input
-			(at 181.61 149.86 180)
-			(uuid "ddfb29b9-5db2-441e-a9e6-f16f3972f0e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "CoolingEnable" input
 			(at 181.61 93.98 180)
 			(uuid "47789727-2918-49d1-b24a-51900c184c91")
@@ -9911,6 +10047,46 @@
 		(pin "DischargePosEnable" input
 			(at 181.61 99.06 180)
 			(uuid "592c2c3a-b73f-4803-a116-11e87f3d1be7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA_TEMP" input
+			(at 181.61 185.42 180)
+			(uuid "4ab357d9-80c9-433d-b710-73a28081f1d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA_CELL" input
+			(at 181.61 172.72 180)
+			(uuid "acfd8091-7268-4964-b520-3068396ff3c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MA_TEMP" input
+			(at 181.61 182.88 180)
+			(uuid "e4018eae-5228-4051-9aae-60f3237b72d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MA_CELL" input
+			(at 181.61 170.18 180)
+			(uuid "349c67f4-b68e-4e09-b6a1-62c8e2e7c930")
 			(effects
 				(font
 					(size 1.27 1.27)

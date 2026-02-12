@@ -5,7 +5,7 @@
 	(uuid "0f9b04f4-f754-45fb-9580-ddff31f30db7")
 	(paper "A2")
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA2376xxD"
+		(symbol "Amplifier_Operational:OPA2197xD"
 			(pin_names
 				(offset 0.127)
 			)
@@ -13,7 +13,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 5.08 0)
+				(at 2.54 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +21,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA2376xxD"
-				(at 0 -5.08 0)
+			(property "Value" "OPA2197xD"
+				(at 2.54 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,8 +30,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,8 +39,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+				(at 6.35 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
+			(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "dual opamp"
+			(property "ki_keywords" "dual opamp rtor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,10 +83,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA2376xxD_1_1"
+			(symbol "OPA2197xD_1_1"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.254)
@@ -151,10 +151,10 @@
 					)
 				)
 			)
-			(symbol "OPA2376xxD_2_1"
+			(symbol "OPA2197xD_2_1"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.254)
@@ -219,9 +219,9 @@
 					)
 				)
 			)
-			(symbol "OPA2376xxD_3_1"
+			(symbol "OPA2197xD_3_1"
 				(pin power_in line
-					(at -2.54 7.62 270)
+					(at 0 7.62 270)
 					(length 3.81)
 					(name "V+"
 						(effects
@@ -239,7 +239,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -7.62 90)
+					(at 0 -7.62 90)
 					(length 3.81)
 					(name "V-"
 						(effects
@@ -7436,7 +7436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Housings_SOIC:SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm"
+		(property "Footprint" "ENNOID:SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm"
 			(at 248.92 152.4 0)
 			(effects
 				(font
@@ -8770,100 +8770,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 396.24 158.75 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c35d729")
-		(property "Reference" "U15B"
-			(at 396.24 149.4282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2197IDR"
-			(at 396.24 151.7396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
-			(at 396.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 396.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 396.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "OPA2197IDR"
-			(at 396.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "dc3394e7-9adf-497b-96b1-bb094d66fac6")
-		)
-		(pin "2"
-			(uuid "a7ad51c6-32bd-4abc-ad4e-8db6c0df1db2")
-		)
-		(pin "1"
-			(uuid "67c17b0c-2847-4d23-99a0-c6eeb3b8de3d")
-		)
-		(pin "5"
-			(uuid "038b742d-e491-4780-9497-fd645592985a")
-		)
-		(pin "6"
-			(uuid "92354c95-bfa2-45d2-82cc-309ce6a06dc0")
-		)
-		(pin "7"
-			(uuid "3ee9de3d-9516-49b3-b42c-863c2280b3c0")
-		)
-		(pin "8"
-			(uuid "7a30477d-5e0c-42c1-9c7b-ada2345eada2")
-		)
-		(pin "4"
-			(uuid "a840c165-6881-488d-95a6-292d73e88b1a")
-		)
-		(instances
-			(project "BMS-Master"
-				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005c519ba0"
-					(reference "U15B")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transformer:TRANSF5")
 		(at 248.92 31.75 0)
 		(unit 1)
@@ -9345,101 +9251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 452.12 135.89 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c3d8bff")
-		(property "Reference" "U15C"
-			(at 451.0532 134.7216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA2197IDR"
-			(at 451.0532 137.033 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
-			(at 452.12 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 452.12 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 452.12 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "OPA2197IDR"
-			(at 452.12 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8d28fe8c-42d5-4f5f-8eba-31d609dbb8f9")
-		)
-		(pin "2"
-			(uuid "9a6873bd-4a6c-443e-b8ef-a8b41b9369f7")
-		)
-		(pin "1"
-			(uuid "5df5f8af-c65d-4200-9a2a-7e6453f1b58c")
-		)
-		(pin "5"
-			(uuid "3ebf59d2-77de-4e02-8cbd-5870a9232d81")
-		)
-		(pin "6"
-			(uuid "2371d224-8546-411e-a13b-ad118edc0972")
-		)
-		(pin "7"
-			(uuid "105c582e-2c47-4e28-bad7-6e16e4487565")
-		)
-		(pin "8"
-			(uuid "6525f47a-2fb4-49a6-b9b1-ee394497f1c2")
-		)
-		(pin "4"
-			(uuid "0abbe2e7-9d55-434e-afa0-a6077939b770")
-		)
-		(instances
-			(project "BMS-Master"
-				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005c519ba0"
-					(reference "U15C")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 314.96 26.67 0)
 		(unit 1)
@@ -9592,7 +9403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm"
+		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
 			(at 424.18 254 0)
 			(effects
 				(font
@@ -10319,7 +10130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Housings_DIP:SMDIP-4_W9.53mm_Clearance8mm"
+		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm"
 			(at 248.92 205.74 0)
 			(effects
 				(font
@@ -10810,7 +10621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 231.14 31.115 0)
 			(effects
 				(font
@@ -10885,7 +10696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 231.14 41.275 0)
 			(effects
 				(font
@@ -11775,7 +11586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Housings_SOIC:SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm"
+		(property "Footprint" "ENNOID:SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm"
 			(at 248.92 96.52 0)
 			(effects
 				(font
@@ -12884,100 +12695,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2376xxD")
-		(at 396.24 102.87 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c7a0266")
-		(property "Reference" "U15A"
-			(at 396.24 112.1918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2197IDR"
-			(at 396.24 109.8804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
-			(at 396.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 396.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 396.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "OPA2197IDR"
-			(at 396.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b503b348-520d-42ef-98e2-73b5c8e96782")
-		)
-		(pin "2"
-			(uuid "ffbc633d-015f-499a-b463-9e6a3fb868e0")
-		)
-		(pin "1"
-			(uuid "ca534b93-1525-433e-88f0-abada8c3f302")
-		)
-		(pin "5"
-			(uuid "629ae3c2-7fe5-4913-adc3-861f7e33205b")
-		)
-		(pin "6"
-			(uuid "46d001e8-e163-4cf1-acd3-14b2143902fe")
-		)
-		(pin "7"
-			(uuid "6c4cb4b0-42d8-4062-a93a-9e068dc6f39c")
-		)
-		(pin "8"
-			(uuid "e416d384-9523-4c1d-9d20-e278b435b6af")
-		)
-		(pin "4"
-			(uuid "c55ab392-2094-45fb-a600-6517f45d0a1d")
-		)
-		(instances
-			(project "BMS-Master"
-				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005c519ba0"
-					(reference "U15A")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 172.72 36.83 0)
 		(unit 1)
@@ -13591,7 +13308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Housings_SOIC:SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm"
+		(property "Footprint" "ENNOID:SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm"
 			(at 248.92 252.73 0)
 			(effects
 				(font
@@ -15382,7 +15099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 231.14 222.885 0)
 			(effects
 				(font
@@ -15457,7 +15174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 231.14 233.045 0)
 			(effects
 				(font
@@ -17460,6 +17177,266 @@
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005c519ba0"
 					(reference "J15")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2197xD")
+		(at 396.24 102.87 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "145d654a-c920-4c2a-a0c6-5aa5ad39aa33")
+		(property "Reference" "U14"
+			(at 396.24 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2197IDR"
+			(at 396.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 398.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+			(at 402.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 396.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c7d1517c-3f35-489d-8038-2ac5712caa74")
+		)
+		(pin "8"
+			(uuid "de835ad9-47f2-4fdf-9e19-e53e9bb9c36c")
+		)
+		(pin "7"
+			(uuid "91764092-7fcc-43a1-9686-5da6ef5e6430")
+		)
+		(pin "6"
+			(uuid "885aabf0-0481-4dbf-b18c-b32dd4d76792")
+		)
+		(pin "5"
+			(uuid "80342db2-15b8-4c8c-8e16-bca518a213cb")
+		)
+		(pin "1"
+			(uuid "30e0772d-8510-404e-bda7-63cb49440a48")
+		)
+		(pin "2"
+			(uuid "6aa4bbd1-7ea1-4364-94d2-e53c7c82154b")
+		)
+		(pin "3"
+			(uuid "a48addd1-ffa5-4168-8fbe-f2f23da0dddc")
+		)
+		(instances
+			(project ""
+				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005c519ba0"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2197xD")
+		(at 396.24 158.75 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "683b6256-386d-4e30-9776-6a34ed62a08b")
+		(property "Reference" "U14"
+			(at 397.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2197IDR"
+			(at 397.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 398.78 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+			(at 402.59 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 396.24 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c7d1517c-3f35-489d-8038-2ac5712caa75")
+		)
+		(pin "8"
+			(uuid "de835ad9-47f2-4fdf-9e19-e53e9bb9c36d")
+		)
+		(pin "7"
+			(uuid "91764092-7fcc-43a1-9686-5da6ef5e6431")
+		)
+		(pin "6"
+			(uuid "885aabf0-0481-4dbf-b18c-b32dd4d76793")
+		)
+		(pin "5"
+			(uuid "80342db2-15b8-4c8c-8e16-bca518a213cc")
+		)
+		(pin "1"
+			(uuid "30e0772d-8510-404e-bda7-63cb49440a49")
+		)
+		(pin "2"
+			(uuid "6aa4bbd1-7ea1-4364-94d2-e53c7c82154c")
+		)
+		(pin "3"
+			(uuid "a48addd1-ffa5-4168-8fbe-f2f23da0dddd")
+		)
+		(instances
+			(project ""
+				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005c519ba0"
+					(reference "U14")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2197xD")
+		(at 449.58 135.89 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb5d5dfa-b60e-4e6c-ba53-d8f6d1a6d6c7")
+		(property "Reference" "U14"
+			(at 450.85 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA2197IDR"
+			(at 450.85 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 452.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
+			(at 455.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 449.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c7d1517c-3f35-489d-8038-2ac5712caa76")
+		)
+		(pin "8"
+			(uuid "de835ad9-47f2-4fdf-9e19-e53e9bb9c36e")
+		)
+		(pin "7"
+			(uuid "91764092-7fcc-43a1-9686-5da6ef5e6432")
+		)
+		(pin "6"
+			(uuid "885aabf0-0481-4dbf-b18c-b32dd4d76794")
+		)
+		(pin "5"
+			(uuid "80342db2-15b8-4c8c-8e16-bca518a213cd")
+		)
+		(pin "1"
+			(uuid "30e0772d-8510-404e-bda7-63cb49440a4a")
+		)
+		(pin "2"
+			(uuid "6aa4bbd1-7ea1-4364-94d2-e53c7c82154d")
+		)
+		(pin "3"
+			(uuid "a48addd1-ffa5-4168-8fbe-f2f23da0ddde")
+		)
+		(instances
+			(project ""
+				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005c519ba0"
+					(reference "U14")
+					(unit 3)
 				)
 			)
 		)

@@ -1658,6 +1658,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Diode Or-ing as conditions to turn on the 3.3V regulator power source\nIf any diode is connected to ground, the regulator will enable"
+		(exclude_from_sim no)
+		(at 286.766 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3bd3767b-c9a3-4282-af71-4d0827f3862b")
+	)
+	(text "PowerButton connects to MCU so most like a reading pin\nIf push button pressed, \nPowerButton will either go high or low indicating button has been pressed.\nNeed to check firmware, this is unclear"
+		(exclude_from_sim no)
+		(at 228.092 292.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e9dccdb-0b50-4d1b-93cc-f88eda95f997")
+	)
 	(junction
 		(at 276.86 248.92)
 		(diameter 0)
@@ -2895,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 344.17 211.455 0)
 			(effects
 				(font
@@ -2970,7 +2990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 345.44 226.695 0)
 			(effects
 				(font
@@ -3045,7 +3065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 345.44 244.475 0)
 			(effects
 				(font
@@ -3120,7 +3140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 316.23 253.365 0)
 			(effects
 				(font
@@ -3195,7 +3215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 285.75 236.855 0)
 			(effects
 				(font
@@ -3272,7 +3292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 272.415 267.97 0)
 			(effects
 				(font
@@ -3349,7 +3369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 334.645 187.96 0)
 			(effects
 				(font
@@ -3424,7 +3444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Housings_SON:Texas_S-PVSON-N10_ThermalVias"
+		(property "Footprint" "Package_SON:Texas_S-PVSON-N10_ThermalVias"
 			(at 379.73 181.61 0)
 			(effects
 				(font
@@ -3965,7 +3985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 355.6 183.515 0)
 			(effects
 				(font
@@ -4328,7 +4348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductors_SMD:L_Wuerth_WE-PD2-Typ-MS"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD2-Typ-MS"
 			(at 398.78 162.56 0)
 			(effects
 				(font
@@ -4470,7 +4490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 330.2 273.685 0)
 			(effects
 				(font
@@ -5881,7 +5901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 242.57 266.065 0)
 			(effects
 				(font
@@ -6453,7 +6473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 248.92 210.185 0)
 			(effects
 				(font
