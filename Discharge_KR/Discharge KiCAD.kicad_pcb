@@ -139,7 +139,7 @@
 	(net 6 "TS-")
 	(net 7 "Net-(J1-Pin_1)")
 	(net 8 "TS+")
-	(net 9 "Discharing_N")
+	(net 9 "Discharging_N")
 	(net 10 "Net-(R8-Pad2)")
 	(net 11 "Net-(R10-Pad1)")
 	(net 12 "Net-(R10-Pad2)")
@@ -1756,7 +1756,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "Discharing_N")
+			(net 9 "Discharging_N")
 			(pintype "passive")
 			(uuid "59593cc1-bf31-4951-8f5b-59d2ed5a1ef7")
 		)
@@ -1782,6 +1782,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4de25e54-c648-41d8-a8b4-f4dea5860f77")
 			(effects
 				(font
@@ -2973,7 +2974,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "Discharing_N")
+			(net 9 "Discharging_N")
 			(pintype "passive")
 			(uuid "474c609a-a7f7-4b39-8cf4-6165b7b0e831")
 		)
@@ -3009,6 +3010,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "117b35fd-6914-4ae8-808d-2ca1eea9dc4c")
 			(effects
 				(font
@@ -4264,6 +4266,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "94bbeee1-1a8b-4fe3-83ed-4a1b22cf6f8b")
 			(effects
 				(font
@@ -4974,6 +4977,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fba027a8-b7cf-4dfd-a1f9-79e4603dffd9")
 			(effects
 				(font
@@ -5805,7 +5809,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
-			(net 9 "Discharing_N")
+			(net 9 "Discharging_N")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "f27119b3-edad-4963-8c6e-1d653577b68d")

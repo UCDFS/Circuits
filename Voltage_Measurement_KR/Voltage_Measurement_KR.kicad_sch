@@ -9997,6 +9997,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" "MCF 0.25W 1.5M"
+			(at 232.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d56db63a-c011-46db-943e-a8e01fdd1185")
 		)
@@ -10291,6 +10300,15 @@
 			)
 		)
 		(property "Part Number" "MCF 0.25W 1M"
+			(at 177.8 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "MCF 0.25W 1.5M"
 			(at 177.8 199.39 0)
 			(effects
 				(font
@@ -10852,6 +10870,15 @@
 			)
 		)
 		(property "Part Number" "MCF 0.25W 1M"
+			(at 229.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "MCF 0.25W 1.5M"
 			(at 229.87 48.26 0)
 			(effects
 				(font

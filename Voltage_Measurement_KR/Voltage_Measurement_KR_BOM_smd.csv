@@ -1,0 +1,5 @@
+﻿Voltage_Measurement_KR_BOM,,,,,,,
+Reference,Value,Part number,Datasheet,Footprint,Qty,DNP,Part Number
+IC1,MP9488GS-P,MP9488GS-P,https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP9488,MP9488GS-Z:SOIC127P600X175-8N,1,,
+"IC2,IC3,IC4",TLV1701AIDBVT,TLV1701AIDBVT,http://www.ti.com/lit/gpn/tlv1701,TLV1701AIDBVT:SOT95P280X145-5N,3,,
+U4,LM7805_SOT223,LM7805MPX/NOPB,https://www.ti.com/lit/gpn/lm7800,Package_TO_SOT_SMD:SOT-223-3_TabPin2,1,,

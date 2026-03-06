@@ -1,0 +1,6 @@
+Reference,Qty,Value,DNP,Footprint,Datasheet,Description,Part Number
+D1,1,NUP3105L,,Package_TO_SOT_SMD:SOT-23,https://docs.rs-online.com/80d9/0900766b8141c03f.pdf,"Dual Line CAN Bus Protector, 24Vrwm",NUP3105L
+L2,1,2.2uH,,XFL3012222:XFL3012222MEC,https://www.mouser.ie/datasheet/3/995/1/xfl3012.pdf,Inductor,XFL3012-222MEC
+"Q1,Q3",2,2N7002,,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF,"0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23",2N7002
+U1,1,SN65HVD230,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf,"CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8",SN65HVD230
+U4,1,TPS62163DSG,,Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias,http://www.ti.com/lit/ds/symlink/tps62160.pdf,"1A Step-Down Converter with DCS-Control, fixed 5.0V output, 3-17V input voltage, WSON-8",TPS62163DSG

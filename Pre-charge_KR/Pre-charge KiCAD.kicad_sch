@@ -3224,8 +3224,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7000"
+		(symbol "Transistor_FET:2N7002"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -3240,7 +3241,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7000"
+			(property "Value" "2N7002"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3249,7 +3250,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -3260,7 +3261,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -3270,7 +3271,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3279,7 +3280,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3288,7 +3289,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3297,7 +3298,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N7000_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3441,7 +3442,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -3464,7 +3465,7 @@
 					)
 				)
 			)
-			(symbol "2N7000_1_1"
+			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3475,7 +3476,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3511,7 +3512,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3913,7 +3914,7 @@
 		)
 		(uuid "99abcabd-edc4-496e-98e7-ee11c5ac3b2e")
 	)
-	(text "load+ is the node between resistor and motor inverter capacitor\nload- is the inverter side negative"
+	(text "Preresist- is the node between resistor and motor inverter capacitor, ie Load+\nload- is the inverter side negative"
 		(exclude_from_sim no)
 		(at 83.82 355.6 0)
 		(effects
@@ -5818,7 +5819,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 345.44) (xy 76.2 345.44)
+			(xy 72.39 345.44) (xy 76.2 345.44)
 		)
 		(stroke
 			(width 0)
@@ -6127,6 +6128,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TS-"
+		(shape output)
+		(at 72.39 345.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03f9bc64-5187-4ef6-8675-7bf52ff89533")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.5602 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6698,28 +6721,6 @@
 			)
 		)
 	)
-	(global_label "Load-"
-		(shape output)
-		(at 73.66 345.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b93cdd0f-7794-413c-97e3-8a0da2e31c53")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5322 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3.3V"
 		(shape input)
 		(at 213.36 279.4 0)
@@ -6776,6 +6777,28 @@
 		(uuid "c312ea3b-c065-41e4-a77f-9c1d09a955ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.4803 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PRE_RESIST-"
+		(shape input)
+		(at 72.39 322.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8b678b0-32a0-4c18-9805-96a203cf8d71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.6703 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,28 +7018,6 @@
 		(uuid "ee4141cd-7de5-46d3-9944-cce06a2d7840")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.4803 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Load+"
-		(shape input)
-		(at 72.39 322.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0ddc47f-3e60-401e-95c6-231de785e7ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.2622 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7966,7 +7967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 100k"
+		(property "Part Number" "MCF 0.25W 100K"
 			(at 160.02 285.75 0)
 			(effects
 				(font
@@ -8208,6 +8209,91 @@
 			(project "Pre-charge KiCAD"
 				(path "/d765a512-e851-402d-ada8-2703616db77a"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 210.82 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36d4007c-df67-42dd-a764-fd843f956578")
+		(property "Reference" "Q1"
+			(at 204.47 140.9701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 204.47 138.4301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 205.74 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 210.82 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "2N7002"
+			(at 210.82 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a29914b-5956-4309-a529-fb9122e6a670")
+		)
+		(pin "3"
+			(uuid "5e9a0698-2710-4d25-837b-aea50706037c")
+		)
+		(pin "2"
+			(uuid "08a178a4-bdea-4281-a9f0-6040219eea5e")
+		)
+		(instances
+			(project ""
+				(path "/d765a512-e851-402d-ada8-2703616db77a"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9574,88 +9660,6 @@
 			(project "Pre-charge KiCAD"
 				(path "/d765a512-e851-402d-ada8-2703616db77a"
 					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 372.11 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6deb21bf-dd4b-4502-8367-b629a67ed1dc")
-		(property "Reference" "Q2"
-			(at 378.46 345.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 381 345.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 377.19 347.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nds7002a-d.pdf"
-			(at 377.19 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 372.11 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "2N7000"
-			(at 372.11 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6146098b-691e-4af1-b4ad-ffa366385848")
-		)
-		(pin "3"
-			(uuid "41f9e908-d9bc-4968-899c-8840000f6f1e")
-		)
-		(pin "1"
-			(uuid "04aba135-a38f-4a27-b9c7-6c76a8a7e6ab")
-		)
-		(instances
-			(project "Pre-charge KiCAD"
-				(path "/d765a512-e851-402d-ada8-2703616db77a"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -11253,89 +11257,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 210.82 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c02ee5a7-cbf1-4dcd-bac0-0e92f502395d")
-		(property "Reference" "Q4"
-			(at 204.47 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 201.93 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 205.74 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/nds7002a-d.pdf"
-			(at 205.74 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 210.82 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "2N7000"
-			(at 210.82 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e06586f5-114a-492b-831e-6ac0e013f937")
-		)
-		(pin "3"
-			(uuid "124b3a04-5cee-486f-a18d-e3154b37f3e3")
-		)
-		(pin "1"
-			(uuid "ded5f649-be01-4d20-8357-883e69a7454b")
-		)
-		(instances
-			(project ""
-				(path "/d765a512-e851-402d-ada8-2703616db77a"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 209.55 350.52 180)
 		(unit 1)
@@ -12169,6 +12090,91 @@
 			(project ""
 				(path "/d765a512-e851-402d-ada8-2703616db77a"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 372.11 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6506f18-16af-44bc-b83b-7fadfbfb7d4a")
+		(property "Reference" "Q3"
+			(at 378.46 344.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 378.46 346.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 377.19 347.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 377.19 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 372.11 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "2N7002"
+			(at 372.11 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "937f467a-6d4a-43d0-8fb0-052dae058e80")
+		)
+		(pin "3"
+			(uuid "eee3e1b3-46b3-4be3-86d1-3a6565c14667")
+		)
+		(pin "2"
+			(uuid "b2592693-49d3-466a-98eb-79d9d1b99703")
+		)
+		(instances
+			(project "Pre-charge KiCAD"
+				(path "/d765a512-e851-402d-ada8-2703616db77a"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
