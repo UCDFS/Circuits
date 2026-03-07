@@ -1678,6 +1678,16 @@
 		)
 		(uuid "4e9dccdb-0b50-4d1b-93cc-f88eda95f997")
 	)
+	(text "Charger 12V Aux supply"
+		(exclude_from_sim no)
+		(at 197.104 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c83bd03-57d4-4814-b0e4-e4e7b91c2a0b")
+	)
 	(junction
 		(at 276.86 248.92)
 		(diameter 0)

@@ -3120,16 +3120,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Need to decide on what conditions will replace active low discharge enable and multipurpose enable of the orion to give AMS ok. \n\nThese enable switches to AIR coils will bypass the SDC which is illegal so they should be removed or ignored. \n\nCharger and cooling are presumed to be corrent for now\n\nThe firmware should be understood in this section to determine what the actual behaviour is"
-		(exclude_from_sim no)
-		(at 346.71 47.244 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "08c200cb-cf8f-45e3-b004-7d61eecaca86")
-	)
 	(text "Ground domains:\n	•	GND: Low-voltage logic ground (MCU, CAN, I²C)\n	•	GNDA: Accumulator negative (BAT−, TS−)\n	•	GNDREF: Vehicle-side HV negative (Load−, inverter DC-link reference)\nGNDA and GNDREF are connected only when the negative AIR is closed."
 		(exclude_from_sim no)
 		(at 32.004 85.09 0)
@@ -3149,6 +3139,26 @@
 			)
 		)
 		(uuid "0e515395-e0db-4dae-a36c-9401bf70734d")
+	)
+	(text "This charge pin can be used as the enable pin of the charger.\nflow could be teensy requests charge over CAN to the BMS, BMS decides on charge enable and safety conditions,\nshtudown circuit closes, and charger enable switch goes high/low"
+		(exclude_from_sim no)
+		(at 349.504 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11fc5f71-a643-44ee-b9aa-b8216fccfbcb")
+	)
+	(text "Conditions TBC but generally should look something like this"
+		(exclude_from_sim no)
+		(at 424.434 41.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27c225fd-a677-471e-ad4d-27df11fc2ca4")
 	)
 	(text "AIR 1"
 		(exclude_from_sim no)
@@ -3173,9 +3183,9 @@
 		)
 		(uuid "5b3ded5d-06c7-43cc-996e-d57251b30c61")
 	)
-	(text "this appears to be the precharge relay and resistor. These should not be here and resistor values are questionable\nThis needs to be thought out carefully with existing precharge and shutdown circuit topologies"
+	(text "this relay can be cut"
 		(exclude_from_sim no)
-		(at 351.282 77.216 0)
+		(at 260.858 94.742 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3193,7 +3203,7 @@
 		)
 		(uuid "79742949-4dcc-4125-96d5-11cd516eaede")
 	)
-	(text "This necessary?\n"
+	(text "This is for debugging screen\nprobably not necessary"
 		(exclude_from_sim no)
 		(at 308.61 235.204 0)
 		(effects
@@ -3202,6 +3212,16 @@
 			)
 		)
 		(uuid "7d0125be-684b-4302-8c87-1eebc9fac2da")
+	)
+	(text "charger should have additional signals with these conditions to create AMS ok signal for charger shutdown circuit\nCHARGE_ENABLE_N  = active-low \"pack may accept charge\"\n                 = chargeAllowed AND no critical fault\n\nCHARGER_SAFETY_N = active-low \"external charger may run\"\n                 = charger_detected\n                   AND charging_state_active\n                   AND chargeAllowed\n                   AND master_ok"
+		(exclude_from_sim no)
+		(at 349.504 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81cadc05-b13e-4b28-8249-f678f0f97072")
 	)
 	(text "AIR 2"
 		(exclude_from_sim no)
@@ -3225,6 +3245,26 @@
 			(justify left bottom)
 		)
 		(uuid "8a77fe1e-1a4e-4655-b74e-f5dc627aaef3")
+	)
+	(text "Cooling doesnt appear to be in the firmware, this is probably something we want the bms to control\nmaybe like cooling_on if:\n\nmax_cell_temp > threshold\nOR charging_active"
+		(exclude_from_sim no)
+		(at 333.756 16.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a7dbb3d-6b6c-4579-aed8-5eda8573f157")
+	)
+	(text "discharge should be replaced with new conditions to match the orion and what the shutdown circuit expects\nthey should be active low\n\nDISCHARGE_ENABLE_N\n\nThis should represent battery safe to discharge, with the following conditions:\n\ndischargeAllowed AND packInSOA AND all slaves communicating AND no open wire faults \nAND cell voltage within limits AND temperature within limits\n\nMULTIPURPOSE_ENABLE_N\n\nThis should represent Master alive and system operational with the following conditions\n\nMCU running AND watchdog serviced AND no firmware fatal fault AND system initialized"
+		(exclude_from_sim no)
+		(at 342.138 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6c20d58-734f-4a62-ac6f-8a9c74d0d999")
 	)
 	(text "ISOLATED"
 		(exclude_from_sim no)
@@ -3258,6 +3298,16 @@
 			)
 		)
 		(uuid "f654362b-8edd-479e-8b7e-214a7a0c076c")
+	)
+	(text "TLDR; discharge and precharge are illegal, cooling and charge can stay"
+		(exclude_from_sim no)
+		(at 346.202 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fce1313a-33da-4e7e-8097-2d137f0c9f4c")
 	)
 	(junction
 		(at 71.12 40.64)
@@ -3835,7 +3885,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 274.32) (xy 96.52 276.86)
+			(xy 142.24 275.59) (xy 142.24 278.13)
 		)
 		(stroke
 			(width 0)
@@ -4175,7 +4225,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 254) (xy 96.52 256.54)
+			(xy 142.24 255.27) (xy 142.24 257.81)
 		)
 		(stroke
 			(width 0)
@@ -5065,7 +5115,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 266.7) (xy 96.52 264.16)
+			(xy 142.24 267.97) (xy 142.24 265.43)
 		)
 		(stroke
 			(width 0)
@@ -5570,7 +5620,7 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-rescue:R-Device-BMS-Master-rescue")
-		(at 96.52 260.35 180)
+		(at 142.24 261.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5578,7 +5628,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005abb20ca")
 		(property "Reference" "R1"
-			(at 91.44 260.35 90)
+			(at 137.16 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +5636,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 93.98 260.35 90)
+			(at 139.7 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5644,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 98.298 260.35 90)
+			(at 144.018 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5653,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 260.35 0)
+			(at 142.24 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 260.35 0)
+			(at 142.24 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5670,7 @@
 			)
 		)
 		(property "MPN" "RC0603JR-07470RL"
-			(at 96.52 260.35 0)
+			(at 142.24 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +5695,7 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-rescue:LED-Device-BMS-Master-rescue")
-		(at 96.52 270.51 90)
+		(at 142.24 271.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5653,7 +5703,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005abb20fe")
 		(property "Reference" "D1"
-			(at 99.4918 269.5448 90)
+			(at 145.2118 270.8148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +5712,7 @@
 			)
 		)
 		(property "Value" "POWER"
-			(at 99.4918 271.8562 90)
+			(at 145.2118 273.1262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5721,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 96.52 270.51 0)
+			(at 142.24 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 270.51 0)
+			(at 142.24 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 270.51 0)
+			(at 142.24 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +5747,7 @@
 			)
 		)
 		(property "MPN" "SML-D12P8WT86C"
-			(at 96.52 270.51 0)
+			(at 142.24 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +5772,7 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-rescue:GND-power-BMS-Master-rescue")
-		(at 96.52 276.86 0)
+		(at 142.24 278.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5730,7 +5780,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005abb698d")
 		(property "Reference" "#PWR0102"
-			(at 96.52 283.21 0)
+			(at 142.24 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +5789,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.647 281.2542 0)
+			(at 142.367 282.5242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 276.86 0)
+			(at 142.24 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5756,7 +5806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 276.86 0)
+			(at 142.24 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,7 +5815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 276.86 0)
+			(at 142.24 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +5900,7 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-rescue:+3.3V-power-BMS-Master-rescue")
-		(at 96.52 254 0)
+		(at 142.24 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5858,7 +5908,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005abbdff3")
 		(property "Reference" "#PWR0104"
-			(at 96.52 257.81 0)
+			(at 142.24 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +5917,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.901 249.6058 0)
+			(at 142.621 250.8758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 254 0)
+			(at 142.24 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +5934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 254 0)
+			(at 142.24 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +5943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 254 0)
+			(at 142.24 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

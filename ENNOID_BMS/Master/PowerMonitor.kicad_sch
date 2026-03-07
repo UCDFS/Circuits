@@ -3288,6 +3288,16 @@
 		)
 		(uuid "d3f46ad1-45ff-4770-a267-d4a157e39d5b")
 	)
+	(text "This connects to Charger HV+ and HV-\nThis can potentially be ignored but the AUX supply must be used then"
+		(exclude_from_sim no)
+		(at 70.358 189.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2caea4e-5dbe-453d-afad-64914ed1dbb1")
+	)
 	(text "DeltaVmax= Vshuntmax*Factor*(1/3.3+1+3.3)\nFactor : \n	- AMC1301 = 8.2\n	- AMC1302 = 40\nVshuntmax:\n	- AMC1301 : 0.25V \n	- AMC1302 : 0.05V for AMC1302\nDeltaVmax=0.263V"
 		(exclude_from_sim no)
 		(at 373.38 297.815 0)

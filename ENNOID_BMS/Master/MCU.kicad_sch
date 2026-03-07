@@ -3532,15 +3532,15 @@
 		)
 		(uuid "39d3f6c5-b371-4c3a-8bc0-c577ba2a3154")
 	)
-	(text "Need to check wheter all of these MCU connections can be the same pin or different pin?\nwhich one will be easier for firmware? or is it trivial either way"
+	(text "Chip Select used for switching between balancing and temp"
 		(exclude_from_sim no)
-		(at 510.54 113.284 0)
+		(at 498.094 110.236 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "51388b9b-1292-4466-a419-67064af8059c")
+		(uuid "3a043964-4604-416d-b8ae-f763aae698dc")
 	)
 	(text "This is Cell voltage and balancing"
 		(exclude_from_sim no)
