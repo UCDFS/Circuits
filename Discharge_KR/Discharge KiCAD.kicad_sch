@@ -1761,6 +1761,16 @@
 		)
 		(uuid "5c7efccd-d24a-492b-95d3-fd4cd621a180")
 	)
+	(text "Connects on Inverter side.\nCan use the BMS Master Load+ connector"
+		(exclude_from_sim no)
+		(at 40.64 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93e0b7ac-08cb-4269-8f01-819bc875cbcc")
+	)
 	(text "HV LV"
 		(exclude_from_sim no)
 		(at 97.282 19.304 0)
@@ -2670,7 +2680,7 @@
 			)
 		)
 	)
-	(global_label "TS+"
+	(global_label "Load+"
 		(shape input)
 		(at 44.45 34.29 0)
 		(fields_autoplaced yes)
@@ -2682,7 +2692,7 @@
 		)
 		(uuid "d58822fa-f303-4d9e-afb5-aab396ee5df3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5305 34.29 0)
+			(at 52.8285 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2702,7 @@
 			)
 		)
 	)
-	(global_label "TS-"
+	(global_label "Load-"
 		(shape input)
 		(at 62.23 120.65 180)
 		(fields_autoplaced yes)
@@ -2704,7 +2714,7 @@
 		)
 		(uuid "df338147-3bcd-4171-be47-9450823974b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.1495 120.65 0)
+			(at 53.8515 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2724,7 @@
 			)
 		)
 	)
-	(global_label "TS-"
+	(global_label "Load-"
 		(shape input)
 		(at 44.45 31.75 0)
 		(fields_autoplaced yes)
@@ -2726,7 +2736,7 @@
 		)
 		(uuid "f32113e6-2eb4-46d9-ab4d-9eee7c081f2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5305 31.75 0)
+			(at 52.8285 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +2746,7 @@
 			)
 		)
 	)
-	(global_label "TS+"
+	(global_label "Load+"
 		(shape input)
 		(at 93.98 31.75 180)
 		(fields_autoplaced yes)
@@ -2748,7 +2758,7 @@
 		)
 		(uuid "ffcc8593-b652-4f8b-9d17-3f79dcc396d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.8995 31.75 0)
+			(at 85.6015 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

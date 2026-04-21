@@ -1,0 +1,3 @@
+Reference,Qty,Value,DNP,Footprint,Datasheet,Manufacturer Part Number
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D13",11,LED_Red,,LED_SMD:LED_0805_2012Metric,https://www.mouser.com/catalog/specsheets/APT2012SECK-J3-PRV.PDF?_gl=1*h4eo3w*_gcl_aw*R0NMLjE3NzUxNzQ5MTguQ2owS0NRandwN2pPQmhER0FSSXNBQmU3QzRmUXV2LWJrUV9CU1BfcG5FaExka0w2T0p1MnR2azRNYlgtejA2SmEwMngzMWRtaVQwTzAzOGFBakVRRUFMd193Y0I.*_gcl_au*MTk5MDcwNzUyMC4xNzc1MTc0OTEzLjc1NTE4NDIwNy4xNzc1MTc0OTQ4LjE3NzUxNzUwOTM.*_ga*OTA4MDE3MDU0LjE3NzUxNzQ5MTM.*_ga_15W4STQT4T*czE3NzUxNzQ5MTMkbzEkZzEkdDE3NzUxNzUyODckajM0JGwwJGgw,APT2012SECK/J3-PRV
+"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R13",11,10k,,Resistor_SMD:R_0805_2012Metric,https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L,RT0805FRE1010KL

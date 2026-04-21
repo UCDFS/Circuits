@@ -151,7 +151,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.25,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.2,
         "min_via_diameter": 0.65,
         "solder_mask_clearance": 0.051,
         "solder_mask_min_width": 0.25,
@@ -604,7 +604,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Voltage",
           "name": "Voltage",
           "show": false

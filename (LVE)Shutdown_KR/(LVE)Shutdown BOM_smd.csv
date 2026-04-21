@@ -1,0 +1,5 @@
+Reference,Value,Part Number,Datasheet,Footprint,Qty,DNP
+"Q1,Q2,Q3,Q5",2N7002,2N7002,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF,Package_TO_SOT_SMD:SOT-23,4,
+U1,LM7805MPX/NOPB,LM7805MPX/NOPB,https://www.ti.com/lit/gpn/lm7800,Package_TO_SOT_SMD:SOT-223-3_TabPin2,1,
+U2,SN74AHC1G02DBVR,SN74AHC1G02DBVR,https://www.ti.com/lit/ds/symlink/sn74ahc1g02.pdf?ts=1738520903275,Package_TO_SOT_SMD:SOT-23-5,1,
+U6,MC74HC74ADG,MC74HC74ADG,https://www.onsemi.com/download/data-sheet/pdf/mc74hc74a-d.pdf,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,1,

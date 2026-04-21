@@ -1142,168 +1142,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2641,6 +2479,198 @@
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VLS3015CX-2R2M-1:VLS3015CX-2R2M-1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 16.51 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "VLS3015CX-2R2M-1"
+				(at 16.51 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "VLS3015"
+				(at 16.51 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3015cx-1_en.pdf"
+				(at 16.51 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD / SMT Inductors (Coils), L=2.2?H, L x W x T :"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "810-VLS3015CX-2R2M-1"
+				(at 16.51 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/VLS3015CX-2R2M-1?qs=gZXFycFWdAMApj4l6pjuzg%3D%3D"
+				(at 16.51 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 16.51 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "VLS3015CX-2R2M-1"
+				(at 16.51 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "VLS3015CX-2R2M-1_1_1"
+				(arc
+					(start 5.08 0)
+					(mid 6.35 1.219)
+					(end 7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 8.89 1.219)
+					(end 10.16 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0)
+					(mid 11.43 1.219)
+					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 13.97 1.219)
+					(end 15.24 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4234,6 +4264,16 @@
 		)
 		(uuid e62602db-1217-4604-90b2-54ee4b5ef189)
 	)
+	(text "2.2uH"
+		(exclude_from_sim no)
+		(at 148.336 281.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07806e82-2a1f-4d2d-910a-ae96443de4f2")
+	)
 	(text "brake and RTD button pressed together"
 		(exclude_from_sim no)
 		(at 59.182 143.51 0)
@@ -4406,7 +4446,7 @@
 	)
 	(text "1A"
 		(exclude_from_sim no)
-		(at 177.038 286.766 0)
+		(at 189.738 286.766 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4523,7 +4563,13 @@
 		(uuid "1e3b848a-1da4-4646-bd0d-fbfb95b74591")
 	)
 	(junction
-		(at 167.64 303.53)
+		(at 162.56 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20a33760-f6a9-4857-b8a2-7800bce0a6c7")
+	)
+	(junction
+		(at 180.34 303.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26f28e45-cdd2-40df-b1d2-d1b09498518b")
@@ -4595,7 +4641,7 @@
 		(uuid "7f87d241-c615-48cf-8896-0e4557bf1c10")
 	)
 	(junction
-		(at 167.64 290.83)
+		(at 180.34 290.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92a8bba7-1046-4f26-bdb2-ae558779f301")
@@ -4613,12 +4659,6 @@
 		(uuid "a1d389de-c102-4386-a658-b38436de9115")
 	)
 	(junction
-		(at 149.86 290.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a286c904-d7e8-49bf-a8ef-fa6ab8bc8393")
-	)
-	(junction
 		(at 273.05 299.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4631,7 +4671,7 @@
 		(uuid "a4727b97-a532-4bef-aeb8-46e05960db05")
 	)
 	(junction
-		(at 153.67 290.83)
+		(at 166.37 290.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aac6e040-4a8c-4f60-87a5-06f118458ec4")
@@ -4850,6 +4890,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 308.61) (xy 123.19 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0cb6ef-8250-4bb4-bb08-e86f1056375f")
+	)
+	(wire
+		(pts
 			(xy 179.07 160.02) (xy 185.42 160.02)
 		)
 		(stroke
@@ -4920,7 +4970,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 298.45) (xy 153.67 298.45)
+			(xy 115.57 298.45) (xy 166.37 298.45)
 		)
 		(stroke
 			(width 0)
@@ -5017,16 +5067,6 @@
 			(type default)
 		)
 		(uuid "3708cb9c-4a0a-4cfb-a413-7d01c13bf156")
-	)
-	(wire
-		(pts
-			(xy 146.05 290.83) (xy 149.86 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3754bb72-9e96-48b0-9917-04933dbab6b8")
 	)
 	(wire
 		(pts
@@ -5170,7 +5210,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 293.37) (xy 149.86 290.83)
+			(xy 162.56 293.37) (xy 162.56 290.83)
 		)
 		(stroke
 			(width 0)
@@ -5247,6 +5287,16 @@
 			(type default)
 		)
 		(uuid "4eded42e-1cff-48f4-ae1e-d5f65884a96e")
+	)
+	(wire
+		(pts
+			(xy 123.19 311.15) (xy 125.73 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5081c335-0dca-4823-9eda-afa6fd61af44")
 	)
 	(wire
 		(pts
@@ -5350,7 +5400,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 300.99) (xy 167.64 303.53)
+			(xy 180.34 300.99) (xy 180.34 303.53)
 		)
 		(stroke
 			(width 0)
@@ -5410,7 +5460,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 290.83) (xy 153.67 290.83)
+			(xy 180.34 290.83) (xy 166.37 290.83)
 		)
 		(stroke
 			(width 0)
@@ -5560,7 +5610,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 293.37) (xy 167.64 290.83)
+			(xy 180.34 293.37) (xy 180.34 290.83)
 		)
 		(stroke
 			(width 0)
@@ -5660,7 +5710,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 290.83) (xy 175.26 290.83)
+			(xy 180.34 290.83) (xy 187.96 290.83)
 		)
 		(stroke
 			(width 0)
@@ -5690,7 +5740,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 303.53) (xy 167.64 304.8)
+			(xy 180.34 303.53) (xy 180.34 304.8)
 		)
 		(stroke
 			(width 0)
@@ -5720,7 +5770,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 303.53) (xy 167.64 303.53)
+			(xy 140.97 303.53) (xy 180.34 303.53)
 		)
 		(stroke
 			(width 0)
@@ -5820,7 +5870,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 293.37) (xy 149.86 293.37)
+			(xy 135.89 293.37) (xy 162.56 293.37)
 		)
 		(stroke
 			(width 0)
@@ -6080,7 +6130,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 290.83) (xy 153.67 290.83)
+			(xy 162.56 290.83) (xy 166.37 290.83)
 		)
 		(stroke
 			(width 0)
@@ -6397,6 +6447,16 @@
 			(type default)
 		)
 		(uuid "e6a1b453-cc1f-41fe-afc4-6f552e903b88")
+	)
+	(wire
+		(pts
+			(xy 158.75 290.83) (xy 162.56 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8440518-6636-407e-a101-c788c0b2d179")
 	)
 	(wire
 		(pts
@@ -7235,7 +7295,7 @@
 	)
 	(global_label "5V"
 		(shape output)
-		(at 175.26 290.83 0)
+		(at 187.96 290.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7244,7 +7304,7 @@
 		)
 		(uuid "74ee5170-387a-4c41-a5b2-5f730c72de5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4952 290.9094 0)
+			(at 194.1952 290.9094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,7 +10495,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 294.64 0)
+		(at 166.37 294.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10444,7 +10504,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ef87d8c-3f0d-4347-9c81-94999a37c6ed")
 		(property "Reference" "R17"
-			(at 156.21 293.3699 0)
+			(at 168.91 293.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10453,7 +10513,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 156.21 295.9099 0)
+			(at 168.91 295.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10462,7 +10522,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 151.892 294.64 90)
+			(at 164.592 294.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10471,7 +10531,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/3436052.pdf?_gl=1*1pxxutc*_gcl_au*OTY1ODIxNDc3LjE3MzU0MDg2OTk"
-			(at 153.67 294.64 0)
+			(at 166.37 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10480,7 +10540,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 294.64 0)
+			(at 166.37 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,7 +10549,7 @@
 			)
 		)
 		(property "Part Number" "MCF 0.25W 100K"
-			(at 153.67 294.64 0)
+			(at 166.37 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10874,6 +10934,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "2N7002"
+			(at 270.51 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be0da475-7d85-4082-9f20-fa6566a44a2c")
 		)
@@ -11125,83 +11194,6 @@
 			(project "Breakout"
 				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 142.24 290.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fa4aff1-f638-4c31-9100-107f348f1789")
-		(property "Reference" "L2"
-			(at 142.24 285.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2uH"
-			(at 142.24 288.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XFL3012222:XFL3012222MEC"
-			(at 142.24 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.ie/datasheet/3/995/1/xfl3012.pdf"
-			(at 142.24 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 142.24 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "XFL3012-222MEC"
-			(at 142.24 290.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba6c2c8d-fde4-4e6f-b526-3050cbb9c72c")
-		)
-		(pin "1"
-			(uuid "850b681a-6259-4933-947e-d3fbad1bac56")
-		)
-		(instances
-			(project ""
-				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -13167,7 +13159,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 304.8 0)
+		(at 180.34 304.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13176,7 +13168,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8344734-28ce-4637-8632-24c532896212")
 		(property "Reference" "#PWR027"
-			(at 167.64 311.15 0)
+			(at 180.34 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13185,7 +13177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 309.88 0)
+			(at 180.34 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13193,7 +13185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 304.8 0)
+			(at 180.34 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13202,7 +13194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 304.8 0)
+			(at 180.34 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13211,7 +13203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 304.8 0)
+			(at 180.34 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,6 +13218,135 @@
 			(project "Breakout"
 				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VLS3015CX-2R2M-1:VLS3015CX-2R2M-1")
+		(at 138.43 290.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf46992e-c1b7-4c34-bee7-6e338d4f0de1")
+		(property "Reference" "L1"
+			(at 148.59 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VLS3015CX-2R2M-1"
+			(at 148.59 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Kicad_Libraries:VLS3015"
+			(at 154.94 387.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3015cx-1_en.pdf"
+			(at 154.94 487.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD / SMT Inductors (Coils), L=2.2?H, L x W x T :"
+			(at 138.43 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 154.94 687.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-VLS3015CX-2R2M-1"
+			(at 154.94 787.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/VLS3015CX-2R2M-1?qs=gZXFycFWdAMApj4l6pjuzg%3D%3D"
+			(at 154.94 887.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 154.94 987.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VLS3015CX-2R2M-1"
+			(at 154.94 1087.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "VLS3015CX-2R2M-1"
+			(at 138.43 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d507cbe9-d2c3-40a5-a0a6-1b04276c8d9f")
+		)
+		(pin "1"
+			(uuid "8125681d-f946-4ab4-8024-c4de166ba1f8")
+		)
+		(instances
+			(project ""
+				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -13942,6 +14063,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "2N7002"
+			(at 271.78 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ac25a18-6b86-4cc2-84ce-47515e9b95c4")
 		)
@@ -14084,7 +14214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NUP3105L"
+		(property "Value" "NUP3105LT3G"
 			(at 430.53 200.6599 0)
 			(effects
 				(font
@@ -14103,7 +14233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://docs.rs-online.com/80d9/0900766b8141c03f.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NUP3105L-D.PDF"
 			(at 427.355 196.215 0)
 			(effects
 				(font
@@ -14168,7 +14298,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 297.18 180)
+		(at 180.34 297.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14177,7 +14307,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5f220c8-011d-4907-abb5-ff6ead8fb657")
 		(property "Reference" "C23"
-			(at 171.45 295.9099 0)
+			(at 184.15 295.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14186,7 +14316,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 171.45 298.4499 0)
+			(at 184.15 298.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14195,7 +14325,7 @@
 			)
 		)
 		(property "Footprint" "RDEC71E:RDEC71E226K3P1H03B"
-			(at 166.6748 293.37 0)
+			(at 179.3748 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14204,7 +14334,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ie/datasheet/2/281/RDE_X7R_X7S_25V_100V_E-1671041.pdf"
-			(at 167.64 297.18 0)
+			(at 180.34 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14213,7 +14343,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 167.64 297.18 0)
+			(at 180.34 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14222,7 +14352,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 167.64 297.18 0)
+			(at 180.34 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14231,7 +14361,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 167.64 297.18 0)
+			(at 180.34 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14240,7 +14370,7 @@
 			)
 		)
 		(property "Part Number" "RDEC71E226K3P1H03B"
-			(at 167.64 297.18 0)
+			(at 180.34 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
