@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "952f467e-ad2b-47b9-b7a8-afd1294da234")
 	(paper "A4")
+	(title_block
+		(comment 1 "Author: Keelan Reilly")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -277,6 +280,142 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -846,11 +985,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Love to see Cathal's miracle fuses in action"
+		(exclude_from_sim no)
+		(at 87.376 38.862 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "3046b598-24fe-416a-a231-05cf78d778eb")
+	)
 	(junction
-		(at 175.26 82.55)
+		(at 168.91 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4a3b2b76-6b60-4b20-9b9c-ba77fc3d4b4b")
+		(uuid "1c530b76-f6b1-4eac-8e94-27874e2e67dd")
 	)
 	(junction
 		(at 86.36 82.55)
@@ -866,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 96.52) (xy 175.26 82.55)
+			(xy 168.91 96.52) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -896,23 +1045,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 106.68) (xy 189.23 106.68)
+			(xy 168.91 106.68) (xy 189.23 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "34acc147-ebf3-43a8-af29-7fa6ed4613d0")
-	)
-	(wire
-		(pts
-			(xy 175.26 82.55) (xy 187.96 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ee27c98-e691-4eaf-a2cb-e6b91401c52e")
 	)
 	(wire
 		(pts
@@ -923,6 +1062,16 @@
 			(type default)
 		)
 		(uuid "43a238a4-7802-4c8d-8c77-34121a179bb4")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 114.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e21c26-cedf-4de8-aa2c-86ec06fec6e5")
 	)
 	(wire
 		(pts
@@ -966,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 104.14) (xy 175.26 106.68)
+			(xy 168.91 104.14) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -986,17 +1135,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 104.14) (xy 128.27 104.14)
+			(xy 121.92 104.14) (xy 128.27 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9acaabf9-dba7-4c3a-a105-077d085ef088")
+		(uuid "a85b6b1a-caba-4914-a8a7-c725b8dd73cb")
 	)
 	(wire
 		(pts
-			(xy 143.51 82.55) (xy 175.26 82.55)
+			(xy 143.51 82.55) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1165,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 104.14) (xy 118.11 104.14)
+			(xy 182.88 82.55) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b0074e-d493-43ef-92a4-370a4914857d")
+	)
+	(wire
+		(pts
+			(xy 93.98 104.14) (xy 99.06 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1024,9 +1183,19 @@
 		)
 		(uuid "e61e2f78-46bd-4d2b-a085-a54a28a1615c")
 	)
+	(wire
+		(pts
+			(xy 168.91 82.55) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c3c7b5-6099-47ea-83b4-a1c704c6d81a")
+	)
 	(hierarchical_label "C"
 		(shape input)
-		(at 187.96 82.55 0)
+		(at 190.5 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1209,6 +1378,12 @@
 					(unit 1)
 				)
 			)
+			(project "cell"
+				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1351,11 +1526,17 @@
 					(unit 1)
 				)
 			)
+			(project "cell"
+				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 104.14 270)
+		(at 102.87 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1363,7 +1544,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4fcd21")
 		(property "Reference" "R70"
-			(at 121.92 98.8822 90)
+			(at 102.87 98.8822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,7 +1552,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 121.92 101.1936 90)
+			(at 102.87 101.1936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1560,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 121.92 102.362 90)
+			(at 102.87 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1569,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 121.92 104.14 0)
+			(at 102.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1578,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 104.14 0)
+			(at 102.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1587,7 @@
 			)
 		)
 		(property "Part Number" "CRCW06033K30FKEA"
-			(at 121.92 104.14 90)
+			(at 102.87 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,6 +1661,12 @@
 				)
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50aaba"
 					(reference "R70")
+					(unit 1)
+				)
+			)
+			(project "cell"
+				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -1620,6 +1807,12 @@
 					(unit 1)
 				)
 			)
+			(project "cell"
+				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1752,11 +1945,17 @@
 					(unit 1)
 				)
 			)
+			(project "cell"
+				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 175.26 100.33 270)
+		(at 168.91 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1764,7 +1963,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d68ca39")
 		(property "Reference" "D19"
-			(at 177.2666 99.1616 90)
+			(at 170.9166 99.1616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1972,7 @@
 			)
 		)
 		(property "Value" "PDZ7.5B"
-			(at 177.2666 101.473 90)
+			(at 170.9166 101.473 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +1981,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 175.26 100.33 0)
+			(at 168.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,7 +1990,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf"
-			(at 175.26 100.33 0)
+			(at 168.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 100.33 0)
+			(at 168.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +2008,7 @@
 			)
 		)
 		(property "Part Number" "PDZ7.5B"
-			(at 175.26 100.33 90)
+			(at 168.91 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,6 +2082,12 @@
 				)
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50aaba"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+			(project "cell"
+				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -2006,6 +2211,296 @@
 					(unit 1)
 				)
 			)
+			(project "cell"
+				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 118.11 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d0da832-4c75-4235-8d56-3da2804e3d87")
+		(property "Reference" "F2"
+			(at 118.11 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mA"
+			(at 118.11 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 118.11 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "F0603G0R05FNTR"
+			(at 118.11 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13846b68-836d-4eda-b923-bc9bd7d8c7e8")
+		)
+		(pin "2"
+			(uuid "040a764a-b353-42e7-8d68-021d37371858")
+		)
+		(instances
+			(project "LTC6812-15W"
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b4fcc47"
+					(reference "F33")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b4fd503"
+					(reference "F31")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50012a"
+					(reference "F29")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b502fef"
+					(reference "F27")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50355c"
+					(reference "F25")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b504105"
+					(reference "F23")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b504814"
+					(reference "F21")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b5050bc"
+					(reference "F16")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50594b"
+					(reference "F14")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b506bb1"
+					(reference "F12")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b507536"
+					(reference "F10")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50804f"
+					(reference "F8")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b508c6c"
+					(reference "F6")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b509a8b"
+					(reference "F4")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50aaba"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 179.07 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bafc296-513a-4b68-b307-2986e1f89b67")
+		(property "Reference" "F3"
+			(at 179.07 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mA"
+			(at 179.07 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 179.07 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "F0603G0R05FNTR"
+			(at 179.07 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f5f5845-1ffc-4665-8c52-2ba2990debee")
+		)
+		(pin "2"
+			(uuid "0016b747-d441-4987-b5c4-7ba560d0aa84")
+		)
+		(instances
+			(project "LTC6812-15W"
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b4fcc47"
+					(reference "F34")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b4fd503"
+					(reference "F32")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50012a"
+					(reference "F30")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b502fef"
+					(reference "F28")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50355c"
+					(reference "F26")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b504105"
+					(reference "F24")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b504814"
+					(reference "F22")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b5050bc"
+					(reference "F20")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50594b"
+					(reference "F15")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b506bb1"
+					(reference "F13")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b507536"
+					(reference "F11")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50804f"
+					(reference "F9")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b508c6c"
+					(reference "F7")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b509a8b"
+					(reference "F5")
+					(unit 1)
+				)
+				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50aaba"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+			(project "cell"
+				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
