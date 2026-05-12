@@ -1065,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 104.14) (xy 114.3 104.14)
+			(xy 106.68 104.14) (xy 116.84 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1135,16 +1135,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 104.14) (xy 128.27 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a85b6b1a-caba-4914-a8a7-c725b8dd73cb")
-	)
-	(wire
-		(pts
 			(xy 143.51 82.55) (xy 168.91 82.55)
 		)
 		(stroke
@@ -1206,7 +1196,7 @@
 	)
 	(hierarchical_label "S"
 		(shape input)
-		(at 128.27 104.14 0)
+		(at 116.84 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1282,7 +1272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 128.27 82.55 0)
 			(effects
 				(font
@@ -1300,7 +1290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 128.27 82.55 90)
 			(effects
 				(font
@@ -1559,7 +1549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 102.87 102.362 90)
 			(effects
 				(font
@@ -1568,7 +1558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 102.87 104.14 0)
 			(effects
 				(font
@@ -1586,7 +1576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 102.87 104.14 90)
 			(effects
 				(font
@@ -1726,7 +1716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "TSM2323"
+		(property "Part Number" "TSM2323CX RFG"
 			(at 88.9 104.14 0)
 			(effects
 				(font
@@ -2214,145 +2204,6 @@
 			(project "cell"
 				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 118.11 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d0da832-4c75-4235-8d56-3da2804e3d87")
-		(property "Reference" "F2"
-			(at 118.11 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "50mA"
-			(at 118.11 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 118.11 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 118.11 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 118.11 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 118.11 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13846b68-836d-4eda-b923-bc9bd7d8c7e8")
-		)
-		(pin "2"
-			(uuid "040a764a-b353-42e7-8d68-021d37371858")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b4fcc47"
-					(reference "F33")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b4fd503"
-					(reference "F31")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50012a"
-					(reference "F29")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b502fef"
-					(reference "F27")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50355c"
-					(reference "F25")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b504105"
-					(reference "F23")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b504814"
-					(reference "F21")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b5050bc"
-					(reference "F16")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50594b"
-					(reference "F14")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b506bb1"
-					(reference "F12")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b507536"
-					(reference "F10")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50804f"
-					(reference "F8")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b508c6c"
-					(reference "F6")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b509a8b"
-					(reference "F4")
-					(unit 1)
-				)
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9/00000000-0000-0000-0000-00005b50aaba"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/952f467e-ad2b-47b9-b7a8-afd1294da234"
-					(reference "F1")
 					(unit 1)
 				)
 			)

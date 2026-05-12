@@ -7290,7 +7290,7 @@
 	)
 	(wire
 		(pts
-			(xy 697.23 190.5) (xy 718.82 190.5)
+			(xy 697.23 190.5) (xy 730.25 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7387,16 +7387,6 @@
 			(type default)
 		)
 		(uuid "08488dbb-ac23-45ee-a0a9-bad19208dacd")
-	)
-	(wire
-		(pts
-			(xy 726.44 190.5) (xy 730.25 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "088bb653-f6f8-4d3b-8b4f-b8ce667a4fe0")
 	)
 	(wire
 		(pts
@@ -8410,7 +8400,7 @@
 	)
 	(wire
 		(pts
-			(xy 791.21 193.04) (xy 798.83 193.04)
+			(xy 791.21 193.04) (xy 828.04 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8520,23 +8510,13 @@
 	)
 	(wire
 		(pts
-			(xy 756.92 209.55) (xy 756.92 212.09)
+			(xy 756.92 209.55) (xy 756.92 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32565553-b05a-410a-986f-a5422272e487")
-	)
-	(wire
-		(pts
-			(xy 806.45 187.96) (xy 828.04 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32cd0988-d675-4cbe-b698-634ec3af1ca8")
 	)
 	(wire
 		(pts
@@ -8710,16 +8690,6 @@
 	)
 	(wire
 		(pts
-			(xy 762 219.71) (xy 762 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ccdf34-6ff6-4cb4-8fd5-602da7ad3b0f")
-	)
-	(wire
-		(pts
 			(xy 149.86 309.88) (xy 149.86 318.77)
 		)
 		(stroke
@@ -8770,7 +8740,7 @@
 	)
 	(wire
 		(pts
-			(xy 741.68 209.55) (xy 741.68 212.09)
+			(xy 741.68 209.55) (xy 741.68 231.14)
 		)
 		(stroke
 			(width 0)
@@ -8877,16 +8847,6 @@
 			(type default)
 		)
 		(uuid "3f515f1c-7e88-49ef-b2f9-1b3badff97c8")
-	)
-	(wire
-		(pts
-			(xy 726.44 180.34) (xy 730.25 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fd5d2be-b726-46e0-bbfa-aeedcade81a8")
 	)
 	(wire
 		(pts
@@ -8997,16 +8957,6 @@
 			(type default)
 		)
 		(uuid "4257b39e-fe48-4db7-b7f7-6b22ce7b7833")
-	)
-	(wire
-		(pts
-			(xy 751.84 219.71) (xy 751.84 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "425f9a18-819d-4253-9c10-2efeebb5ebe6")
 	)
 	(wire
 		(pts
@@ -9170,7 +9120,7 @@
 	)
 	(wire
 		(pts
-			(xy 791.21 187.96) (xy 798.83 187.96)
+			(xy 791.21 187.96) (xy 828.04 187.96)
 		)
 		(stroke
 			(width 0)
@@ -9187,16 +9137,6 @@
 			(type default)
 		)
 		(uuid "4895ab93-58a9-4483-b693-af26577c5b2f")
-	)
-	(wire
-		(pts
-			(xy 726.44 185.42) (xy 730.25 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "489c5788-2086-421d-a5bf-8d3f7bb85006")
 	)
 	(wire
 		(pts
@@ -9237,16 +9177,6 @@
 			(type default)
 		)
 		(uuid "491f229c-670a-4d12-a579-c7ab79fcb98d")
-	)
-	(wire
-		(pts
-			(xy 746.76 219.71) (xy 746.76 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49403591-77ed-4af8-aa5a-3877bd5fb328")
 	)
 	(wire
 		(pts
@@ -9370,7 +9300,7 @@
 	)
 	(wire
 		(pts
-			(xy 751.84 209.55) (xy 751.84 212.09)
+			(xy 751.84 209.55) (xy 751.84 232.41)
 		)
 		(stroke
 			(width 0)
@@ -9890,7 +9820,7 @@
 	)
 	(wire
 		(pts
-			(xy 762 209.55) (xy 762 212.09)
+			(xy 762 209.55) (xy 762 232.41)
 		)
 		(stroke
 			(width 0)
@@ -10160,7 +10090,7 @@
 	)
 	(wire
 		(pts
-			(xy 697.23 175.26) (xy 718.82 175.26)
+			(xy 697.23 175.26) (xy 730.25 175.26)
 		)
 		(stroke
 			(width 0)
@@ -10350,16 +10280,6 @@
 	)
 	(wire
 		(pts
-			(xy 806.45 198.12) (xy 828.04 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bebb764-7f0e-4f84-938b-7e71fd731db8")
-	)
-	(wire
-		(pts
 			(xy 163.83 276.86) (xy 166.37 276.86)
 		)
 		(stroke
@@ -10400,7 +10320,7 @@
 	)
 	(wire
 		(pts
-			(xy 697.23 185.42) (xy 718.82 185.42)
+			(xy 697.23 185.42) (xy 730.25 185.42)
 		)
 		(stroke
 			(width 0)
@@ -10690,16 +10610,6 @@
 	)
 	(wire
 		(pts
-			(xy 756.92 219.71) (xy 756.92 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "743d639f-e5b6-4f44-9ecc-4fa1aa9a6168")
-	)
-	(wire
-		(pts
 			(xy 810.26 135.89) (xy 820.42 135.89)
 		)
 		(stroke
@@ -10870,7 +10780,7 @@
 	)
 	(wire
 		(pts
-			(xy 791.21 198.12) (xy 798.83 198.12)
+			(xy 791.21 198.12) (xy 828.04 198.12)
 		)
 		(stroke
 			(width 0)
@@ -10890,7 +10800,7 @@
 	)
 	(wire
 		(pts
-			(xy 746.76 209.55) (xy 746.76 212.09)
+			(xy 746.76 209.55) (xy 746.76 232.41)
 		)
 		(stroke
 			(width 0)
@@ -11480,16 +11390,6 @@
 	)
 	(wire
 		(pts
-			(xy 777.24 219.71) (xy 777.24 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91f05515-80b9-4cea-aec6-51308d53b82c")
-	)
-	(wire
-		(pts
 			(xy 626.11 334.01) (xy 631.19 334.01)
 		)
 		(stroke
@@ -11527,16 +11427,6 @@
 			(type default)
 		)
 		(uuid "93886b13-f154-4a3d-9f6f-a1e68a637abb")
-	)
-	(wire
-		(pts
-			(xy 777.24 212.09) (xy 777.24 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9458ccde-be72-4956-80e1-37b5d3c95acb")
 	)
 	(wire
 		(pts
@@ -12760,7 +12650,7 @@
 	)
 	(wire
 		(pts
-			(xy 697.23 180.34) (xy 718.82 180.34)
+			(xy 697.23 180.34) (xy 730.25 180.34)
 		)
 		(stroke
 			(width 0)
@@ -12847,16 +12737,6 @@
 			(type default)
 		)
 		(uuid "bb113395-ab8a-464d-b35e-c26f83d1e5ac")
-	)
-	(wire
-		(pts
-			(xy 726.44 170.18) (xy 730.25 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb344fa4-a3aa-4f33-a231-71926c076d73")
 	)
 	(wire
 		(pts
@@ -12970,7 +12850,7 @@
 	)
 	(wire
 		(pts
-			(xy 697.23 170.18) (xy 718.82 170.18)
+			(xy 697.23 170.18) (xy 730.25 170.18)
 		)
 		(stroke
 			(width 0)
@@ -13440,6 +13320,16 @@
 	)
 	(wire
 		(pts
+			(xy 777.24 209.55) (xy 777.24 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbf8df3-00fb-4bb5-abbf-7ce0fec878da")
+	)
+	(wire
+		(pts
 			(xy 871.22 304.8) (xy 871.22 308.61)
 		)
 		(stroke
@@ -13500,7 +13390,7 @@
 	)
 	(wire
 		(pts
-			(xy 772.16 219.71) (xy 772.16 232.41)
+			(xy 772.16 209.55) (xy 772.16 232.41)
 		)
 		(stroke
 			(width 0)
@@ -13840,16 +13730,6 @@
 	)
 	(wire
 		(pts
-			(xy 741.68 219.71) (xy 741.68 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc46b333-0283-43a8-91d5-bdc1418497cd")
-	)
-	(wire
-		(pts
 			(xy 800.1 147.32) (xy 800.1 160.02)
 		)
 		(stroke
@@ -13857,16 +13737,6 @@
 			(type default)
 		)
 		(uuid "ddcaa862-7d9c-4e32-a251-dfe361742e2f")
-	)
-	(wire
-		(pts
-			(xy 806.45 193.04) (xy 828.04 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddce2f94-117d-4555-8aae-f3b6f9633e1e")
 	)
 	(wire
 		(pts
@@ -14017,16 +13887,6 @@
 			(type default)
 		)
 		(uuid "e3c807a3-07ac-488e-bda9-3f96819967e3")
-	)
-	(wire
-		(pts
-			(xy 772.16 212.09) (xy 772.16 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e558ad39-a95c-4375-8408-291d9b47e5d4")
 	)
 	(wire
 		(pts
@@ -14727,16 +14587,6 @@
 			(type default)
 		)
 		(uuid "ff0143a9-3883-4565-810a-d7e20c06542a")
-	)
-	(wire
-		(pts
-			(xy 726.44 175.26) (xy 730.25 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff767442-4b2d-4b29-9263-cc87ea3b40e1")
 	)
 	(label "IPB_2"
 		(at 855.98 176.53 180)
@@ -18368,7 +18218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 180.34 142.24 0)
 			(effects
 				(font
@@ -18386,7 +18236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 180.34 142.24 90)
 			(effects
 				(font
@@ -18444,7 +18294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 267.97 88.9 0)
 			(effects
 				(font
@@ -18462,7 +18312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 267.97 88.9 90)
 			(effects
 				(font
@@ -18684,7 +18534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 382.27 129.54 0)
 			(effects
 				(font
@@ -18702,7 +18552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 382.27 129.54 90)
 			(effects
 				(font
@@ -18912,7 +18762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 382.27 114.3 0)
 			(effects
 				(font
@@ -18930,7 +18780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 382.27 114.3 90)
 			(effects
 				(font
@@ -21868,7 +21718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 708.66 198.12 0)
 			(effects
 				(font
@@ -21886,7 +21736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 708.66 198.12 90)
 			(effects
 				(font
@@ -21905,85 +21755,6 @@
 			(project "LTC6812-15W"
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
 					(reference "R89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 777.24 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02fc83ba-7c31-4294-9ec4-48ec19576bfc")
-		(property "Reference" "F45"
-			(at 779.78 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 779.78 217.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 775.462 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 777.24 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 777.24 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 777.24 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "175e954e-a738-40ac-b5dc-24478988e60b")
-		)
-		(pin "1"
-			(uuid "2690b687-8a32-42a3-bdca-e59cfe741cd3")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F45")
 					(unit 1)
 				)
 			)
@@ -22347,7 +22118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 779.78 227.33 0)
 			(effects
 				(font
@@ -22365,7 +22136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 779.78 227.33 90)
 			(effects
 				(font
@@ -22414,7 +22185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 728.98 347.472 90)
 			(effects
 				(font
@@ -22423,7 +22194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 728.98 349.25 0)
 			(effects
 				(font
@@ -22441,7 +22212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 728.98 349.25 90)
 			(effects
 				(font
@@ -22615,85 +22386,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 762 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a83632e-1227-4275-b96c-fb7a3f7abdb5")
-		(property "Reference" "F42"
-			(at 764.54 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 764.54 217.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 760.222 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 762 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 762 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 762 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20abfc0a-24d7-4f21-a27b-1451c466144a")
-		)
-		(pin "1"
-			(uuid "109bd54c-78f2-4700-8533-6509075cbe22")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 866.14 181.61 180)
 		(unit 1)
@@ -22727,7 +22419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 866.14 181.61 0)
 			(effects
 				(font
@@ -22745,7 +22437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 866.14 181.61 90)
 			(effects
 				(font
@@ -22949,7 +22641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 885.19 311.912 90)
 			(effects
 				(font
@@ -22958,7 +22650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 885.19 313.69 0)
 			(effects
 				(font
@@ -22976,7 +22668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 885.19 313.69 90)
 			(effects
 				(font
@@ -23195,7 +22887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 830.58 310.642 90)
 			(effects
 				(font
@@ -23204,7 +22896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 830.58 312.42 0)
 			(effects
 				(font
@@ -23222,7 +22914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 830.58 312.42 90)
 			(effects
 				(font
@@ -23775,7 +23467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 871.22 326.39 0)
 			(effects
 				(font
@@ -23793,7 +23485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 871.22 326.39 0)
 			(effects
 				(font
@@ -23939,7 +23631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 816.61 325.12 0)
 			(effects
 				(font
@@ -23957,7 +23649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 816.61 325.12 0)
 			(effects
 				(font
@@ -24067,84 +23759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 722.63 180.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24a091d4-d46e-404d-8670-ff4e36e903f0")
-		(property "Reference" "F58"
-			(at 721.3599 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 723.8999 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 722.63 182.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 722.63 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 722.63 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 722.63 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e88a5f7a-21db-4833-a546-0eef0b8fe68e")
-		)
-		(pin "1"
-			(uuid "dbef44a9-e831-45cd-b3fd-1309a12d1789")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 774.7 227.33 0)
 		(unit 1)
@@ -24178,7 +23792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 774.7 227.33 0)
 			(effects
 				(font
@@ -24196,7 +23810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 774.7 227.33 90)
 			(effects
 				(font
@@ -24352,7 +23966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 816.61 397.51 0)
 			(effects
 				(font
@@ -24370,7 +23984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 816.61 397.51 0)
 			(effects
 				(font
@@ -24389,85 +24003,6 @@
 			(project "LTC6812-15W"
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 722.63 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "303e5de6-2d6f-4062-806d-9848a96bcb22")
-		(property "Reference" "F62"
-			(at 721.3599 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 723.8999 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 722.63 171.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 722.63 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 722.63 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 722.63 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb4455ef-0efa-4fbd-843f-e64f1063f11b")
-		)
-		(pin "1"
-			(uuid "1b8537a9-03b1-4b0e-86a9-193b81c5dc6f")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F62")
 					(unit 1)
 				)
 			)
@@ -24574,7 +24109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 871.22 361.95 0)
 			(effects
 				(font
@@ -24592,7 +24127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 871.22 361.95 0)
 			(effects
 				(font
@@ -24681,84 +24216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 751.84 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36b8d4d6-e957-4ad2-94a2-e5b66adbb319")
-		(property "Reference" "F38"
-			(at 754.38 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 754.38 217.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 750.062 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 751.84 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 751.84 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 751.84 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3d848dd-f783-4e6c-9f84-7c11722e6ebc")
-		)
-		(pin "1"
-			(uuid "2956fef5-f94a-490c-ad50-7b70035ecfd9")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 866.14 196.85 180)
 		(unit 1)
@@ -24792,7 +24249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 866.14 196.85 0)
 			(effects
 				(font
@@ -24810,7 +24267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 866.14 196.85 90)
 			(effects
 				(font
@@ -24871,7 +24328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 765.81 359.41 0)
 			(effects
 				(font
@@ -24889,7 +24346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 765.81 359.41 0)
 			(effects
 				(font
@@ -25186,85 +24643,6 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 802.64 198.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41d83a5f-66e0-4d7c-850c-f06f5ac6d760")
-		(property "Reference" "F48"
-			(at 801.3699 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 803.9099 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 802.64 199.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 802.64 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 802.64 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 802.64 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4cc690b7-d761-4dac-9a3c-2e8fd5ca82e7")
-		)
-		(pin "1"
-			(uuid "7a0534fd-5807-4e7f-8ccf-bae7ba723d18")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
 		(at 708.66 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25400,84 +24778,6 @@
 			(project "LTC6812-15W"
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 722.63 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45d0c522-7f0a-4dd6-a157-99cb818c9499")
-		(property "Reference" "F56"
-			(at 721.3599 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 723.8999 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 722.63 187.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 722.63 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 722.63 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 722.63 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f4f4fc9-f1c0-4e01-b302-e645f08e52cf")
-		)
-		(pin "1"
-			(uuid "2f0f490a-7a4f-4f9a-91ae-ccdfa28d3a50")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F56")
 					(unit 1)
 				)
 			)
@@ -25727,7 +25027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 713.74 322.58 0)
 			(effects
 				(font
@@ -25745,7 +25045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 713.74 322.58 0)
 			(effects
 				(font
@@ -25764,84 +25064,6 @@
 			(project "LTC6812-15W"
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 722.63 190.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b01ad60-c882-46c1-bc53-c7beb40c474f")
-		(property "Reference" "F54"
-			(at 721.3599 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 723.8999 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 722.63 192.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 722.63 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 722.63 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 722.63 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31b94025-4b75-4430-965a-7a18878e1875")
-		)
-		(pin "1"
-			(uuid "70276722-44d5-4a79-a935-be62a689fc04")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F54")
 					(unit 1)
 				)
 			)
@@ -26198,7 +25420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 830.58 347.472 90)
 			(effects
 				(font
@@ -26207,7 +25429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 830.58 349.25 0)
 			(effects
 				(font
@@ -26225,7 +25447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 830.58 349.25 90)
 			(effects
 				(font
@@ -26274,7 +25496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 885.19 348.742 90)
 			(effects
 				(font
@@ -26283,7 +25505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 885.19 350.52 0)
 			(effects
 				(font
@@ -26301,7 +25523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 885.19 350.52 90)
 			(effects
 				(font
@@ -26359,7 +25581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 769.62 227.33 0)
 			(effects
 				(font
@@ -26377,7 +25599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 769.62 227.33 90)
 			(effects
 				(font
@@ -26583,7 +25805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 727.71 309.372 90)
 			(effects
 				(font
@@ -26592,7 +25814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 727.71 311.15 0)
 			(effects
 				(font
@@ -26610,7 +25832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 727.71 311.15 90)
 			(effects
 				(font
@@ -26671,7 +25893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 924.56 361.95 0)
 			(effects
 				(font
@@ -26689,7 +25911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 924.56 361.95 0)
 			(effects
 				(font
@@ -26816,7 +26038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 779.78 346.202 90)
 			(effects
 				(font
@@ -26825,7 +26047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 779.78 347.98 0)
 			(effects
 				(font
@@ -26843,7 +26065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 779.78 347.98 90)
 			(effects
 				(font
@@ -26979,7 +26201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 708.66 177.8 0)
 			(effects
 				(font
@@ -26997,7 +26219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 708.66 177.8 90)
 			(effects
 				(font
@@ -27046,7 +26268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 779.78 383.032 90)
 			(effects
 				(font
@@ -27055,7 +26277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 779.78 384.81 0)
 			(effects
 				(font
@@ -27073,7 +26295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 779.78 384.81 90)
 			(effects
 				(font
@@ -27421,7 +26643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 778.51 310.642 90)
 			(effects
 				(font
@@ -27430,7 +26652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 778.51 312.42 0)
 			(effects
 				(font
@@ -27448,7 +26670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 778.51 312.42 90)
 			(effects
 				(font
@@ -27509,7 +26731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 924.56 398.78 0)
 			(effects
 				(font
@@ -27527,7 +26749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 924.56 398.78 0)
 			(effects
 				(font
@@ -27576,7 +26798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 938.53 309.372 90)
 			(effects
 				(font
@@ -27585,7 +26807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 938.53 311.15 0)
 			(effects
 				(font
@@ -27603,7 +26825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 938.53 311.15 90)
 			(effects
 				(font
@@ -28374,7 +27596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 715.01 361.95 0)
 			(effects
 				(font
@@ -28392,7 +27614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 715.01 361.95 0)
 			(effects
 				(font
@@ -28712,7 +27934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 708.66 187.96 0)
 			(effects
 				(font
@@ -28730,7 +27952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 708.66 187.96 90)
 			(effects
 				(font
@@ -28866,7 +28088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 817.88 195.58 0)
 			(effects
 				(font
@@ -28884,7 +28106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 817.88 195.58 90)
 			(effects
 				(font
@@ -28942,7 +28164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 708.66 172.72 0)
 			(effects
 				(font
@@ -28960,7 +28182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 708.66 172.72 90)
 			(effects
 				(font
@@ -29163,7 +28385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 764.54 325.12 0)
 			(effects
 				(font
@@ -29181,7 +28403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 764.54 325.12 0)
 			(effects
 				(font
@@ -29242,7 +28464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 816.61 360.68 0)
 			(effects
 				(font
@@ -29260,7 +28482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 816.61 360.68 0)
 			(effects
 				(font
@@ -29371,85 +28593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 802.64 193.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dd6317d-3a09-47e1-946e-23ba84d54379")
-		(property "Reference" "F50"
-			(at 801.3699 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 803.9099 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 802.64 194.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 802.64 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 802.64 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 802.64 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5529af91-9fcc-4f3b-a8f5-a3dcb80650b0")
-		)
-		(pin "1"
-			(uuid "b33c8f35-5d49-4f7c-a9e1-a6cb0a815845")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 885.19 386.08 270)
 		(unit 1)
@@ -29474,7 +28617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 885.19 384.302 90)
 			(effects
 				(font
@@ -29483,7 +28626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 885.19 386.08 0)
 			(effects
 				(font
@@ -29501,7 +28644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 885.19 386.08 90)
 			(effects
 				(font
@@ -29628,7 +28771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 938.53 384.302 90)
 			(effects
 				(font
@@ -29637,7 +28780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 938.53 386.08 0)
 			(effects
 				(font
@@ -29655,7 +28798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 938.53 386.08 90)
 			(effects
 				(font
@@ -29949,7 +29092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 765.81 397.51 0)
 			(effects
 				(font
@@ -29967,7 +29110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 765.81 397.51 0)
 			(effects
 				(font
@@ -30104,7 +29247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 668.02 160.02 0)
 			(effects
 				(font
@@ -30122,7 +29265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 668.02 160.02 90)
 			(effects
 				(font
@@ -30171,7 +29314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 830.58 383.032 90)
 			(effects
 				(font
@@ -30180,7 +29323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 830.58 384.81 0)
 			(effects
 				(font
@@ -30198,7 +29341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 830.58 384.81 90)
 			(effects
 				(font
@@ -30320,7 +29463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 754.38 227.33 0)
 			(effects
 				(font
@@ -30338,7 +29481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 754.38 227.33 90)
 			(effects
 				(font
@@ -30396,7 +29539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 749.3 227.33 0)
 			(effects
 				(font
@@ -30414,7 +29557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 749.3 227.33 90)
 			(effects
 				(font
@@ -30433,84 +29576,6 @@
 			(project "LTC6812-15W"
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
 					(reference "R91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 722.63 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c28d6a81-7af8-46f9-a9c5-c2ee76870e26")
-		(property "Reference" "F60"
-			(at 721.3599 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 723.8999 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 722.63 177.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 722.63 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 722.63 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 722.63 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21bb77f0-569b-4701-9c36-1d0c25743f5f")
-		)
-		(pin "1"
-			(uuid "b6920d22-f797-4e8a-95bc-96d665434441")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F60")
 					(unit 1)
 				)
 			)
@@ -30731,85 +29796,6 @@
 			(project "LTC6812-15W"
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 802.64 187.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c669f26e-1169-450e-9669-861db7ce2a58")
-		(property "Reference" "F52"
-			(at 801.3699 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 803.9099 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 802.64 189.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 802.64 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 802.64 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 802.64 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2115c63b-ae36-4bc5-8e99-d34564b53eca")
-		)
-		(pin "1"
-			(uuid "7e2e4ab3-bc10-4a8a-ad57-2757b5c6c045")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F52")
 					(unit 1)
 				)
 			)
@@ -31097,7 +30083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 817.88 190.5 0)
 			(effects
 				(font
@@ -31115,7 +30101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 817.88 190.5 90)
 			(effects
 				(font
@@ -31336,7 +30322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 759.46 227.33 0)
 			(effects
 				(font
@@ -31354,7 +30340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 759.46 227.33 90)
 			(effects
 				(font
@@ -31458,84 +30444,6 @@
 			(project "LTC6812-15W"
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
 					(reference "Q25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 746.76 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4fc3bdd-f628-46b3-9f13-4aa261c77851")
-		(property "Reference" "F36"
-			(at 749.3 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 749.3 217.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 744.982 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 746.76 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 746.76 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 746.76 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "abf80ab3-bbf8-4fbc-b6fb-7650d30ff50e")
-		)
-		(pin "1"
-			(uuid "5695d1e5-d8b0-4e1c-8c26-070dddd35bba")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F36")
 					(unit 1)
 				)
 			)
@@ -31743,84 +30651,6 @@
 			(project "LTC6812-15W"
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
 					(reference "F61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 741.68 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0dbf244-5209-4ff3-aaef-cd3aedac6772")
-		(property "Reference" "F17"
-			(at 744.22 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 744.22 217.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 739.902 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 741.68 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 741.68 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 741.68 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "36eaba1b-ecb3-4de6-8eab-28a040c86e11")
-		)
-		(pin "1"
-			(uuid "503994c4-7011-4186-98b6-69cad6efafd6")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F17")
 					(unit 1)
 				)
 			)
@@ -32053,7 +30883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 744.22 227.33 0)
 			(effects
 				(font
@@ -32071,7 +30901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 744.22 227.33 90)
 			(effects
 				(font
@@ -32372,7 +31202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 715.01 400.05 0)
 			(effects
 				(font
@@ -32390,7 +31220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 715.01 400.05 0)
 			(effects
 				(font
@@ -32527,7 +31357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 708.66 182.88 0)
 			(effects
 				(font
@@ -32545,7 +31375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 708.66 182.88 90)
 			(effects
 				(font
@@ -32594,7 +31424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 938.53 347.472 90)
 			(effects
 				(font
@@ -32603,7 +31433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 938.53 349.25 0)
 			(effects
 				(font
@@ -32621,7 +31451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 938.53 349.25 90)
 			(effects
 				(font
@@ -32640,84 +31470,6 @@
 			(project "LTC6812-15W"
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
 					(reference "R109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 756.92 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ece4bc28-9ed2-455e-a144-d2a87b986eda")
-		(property "Reference" "F40"
-			(at 759.46 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 759.46 217.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 755.142 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 756.92 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 756.92 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 756.92 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77bdbaf6-7e67-4a71-a766-af16ba7a7019")
-		)
-		(pin "1"
-			(uuid "7ca779d2-5f20-4a35-a409-6aff824cb14a")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F40")
 					(unit 1)
 				)
 			)
@@ -32760,7 +31512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 924.56 323.85 0)
 			(effects
 				(font
@@ -32778,7 +31530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 924.56 323.85 0)
 			(effects
 				(font
@@ -32900,7 +31652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 755.65 106.68 0)
 			(effects
 				(font
@@ -32918,7 +31670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 755.65 106.68 90)
 			(effects
 				(font
@@ -32967,7 +31719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
 			(at 728.98 386.842 90)
 			(effects
 				(font
@@ -32976,7 +31728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/WK73R.pdf"
 			(at 728.98 388.62 0)
 			(effects
 				(font
@@ -32994,7 +31746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW06033K30FKEA"
+		(property "Part Number" "WK73R2ATTD3301F"
 			(at 728.98 388.62 90)
 			(effects
 				(font
@@ -33055,7 +31807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/RDO0000C334.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 871.22 398.78 0)
 			(effects
 				(font
@@ -33073,7 +31825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "ERJ-UP3F6800V"
+		(property "Part Number" "RCS0603680RFKEA"
 			(at 871.22 398.78 0)
 			(effects
 				(font
@@ -33176,85 +31928,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 772.16 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fce4b8d8-f766-4245-ab72-79d47ab26854")
-		(property "Reference" "F43"
-			(at 774.7 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 774.7 217.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 770.382 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 772.16 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 772.16 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 772.16 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da7fc43f-9226-4dad-9018-6307e52418e3")
-		)
-		(pin "1"
-			(uuid "05726e1d-e5fa-4f26-a6c2-e8214f4de51e")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 708.66 167.64 270)
 		(unit 1)
@@ -33288,7 +31961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?20065"
 			(at 708.66 167.64 0)
 			(effects
 				(font
@@ -33306,7 +31979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CRCW0603100RFKEA"
+		(property "Part Number" "RCS0603100RFKEA"
 			(at 708.66 167.64 90)
 			(effects
 				(font
