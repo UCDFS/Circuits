@@ -8684,6 +8684,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "FA18X7R1H104KNU00"
+			(at 365.76 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea6d505e-ef5f-4ef6-8b70-68acc353b98b")
 		)
@@ -9900,6 +9909,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 151.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "Teensy4.1"
 			(at 151.13 186.69 0)
 			(effects
 				(font
@@ -11282,6 +11300,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "FA18X7R1H104KNU00"
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8bd8e8c3-7f40-4ed3-b1e8-bd0fc9403bcd")
 		)
@@ -11894,6 +11921,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "FA18X7R1H104KNU00"
+			(at 364.49 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ad8d848-d941-4621-b8ac-85f3772c34ad")
 		)
@@ -11955,6 +11991,15 @@
 			)
 		)
 		(property "Description" "1A Step-Down Converter with DCS-Control, fixed 5.0V output, 3-17V input voltage, WSON-8"
+			(at 125.73 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPS62163DSG"
 			(at 125.73 298.45 0)
 			(effects
 				(font
@@ -12044,6 +12089,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 287.02 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "MPU6050"
 			(at 287.02 213.36 0)
 			(effects
 				(font
@@ -12560,6 +12614,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "FA18X7R1H104KNU00"
+			(at 257.81 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "660614ff-6e8f-4e55-9062-a4c139e63867")
 		)
@@ -12766,6 +12829,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "FA18X7R1H104KNU00"
+			(at 381 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55e195da-20a0-46c9-b967-48ac13bccdfd")
 		)
@@ -12962,6 +13034,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 422.91 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "FA18X7R1H104KNU00"
 			(at 422.91 337.82 0)
 			(effects
 				(font
@@ -14278,6 +14359,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "NUP3105LT3G"
+			(at 424.18 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d45d9a22-79b5-4317-bd3a-73393c5e354c")
 		)
@@ -14467,6 +14557,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 274.32 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "FA18X7R1H104KNU00"
 			(at 274.32 200.66 0)
 			(effects
 				(font
@@ -14886,6 +14985,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 422.91 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "FA18X7R1H104KNU00"
 			(at 422.91 297.18 0)
 			(effects
 				(font
@@ -15759,6 +15867,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 381 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SN65HVD230"
 			(at 381 173.99 0)
 			(effects
 				(font

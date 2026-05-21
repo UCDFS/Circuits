@@ -6394,6 +6394,16 @@
 		)
 		(uuid "229d6689-b454-4b34-907e-d0c79f54c59c")
 	)
+	(text "C0 does not require a 50mA fuse, \nsince there are no other components to protect"
+		(exclude_from_sim no)
+		(at 817.372 180.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50761d2c-6396-4cfe-9433-fa29dff391a0")
+	)
 	(text "LV"
 		(exclude_from_sim no)
 		(at 449.326 89.408 0)
@@ -6465,6 +6475,12 @@
 		(uuid "fbcd123b-00ef-42c8-b0ef-89236335e7a0")
 	)
 	(junction
+		(at 652.78 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0119d0f7-8bdb-4e9a-b12e-583a3195ba63")
+	)
+	(junction
 		(at 166.37 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6519,6 +6535,12 @@
 		(uuid "1320068d-4209-406e-b5b0-9b16da6ebfc9")
 	)
 	(junction
+		(at 312.42 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "132a7cf0-7aca-4485-8c5c-05bb99f9affe")
+	)
+	(junction
 		(at 137.16 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6537,12 +6559,6 @@
 		(uuid "1a5986dd-d858-4fe1-b6c5-09a24e8c3197")
 	)
 	(junction
-		(at 190.5 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b409d37-4baa-4f94-b3ce-aa0d23ff12f8")
-	)
-	(junction
 		(at 322.58 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6553,12 +6569,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c743276-0530-484a-87bf-d8790db25b9a")
-	)
-	(junction
-		(at 170.18 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2582f010-3fa3-4223-b55e-a1cb385b4773")
 	)
 	(junction
 		(at 166.37 421.64)
@@ -6603,12 +6613,6 @@
 		(uuid "32e0bdc6-52eb-4dce-ada4-799fee25d4f7")
 	)
 	(junction
-		(at 312.42 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32edafa8-7a88-4479-90a5-ffadff102ed3")
-	)
-	(junction
 		(at 166.37 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6619,6 +6623,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d12ec93-9fb6-4a5c-bc00-6d199c0becd6")
+	)
+	(junction
+		(at 652.78 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d6a3c88-94bd-4c67-be4b-15b01b3e1441")
 	)
 	(junction
 		(at 810.26 135.89)
@@ -6651,34 +6661,16 @@
 		(uuid "558e331d-595a-4c96-b35c-da3cc7809a49")
 	)
 	(junction
-		(at 657.86 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5644c35e-c3f3-4fe0-bf24-43bf534c55c5")
-	)
-	(junction
 		(at 137.16 346.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5732180c-b0bd-414a-8ac9-fe93b7d2c761")
 	)
 	(junction
-		(at 773.43 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5841ee48-ac6a-4181-a004-d9a94ec3ee11")
-	)
-	(junction
 		(at 633.73 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e033b29-7371-43e2-b863-5ad9f4ef7e4d")
-	)
-	(junction
-		(at 285.75 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "603bb85d-c6d0-4051-8acc-849fd561b499")
 	)
 	(junction
 		(at 166.37 220.98)
@@ -6691,12 +6683,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "612722d2-03d3-498f-b54f-6fac41bcb388")
-	)
-	(junction
-		(at 170.18 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6180856e-b1ea-4cd7-907d-6cbe0f8c853c")
 	)
 	(junction
 		(at 820.42 147.32)
@@ -6741,12 +6727,6 @@
 		(uuid "73a81c66-f723-4577-8962-f94925d342a3")
 	)
 	(junction
-		(at 657.86 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76bc3a6d-9da0-479f-ac5c-cf7a0c2c7984")
-	)
-	(junction
 		(at 149.86 346.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6757,6 +6737,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cbf02ce-5168-4d94-8340-8577722265ae")
+	)
+	(junction
+		(at 285.75 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d5ce659-6fb7-44cc-bc38-a2f1ba3f5ad2")
 	)
 	(junction
 		(at 135.89 360.68)
@@ -6789,6 +6775,12 @@
 		(uuid "86445e1a-a5b8-44c1-82dd-9aa81a9c4f2c")
 	)
 	(junction
+		(at 679.45 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "893ecfc6-4e7e-4afe-9fc3-9e92a60384d8")
+	)
+	(junction
 		(at 149.86 332.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6799,6 +6791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e3ff825-b1e0-4cda-a12e-5a7cfc3bbb04")
+	)
+	(junction
+		(at 773.43 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fb78256-1ae6-4072-a702-8127e4d5ce84")
 	)
 	(junction
 		(at 166.37 304.8)
@@ -6829,6 +6827,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99e6f4dd-4dad-42e9-9bef-01694a26363d")
+	)
+	(junction
+		(at 166.37 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a210108-9ad0-4904-93b3-dc0c900a5f2a")
 	)
 	(junction
 		(at 636.27 323.85)
@@ -6879,10 +6883,16 @@
 		(uuid "aa94b8d5-525d-499a-bafe-d54cc5ac53d2")
 	)
 	(junction
+		(at 198.12 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b408cea9-6b36-4e4e-a8e8-fb4d563c430b")
+	)
+	(junction
 		(at 800.1 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b0e7e581-dd96-4666-8d9b-82f1b075def2")
+		(uuid "b46ac40c-60fb-41e9-a541-c71c9b91c308")
 	)
 	(junction
 		(at 149.86 304.8)
@@ -6955,12 +6965,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb202031-0cfc-4178-b4e3-c1b58ded0749")
-	)
-	(junction
-		(at 678.18 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d17404bb-287f-452e-8939-503368f40d5f")
 	)
 	(junction
 		(at 144.78 248.92)
@@ -7051,6 +7055,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5cb749e-109e-4a8f-973d-85068d84c2ff")
+	)
+	(junction
+		(at 166.37 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe3d2458-b297-4c21-9402-285509337871")
 	)
 	(junction
 		(at 166.37 332.74)
@@ -7250,16 +7260,6 @@
 	)
 	(wire
 		(pts
-			(xy 712.47 160.02) (xy 730.25 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02e4c256-460d-44ab-836c-94888b944f18")
-	)
-	(wire
-		(pts
 			(xy 78.74 104.14) (xy 78.74 101.6)
 		)
 		(stroke
@@ -7357,16 +7357,6 @@
 			(type default)
 		)
 		(uuid "06ea822e-18a4-4fd0-8753-bf1c04550f6b")
-	)
-	(wire
-		(pts
-			(xy 759.46 106.68) (xy 773.43 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0710d0c5-96ef-4494-ab34-bebeafd074af")
 	)
 	(wire
 		(pts
@@ -7507,16 +7497,6 @@
 			(type default)
 		)
 		(uuid "0d76024d-2432-4d47-81d7-d2e374a73172")
-	)
-	(wire
-		(pts
-			(xy 184.15 142.24) (xy 190.5 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dc54064-8e25-4bb6-a83e-d3cf5d8b574b")
 	)
 	(wire
 		(pts
@@ -7710,7 +7690,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 170.18 88.9)
+			(xy 147.32 88.9) (xy 166.37 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7890,6 +7870,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 88.9) (xy 255.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5635e8-6b49-4707-a054-b7b98150fab4")
+	)
+	(wire
+		(pts
 			(xy 627.38 372.11) (xy 641.35 372.11)
 		)
 		(stroke
@@ -7947,6 +7937,16 @@
 			(type default)
 		)
 		(uuid "1e15ee6a-000f-43f6-8532-63d5239bea79")
+	)
+	(wire
+		(pts
+			(xy 312.42 109.22) (xy 312.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4d5952-ad8d-4476-8b61-a355f6686797")
 	)
 	(wire
 		(pts
@@ -8420,6 +8420,26 @@
 	)
 	(wire
 		(pts
+			(xy 800.1 127) (xy 800.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed1158c-01b6-487d-908d-be64ed4fa1af")
+	)
+	(wire
+		(pts
+			(xy 180.34 142.24) (xy 185.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee4aa68-b823-499e-9e2f-f457dc6c7cf5")
+	)
+	(wire
+		(pts
 			(xy 820.42 135.89) (xy 830.58 135.89)
 		)
 		(stroke
@@ -8580,7 +8600,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 142.24) (xy 170.18 88.9)
+			(xy 166.37 142.24) (xy 166.37 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8620,7 +8640,7 @@
 	)
 	(wire
 		(pts
-			(xy 791.21 185.42) (xy 798.83 185.42)
+			(xy 791.21 185.42) (xy 828.04 185.42)
 		)
 		(stroke
 			(width 0)
@@ -8640,7 +8660,7 @@
 	)
 	(wire
 		(pts
-			(xy 635 160.02) (xy 646.43 160.02)
+			(xy 635 160.02) (xy 638.81 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8960,7 +8980,7 @@
 	)
 	(wire
 		(pts
-			(xy 635 106.68) (xy 657.86 106.68)
+			(xy 635 106.68) (xy 652.78 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9260,7 +9280,7 @@
 	)
 	(wire
 		(pts
-			(xy 678.18 165.1) (xy 678.18 160.02)
+			(xy 679.45 165.1) (xy 679.45 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9340,16 +9360,6 @@
 	)
 	(wire
 		(pts
-			(xy 657.86 160.02) (xy 664.21 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f451bc1-5125-469b-b522-9d945947c423")
-	)
-	(wire
-		(pts
 			(xy 749.3 209.55) (xy 749.3 212.09)
 		)
 		(stroke
@@ -9397,16 +9407,6 @@
 			(type default)
 		)
 		(uuid "517e078f-f76b-4004-a50f-cd46ea76b1b4")
-	)
-	(wire
-		(pts
-			(xy 312.42 109.22) (xy 312.42 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51df76b6-8c7f-4057-86bc-568b30b4e8bb")
 	)
 	(wire
 		(pts
@@ -9680,7 +9680,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 142.24) (xy 137.16 142.24)
+			(xy 151.13 142.24) (xy 137.16 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10020,16 +10020,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 142.24) (xy 176.53 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63cfa9aa-1f8b-4b4b-896d-36786a3d9266")
-	)
-	(wire
-		(pts
 			(xy 163.83 207.01) (xy 208.28 207.01)
 		)
 		(stroke
@@ -10047,16 +10037,6 @@
 			(type default)
 		)
 		(uuid "63ef58ef-b46a-4787-9e9b-42acf5d2a9d5")
-	)
-	(wire
-		(pts
-			(xy 170.18 88.9) (xy 264.16 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6405e18f-6a39-4078-b9fe-64c0e7cb8733")
 	)
 	(wire
 		(pts
@@ -10210,7 +10190,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 154.94) (xy 190.5 157.48)
+			(xy 198.12 154.94) (xy 198.12 157.48)
 		)
 		(stroke
 			(width 0)
@@ -10257,16 +10237,6 @@
 			(type default)
 		)
 		(uuid "6a026112-9196-42a2-9813-7207e38694a3")
-	)
-	(wire
-		(pts
-			(xy 657.86 106.68) (xy 751.84 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a69a1f0-3d8c-4bdd-98ab-2ee2fad96283")
 	)
 	(wire
 		(pts
@@ -10410,6 +10380,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 88.9) (xy 270.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea0c645-9bcf-41cd-8df4-b58589a42794")
+	)
+	(wire
+		(pts
 			(xy 768.35 124.46) (xy 768.35 120.65)
 		)
 		(stroke
@@ -10490,6 +10470,16 @@
 	)
 	(wire
 		(pts
+			(xy 734.06 106.68) (xy 749.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716f6e15-ed52-4522-93e3-f2ef8205ae87")
+	)
+	(wire
+		(pts
 			(xy 764.54 317.5) (xy 764.54 321.31)
 		)
 		(stroke
@@ -10507,6 +10497,16 @@
 			(type default)
 		)
 		(uuid "7181ed3e-f918-401a-825d-a7c764bf0227")
+	)
+	(wire
+		(pts
+			(xy 193.04 142.24) (xy 198.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a8ce1b-2feb-4364-8bf8-640f08ce0427")
 	)
 	(wire
 		(pts
@@ -10950,16 +10950,6 @@
 	)
 	(wire
 		(pts
-			(xy 671.83 160.02) (xy 678.18 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "808717a9-4762-4549-b164-5259fa6b6ea6")
-	)
-	(wire
-		(pts
 			(xy 104.14 388.62) (xy 133.35 388.62)
 		)
 		(stroke
@@ -11078,6 +11068,16 @@
 		)
 		(uuid "84e4c7d8-33d7-4047-a6d9-0381a5ab932d")
 	)
+	(wire
+		(pts
+			(xy 652.78 160.02) (xy 656.59 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852b3336-aeb4-4638-8c7b-2bb165f3603b")
+	)
 	(polyline
 		(pts
 			(xy 36.83 43.18) (xy 36.83 452.12)
@@ -11100,7 +11100,7 @@
 	)
 	(wire
 		(pts
-			(xy 735.33 146.05) (xy 735.33 148.59)
+			(xy 735.33 133.35) (xy 735.33 148.59)
 		)
 		(stroke
 			(width 0)
@@ -11250,6 +11250,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 88.9) (xy 285.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0a88a7-41b5-4449-a271-fcf2e41ff33c")
+	)
+	(wire
+		(pts
 			(xy 773.43 384.81) (xy 775.97 384.81)
 		)
 		(stroke
@@ -11340,16 +11350,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 129.54) (xy 312.42 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90da863a-2b11-4a32-9fb6-1d709fadaa14")
-	)
-	(wire
-		(pts
 			(xy 149.86 212.09) (xy 149.86 220.98)
 		)
 		(stroke
@@ -11427,6 +11427,16 @@
 			(type default)
 		)
 		(uuid "93886b13-f154-4a3d-9f6f-a1e68a637abb")
+	)
+	(wire
+		(pts
+			(xy 756.92 106.68) (xy 773.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942a4fb5-2e4d-40cd-9945-cf7e25f69c8d")
 	)
 	(wire
 		(pts
@@ -11517,6 +11527,16 @@
 			(type default)
 		)
 		(uuid "96f7a374-12f0-49eb-af73-345c73b6375b")
+	)
+	(wire
+		(pts
+			(xy 652.78 106.68) (xy 726.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970e2048-eb6c-4006-b094-ad89efa919a8")
 	)
 	(wire
 		(pts
@@ -11627,16 +11647,6 @@
 			(type default)
 		)
 		(uuid "9a15889d-1538-4482-b932-f90f1916d683")
-	)
-	(wire
-		(pts
-			(xy 220.98 142.24) (xy 242.57 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a241648-007e-48e4-bdc7-52756eb92ec3")
 	)
 	(wire
 		(pts
@@ -11940,16 +11950,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 142.24) (xy 213.36 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2fc4cff-6cf2-436d-a02e-b4f7cf7fc123")
-	)
-	(wire
-		(pts
 			(xy 292.1 130.81) (xy 292.1 104.14)
 		)
 		(stroke
@@ -12007,6 +12007,16 @@
 			(type default)
 		)
 		(uuid "a4ef455d-10a0-480a-ac3c-d62d3891e3df")
+	)
+	(wire
+		(pts
+			(xy 675.64 160.02) (xy 679.45 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a525f8b3-277e-43f1-b268-7a8e1af39903")
 	)
 	(wire
 		(pts
@@ -12110,7 +12120,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 147.32) (xy 190.5 142.24)
+			(xy 198.12 147.32) (xy 198.12 142.24)
 		)
 		(stroke
 			(width 0)
@@ -12170,6 +12180,16 @@
 	)
 	(wire
 		(pts
+			(xy 664.21 160.02) (xy 668.02 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5425f8-8e94-44d6-85a7-59a0b1cbac29")
+	)
+	(wire
+		(pts
 			(xy 638.81 367.03) (xy 638.81 318.77)
 		)
 		(stroke
@@ -12200,7 +12220,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 110.49) (xy 247.65 115.57)
+			(xy 247.65 110.49) (xy 247.65 130.81)
 		)
 		(stroke
 			(width 0)
@@ -12267,16 +12287,6 @@
 			(type default)
 		)
 		(uuid "acb53a54-464c-4871-9b5c-d39a3947c469")
-	)
-	(wire
-		(pts
-			(xy 735.33 133.35) (xy 735.33 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad14d732-5475-4ae9-90e5-6f402403bd53")
 	)
 	(wire
 		(pts
@@ -12590,7 +12600,7 @@
 	)
 	(wire
 		(pts
-			(xy 654.05 160.02) (xy 657.86 160.02)
+			(xy 646.43 160.02) (xy 652.78 160.02)
 		)
 		(stroke
 			(width 0)
@@ -12667,16 +12677,6 @@
 			(type default)
 		)
 		(uuid "b9454f05-16ae-4e4c-bb77-bc9c8e5261e4")
-	)
-	(wire
-		(pts
-			(xy 806.45 185.42) (xy 828.04 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b99119cd-b2e1-4b55-94a1-a70311df9cb9")
 	)
 	(wire
 		(pts
@@ -12920,16 +12920,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 123.19) (xy 247.65 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c00253ab-5891-4de1-ae6a-1bba8ca20ea0")
-	)
-	(wire
-		(pts
 			(xy 314.96 391.16) (xy 314.96 175.26)
 		)
 		(stroke
@@ -12967,16 +12957,6 @@
 			(type default)
 		)
 		(uuid "c0c48c74-bd84-4f91-99d1-e8c8d00362e5")
-	)
-	(wire
-		(pts
-			(xy 800.1 127) (xy 800.1 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f93f1b-29d0-4eea-8092-6f20a9a55af8")
 	)
 	(wire
 		(pts
@@ -13260,6 +13240,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 142.24) (xy 242.57 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9cbdc7-3a69-456c-92a1-e88653789578")
+	)
+	(wire
+		(pts
 			(xy 648.97 190.5) (xy 648.97 240.03)
 		)
 		(stroke
@@ -13500,7 +13490,7 @@
 	)
 	(wire
 		(pts
-			(xy 657.86 160.02) (xy 657.86 106.68)
+			(xy 652.78 160.02) (xy 652.78 106.68)
 		)
 		(stroke
 			(width 0)
@@ -13550,7 +13540,17 @@
 	)
 	(wire
 		(pts
-			(xy 678.18 172.72) (xy 678.18 175.26)
+			(xy 679.45 160.02) (xy 730.25 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d445bbed-bdf0-4988-bb6e-4d96fc88c44e")
+	)
+	(wire
+		(pts
+			(xy 679.45 172.72) (xy 679.45 175.26)
 		)
 		(stroke
 			(width 0)
@@ -13567,16 +13567,6 @@
 			(type default)
 		)
 		(uuid "d4bab5ca-a834-4124-b711-8cf14a241c4b")
-	)
-	(wire
-		(pts
-			(xy 271.78 88.9) (xy 285.75 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4bb1846-0fce-4f20-972e-253de5f0b761")
 	)
 	(wire
 		(pts
@@ -13690,16 +13680,6 @@
 	)
 	(wire
 		(pts
-			(xy 678.18 160.02) (xy 704.85 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da9b7abd-6c62-4124-931f-e7c572cbe185")
-	)
-	(wire
-		(pts
 			(xy 134.62 88.9) (xy 147.32 88.9)
 		)
 		(stroke
@@ -13727,16 +13707,6 @@
 			(type default)
 		)
 		(uuid "dc1b0a89-613b-4c7b-bfe8-2894dfc7a705")
-	)
-	(wire
-		(pts
-			(xy 800.1 147.32) (xy 800.1 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddcaa862-7d9c-4e32-a251-dfe361742e2f")
 	)
 	(wire
 		(pts
@@ -13857,6 +13827,16 @@
 			(type default)
 		)
 		(uuid "e1d36702-0eff-4f7f-85bf-8f1ca7ec9f5c")
+	)
+	(wire
+		(pts
+			(xy 166.37 142.24) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21f8dd2-9a74-4170-ac32-bf4f8d6697d2")
 	)
 	(wire
 		(pts
@@ -14130,7 +14110,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 142.24) (xy 170.18 142.24)
+			(xy 158.75 142.24) (xy 166.37 142.24)
 		)
 		(stroke
 			(width 0)
@@ -18102,7 +18082,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 151.13 180)
+		(at 198.12 151.13 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18110,7 +18090,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4d1ecd")
 		(property "Reference" "C1"
-			(at 196.9008 151.13 90)
+			(at 204.5208 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18118,7 +18098,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 194.5894 151.13 90)
+			(at 202.2094 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18126,7 +18106,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 189.5348 147.32 0)
+			(at 197.1548 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18135,7 +18115,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R72A104KA35-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 190.5 151.13 0)
+			(at 198.12 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18144,7 +18124,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 151.13 0)
+			(at 198.12 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18153,7 +18133,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 199.39 151.13 90)
+			(at 207.01 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18161,7 +18141,7 @@
 			)
 		)
 		(property "Part Number" "GRM188R72A104KA35D"
-			(at 190.5 151.13 90)
+			(at 198.12 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18186,7 +18166,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 142.24 270)
+		(at 176.53 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18194,7 +18174,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4d206c")
 		(property "Reference" "R1"
-			(at 180.34 136.9822 90)
+			(at 176.53 136.9822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18202,7 +18182,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 180.34 139.2936 90)
+			(at 176.53 139.2936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18210,7 +18190,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 180.34 140.462 90)
+			(at 176.53 140.462 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18219,7 +18199,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20065"
-			(at 180.34 142.24 0)
+			(at 176.53 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18228,7 +18208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 142.24 0)
+			(at 176.53 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18237,7 +18217,7 @@
 			)
 		)
 		(property "Part Number" "RCS0603100RFKEA"
-			(at 180.34 142.24 90)
+			(at 176.53 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18262,7 +18242,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 267.97 88.9 270)
+		(at 259.08 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18270,7 +18250,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b78dc84")
 		(property "Reference" "R3"
-			(at 267.97 83.6422 90)
+			(at 259.08 83.6422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18278,7 +18258,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 267.97 85.9536 90)
+			(at 259.08 85.9536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18286,7 +18266,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 267.97 87.122 90)
+			(at 259.08 87.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18295,7 +18275,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20065"
-			(at 267.97 88.9 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18304,7 +18284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 88.9 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18313,7 +18293,7 @@
 			)
 		)
 		(property "Part Number" "RCS0603100RFKEA"
-			(at 267.97 88.9 90)
+			(at 259.08 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19597,7 +19577,7 @@
 	)
 	(symbol
 		(lib_id "Device:Ferrite_Bead")
-		(at 162.56 142.24 270)
+		(at 154.94 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19605,7 +19585,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d68e1f2")
 		(property "Reference" "FB1"
-			(at 163.7284 145.7198 0)
+			(at 156.1084 145.7198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19614,7 +19594,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 161.417 145.7198 0)
+			(at 153.797 145.7198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19623,7 +19603,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 162.56 140.462 90)
+			(at 154.94 140.462 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19632,7 +19612,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ie/datasheet/3/76/1/ENFA0003.pdf"
-			(at 162.56 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19641,7 +19621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19650,7 +19630,7 @@
 			)
 		)
 		(property "Part Number" "BLM18PG330SN1D"
-			(at 162.56 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20710,7 +20690,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 157.48 0)
+		(at 198.12 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20718,7 +20698,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d699f10")
 		(property "Reference" "#PWR05"
-			(at 190.5 163.83 0)
+			(at 198.12 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20727,7 +20707,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.627 161.8742 0)
+			(at 198.247 161.8742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20735,7 +20715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 157.48 0)
+			(at 198.12 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20744,7 +20724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 157.48 0)
+			(at 198.12 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20753,7 +20733,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 157.48 0)
+			(at 198.12 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21762,7 +21742,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 678.18 168.91 180)
+		(at 679.45 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21770,7 +21750,7 @@
 		(dnp no)
 		(uuid "0320c3c2-64a6-4206-ae22-14e69d4b5b27")
 		(property "Reference" "C10"
-			(at 684.5808 168.91 90)
+			(at 685.8508 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21778,7 +21758,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 682.2694 168.91 90)
+			(at 683.5394 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21786,7 +21766,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 677.2148 165.1 0)
+			(at 678.4848 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21795,7 +21775,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R72A104KA35-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 678.18 168.91 0)
+			(at 679.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21804,7 +21784,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 678.18 168.91 0)
+			(at 679.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21813,7 +21793,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 687.07 168.91 90)
+			(at 688.34 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21821,7 +21801,7 @@
 			)
 		)
 		(property "Part Number" "GRM188R72A104KA35D"
-			(at 678.18 168.91 90)
+			(at 679.45 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21957,7 +21937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 767.842 215.9 90)
 			(effects
 				(font
@@ -21966,7 +21946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 769.62 215.9 0)
 			(effects
 				(font
@@ -21984,7 +21964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 769.62 215.9 0)
 			(effects
 				(font
@@ -22541,7 +22521,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 217.17 142.24 90)
+		(at 189.23 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22550,7 +22530,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e17b29c-495c-4f9b-a6bf-f87b9bb79194")
 		(property "Reference" "F1"
-			(at 217.17 135.89 90)
+			(at 189.23 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22558,15 +22538,15 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 217.17 138.43 90)
+			(at 189.23 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 217.17 144.018 90)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 189.23 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22574,8 +22554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 217.17 142.24 0)
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
+			(at 189.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22584,7 +22564,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 217.17 142.24 0)
+			(at 189.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22592,8 +22572,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 217.17 142.24 90)
+		(property "Part Number" "3413.0002.11"
+			(at 189.23 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23379,7 +23359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 747.522 215.9 90)
 			(effects
 				(font
@@ -23388,7 +23368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 749.3 215.9 0)
 			(effects
 				(font
@@ -23406,7 +23386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 749.3 215.9 0)
 			(effects
 				(font
@@ -24010,7 +23990,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 678.18 175.26 0)
+		(at 679.45 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24018,7 +23998,7 @@
 		(dnp no)
 		(uuid "30b387d7-1896-41df-ba2d-c45dd5309cde")
 		(property "Reference" "#PWR019"
-			(at 678.18 181.61 0)
+			(at 679.45 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24027,7 +24007,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 678.307 179.6542 0)
+			(at 679.577 179.6542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24035,7 +24015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 678.18 175.26 0)
+			(at 679.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24044,7 +24024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 678.18 175.26 0)
+			(at 679.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24053,7 +24033,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 678.18 175.26 0)
+			(at 679.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24590,7 +24570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 802.64 197.358 90)
 			(effects
 				(font
@@ -24599,7 +24579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 802.64 195.58 0)
 			(effects
 				(font
@@ -24617,7 +24597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 802.64 195.58 0)
 			(effects
 				(font
@@ -24643,7 +24623,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 708.66 160.02 90)
+		(at 671.83 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24651,7 +24631,7 @@
 		(dnp no)
 		(uuid "430a8b35-4917-48d5-893d-edc92810d6bc")
 		(property "Reference" "F67"
-			(at 707.3899 157.48 0)
+			(at 670.5599 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24660,7 +24640,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 709.9299 157.48 0)
+			(at 673.0999 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24668,8 +24648,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 708.66 161.798 90)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 671.83 161.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24677,8 +24657,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 708.66 160.02 0)
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
+			(at 671.83 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24687,7 +24667,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 708.66 160.02 0)
+			(at 671.83 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24695,8 +24675,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 708.66 160.02 0)
+		(property "Part Number" "3413.0002.11"
+			(at 671.83 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24778,85 +24758,6 @@
 			(project "LTC6812-15W"
 				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 247.65 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46da93bb-0b22-44a6-a6ac-3e417c7b3c15")
-		(property "Reference" "F19"
-			(at 250.19 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 250.19 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 245.872 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 247.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 247.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 247.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bce01a24-334f-4259-8128-52b5e11f221d")
-		)
-		(pin "1"
-			(uuid "fb6d21c6-02eb-4378-96e0-f959945c2ffd")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F19")
 					(unit 1)
 				)
 			)
@@ -25344,7 +25245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 772.922 215.9 90)
 			(effects
 				(font
@@ -25353,7 +25254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 774.7 215.9 0)
 			(effects
 				(font
@@ -25371,7 +25272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 774.7 215.9 0)
 			(effects
 				(font
@@ -25650,7 +25551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 742.442 215.9 90)
 			(effects
 				(font
@@ -25659,7 +25560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 744.22 215.9 0)
 			(effects
 				(font
@@ -25677,7 +25578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 744.22 215.9 0)
 			(effects
 				(font
@@ -25729,7 +25630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 778.002 215.9 90)
 			(effects
 				(font
@@ -25738,7 +25639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 779.78 215.9 0)
 			(effects
 				(font
@@ -25756,7 +25657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 779.78 215.9 0)
 			(effects
 				(font
@@ -25962,7 +25863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 722.63 179.578 90)
 			(effects
 				(font
@@ -25971,7 +25872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 722.63 177.8 0)
 			(effects
 				(font
@@ -25989,7 +25890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 722.63 177.8 0)
 			(effects
 				(font
@@ -26399,7 +26300,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 312.42 125.73 0)
+		(at 274.32 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26408,25 +26309,23 @@
 		(fields_autoplaced yes)
 		(uuid "6e8abd1a-5c7e-4683-87e1-0ad9bf53969c")
 		(property "Reference" "F18"
-			(at 314.96 124.4599 0)
+			(at 274.32 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "50mA"
-			(at 314.96 126.9999 0)
+			(at 274.32 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 310.642 125.73 90)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 274.32 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26434,8 +26333,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 312.42 125.73 0)
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
+			(at 274.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26444,7 +26343,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 312.42 125.73 0)
+			(at 274.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26452,8 +26351,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 312.42 125.73 0)
+		(property "Part Number" "3413.0002.11"
+			(at 274.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27319,84 +27218,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 735.33 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8322aa84-3167-4035-871a-8b4dd932ab76")
-		(property "Reference" "F65"
-			(at 732.79 143.5101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 732.79 140.9701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 737.108 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 735.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 735.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 735.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "59edd08d-d538-4ca2-9ea9-860d0ed12448")
-		)
-		(pin "1"
-			(uuid "e6bacc0f-5bdd-4df2-ab65-f2d422bf2cb3")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 927.1 349.25 0)
 		(mirror y)
@@ -27508,7 +27329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 722.63 169.418 90)
 			(effects
 				(font
@@ -27517,7 +27338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 722.63 167.64 0)
 			(effects
 				(font
@@ -27535,7 +27356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 722.63 167.64 0)
 			(effects
 				(font
@@ -27849,7 +27670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 722.63 184.658 90)
 			(effects
 				(font
@@ -27858,7 +27679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 722.63 182.88 0)
 			(effects
 				(font
@@ -27876,7 +27697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 722.63 182.88 0)
 			(effects
 				(font
@@ -28297,7 +28118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 722.63 189.738 90)
 			(effects
 				(font
@@ -28306,7 +28127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 722.63 187.96 0)
 			(effects
 				(font
@@ -28324,7 +28145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 722.63 187.96 0)
 			(effects
 				(font
@@ -28901,85 +28722,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 802.64 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af766be3-5882-4173-894e-94ccdace5e47")
-		(property "Reference" "F53"
-			(at 801.3699 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50mA"
-			(at 803.9099 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 802.64 187.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 802.64 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 802.64 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 802.64 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f1778a2-2a5b-4445-a978-caa5c31f2278")
-		)
-		(pin "1"
-			(uuid "1e5cd617-9404-4262-8876-65b337a9dec0")
-		)
-		(instances
-			(project "LTC6812-15W"
-				(path "/2d3f1ad3-25f4-49ef-8b25-1989df14b0f9"
-					(reference "F53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 764.54 120.65 270)
 		(unit 1)
@@ -29162,7 +28904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 757.682 215.9 90)
 			(effects
 				(font
@@ -29171,7 +28913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 759.46 215.9 0)
 			(effects
 				(font
@@ -29189,7 +28931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 759.46 215.9 0)
 			(effects
 				(font
@@ -29215,7 +28957,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 668.02 160.02 270)
+		(at 660.4 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29223,7 +28965,7 @@
 		(dnp no)
 		(uuid "b69cc746-cd6d-4596-a469-033f9ea87f3c")
 		(property "Reference" "R74"
-			(at 668.02 154.7622 90)
+			(at 660.4 154.7622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29231,7 +28973,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 668.02 157.0736 90)
+			(at 660.4 157.0736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29239,7 +28981,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 668.02 158.242 90)
+			(at 660.4 158.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29248,7 +28990,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20065"
-			(at 668.02 160.02 0)
+			(at 660.4 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29257,7 +28999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 668.02 160.02 0)
+			(at 660.4 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29266,7 +29008,7 @@
 			)
 		)
 		(property "Part Number" "RCS0603100RFKEA"
-			(at 668.02 160.02 90)
+			(at 660.4 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29828,7 +29570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 752.602 215.9 90)
 			(effects
 				(font
@@ -29837,7 +29579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 754.38 215.9 0)
 			(effects
 				(font
@@ -29855,7 +29597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 754.38 215.9 0)
 			(effects
 				(font
@@ -30152,7 +29894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 722.63 199.898 90)
 			(effects
 				(font
@@ -30161,7 +29903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 722.63 198.12 0)
 			(effects
 				(font
@@ -30179,7 +29921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 722.63 198.12 0)
 			(effects
 				(font
@@ -30605,7 +30347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 722.63 174.498 90)
 			(effects
 				(font
@@ -30614,7 +30356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 722.63 172.72 0)
 			(effects
 				(font
@@ -30632,7 +30374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 722.63 172.72 0)
 			(effects
 				(font
@@ -30773,7 +30515,7 @@
 	)
 	(symbol
 		(lib_id "Device:Ferrite_Bead")
-		(at 650.24 160.02 270)
+		(at 642.62 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30781,7 +30523,7 @@
 		(dnp no)
 		(uuid "e20bcd38-eb2a-4744-89ae-4e50d6667df0")
 		(property "Reference" "FB2"
-			(at 651.4084 163.4998 0)
+			(at 643.7884 163.4998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30790,7 +30532,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 649.097 163.4998 0)
+			(at 641.477 163.4998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30799,7 +30541,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 650.24 158.242 90)
+			(at 642.62 158.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30808,7 +30550,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ie/datasheet/3/76/1/ENFA0003.pdf"
-			(at 650.24 160.02 0)
+			(at 642.62 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30817,7 +30559,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 650.24 160.02 0)
+			(at 642.62 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30826,7 +30568,7 @@
 			)
 		)
 		(property "Part Number" "BLM18PG330SN1D"
-			(at 650.24 160.02 0)
+			(at 642.62 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31272,7 +31014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 802.64 192.278 90)
 			(effects
 				(font
@@ -31281,7 +31023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
 			(at 802.64 190.5 0)
 			(effects
 				(font
@@ -31299,7 +31041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
+		(property "Part Number" "3413.0002.11"
 			(at 802.64 190.5 0)
 			(effects
 				(font
@@ -31620,7 +31362,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 755.65 106.68 270)
+		(at 730.25 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31628,7 +31370,7 @@
 		(dnp no)
 		(uuid "f37501ed-0d08-4203-85b2-f67f534c952d")
 		(property "Reference" "R76"
-			(at 755.65 101.4222 90)
+			(at 730.25 101.4222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31636,7 +31378,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 755.65 103.7336 90)
+			(at 730.25 103.7336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31644,7 +31386,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 755.65 104.902 90)
+			(at 730.25 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31653,7 +31395,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20065"
-			(at 755.65 106.68 0)
+			(at 730.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31662,7 +31404,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 755.65 106.68 0)
+			(at 730.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31671,7 +31413,7 @@
 			)
 		)
 		(property "Part Number" "RCS0603100RFKEA"
-			(at 755.65 106.68 90)
+			(at 730.25 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31851,7 +31593,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 800.1 143.51 180)
+		(at 753.11 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31859,7 +31601,7 @@
 		(dnp no)
 		(uuid "fc020e1b-02ae-4572-957a-0dc46e1cb51e")
 		(property "Reference" "F66"
-			(at 797.56 144.7801 0)
+			(at 754.3801 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31868,7 +31610,7 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 797.56 142.2401 0)
+			(at 751.8401 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31876,8 +31618,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 801.878 143.51 90)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 753.11 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31885,8 +31627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 800.1 143.51 0)
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
+			(at 753.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31895,7 +31637,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 800.1 143.51 0)
+			(at 753.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31903,8 +31645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 800.1 143.51 0)
+		(property "Part Number" "3413.0002.11"
+			(at 753.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

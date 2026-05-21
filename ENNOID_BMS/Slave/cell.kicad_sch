@@ -987,7 +987,7 @@
 	)
 	(text "Love to see Cathal's miracle fuses in action"
 		(exclude_from_sim no)
-		(at 87.376 38.862 0)
+		(at 88.9 21.082 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -996,26 +996,36 @@
 		(uuid "3046b598-24fe-416a-a231-05cf78d778eb")
 	)
 	(junction
-		(at 168.91 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c530b76-f6b1-4eac-8e94-27874e2e67dd")
-	)
-	(junction
 		(at 86.36 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53fc31cc-8e3b-413e-bcbf-be0fef86fedf")
 	)
 	(junction
-		(at 143.51 82.55)
+		(at 158.75 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ced4ee62-ae3f-4555-abfb-4c14671bb10a")
+		(uuid "7281b5e2-dc47-4a87-bd11-6f1827976d50")
+	)
+	(junction
+		(at 184.15 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fde0368-3ad8-4c4f-a78e-b9025ac27555")
 	)
 	(wire
 		(pts
-			(xy 168.91 96.52) (xy 168.91 82.55)
+			(xy 148.59 82.55) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001be19c-c8ac-4bfc-a88f-7ffce57dfb53")
+	)
+	(wire
+		(pts
+			(xy 184.15 96.52) (xy 184.15 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 82.55) (xy 143.51 92.71)
+			(xy 158.75 82.55) (xy 158.75 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 106.68) (xy 189.23 106.68)
+			(xy 184.15 106.68) (xy 204.47 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1065,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 82.55) (xy 124.46 82.55)
+			(xy 184.15 82.55) (xy 205.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ae4593-82b7-487b-b6df-77114a58b14e")
+	)
+	(wire
+		(pts
+			(xy 86.36 82.55) (xy 110.49 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1095,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 100.33) (xy 143.51 120.65)
+			(xy 118.11 82.55) (xy 140.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443b81df-81f4-42e5-a2d8-938ed7e0b6b5")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 158.75 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 104.14) (xy 168.91 106.68)
+			(xy 184.15 104.14) (xy 184.15 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1135,33 +1165,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 82.55) (xy 168.91 82.55)
+			(xy 158.75 82.55) (xy 184.15 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b43b0bdb-d359-47d2-a2eb-2e8e1e678e8d")
-	)
-	(wire
-		(pts
-			(xy 132.08 82.55) (xy 143.51 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7f15f29-0ff1-4f90-a829-5870ccaa294f")
-	)
-	(wire
-		(pts
-			(xy 182.88 82.55) (xy 190.5 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b0074e-d493-43ef-92a4-370a4914857d")
 	)
 	(wire
 		(pts
@@ -1173,19 +1183,9 @@
 		)
 		(uuid "e61e2f78-46bd-4d2b-a085-a54a28a1615c")
 	)
-	(wire
-		(pts
-			(xy 168.91 82.55) (xy 175.26 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8c3c7b5-6099-47ea-83b4-a1c704c6d81a")
-	)
 	(hierarchical_label "C"
 		(shape input)
-		(at 190.5 82.55 0)
+		(at 205.74 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1207,7 +1207,7 @@
 	)
 	(hierarchical_label "CM"
 		(shape input)
-		(at 189.23 106.68 0)
+		(at 204.47 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1240,7 +1240,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 82.55 270)
+		(at 114.3 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1248,7 +1248,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4fcd0d")
 		(property "Reference" "R71"
-			(at 128.27 77.2922 90)
+			(at 114.3 77.2922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1256,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 128.27 79.6036 90)
+			(at 114.3 79.6036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1264,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 80.772 90)
+			(at 114.3 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1273,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?20065"
-			(at 128.27 82.55 0)
+			(at 114.3 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1282,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 82.55 0)
+			(at 114.3 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1291,7 @@
 			)
 		)
 		(property "Part Number" "RCS0603100RFKEA"
-			(at 128.27 82.55 90)
+			(at 114.3 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1378,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 143.51 96.52 180)
+		(at 158.75 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1386,7 +1386,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b4fcd15")
 		(property "Reference" "C25"
-			(at 146.431 95.3516 0)
+			(at 161.671 95.3516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1395,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 146.431 97.663 0)
+			(at 161.671 97.663 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1404,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 142.5448 92.71 0)
+			(at 157.7848 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1413,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R72A104KA35-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 143.51 96.52 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1422,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 96.52 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1431,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 148.59 100.33 0)
+			(at 163.83 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1439,7 @@
 			)
 		)
 		(property "Part Number" "GRM188R72A104KA35D"
-			(at 143.51 96.52 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1945,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 168.91 100.33 270)
+		(at 184.15 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1953,7 +1953,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d68ca39")
 		(property "Reference" "D19"
-			(at 170.9166 99.1616 90)
+			(at 186.1566 99.1616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +1962,7 @@
 			)
 		)
 		(property "Value" "PDZ7.5B"
-			(at 170.9166 101.473 90)
+			(at 186.1566 101.473 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1971,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 168.91 100.33 0)
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf"
-			(at 168.91 100.33 0)
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 100.33 0)
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +1998,7 @@
 			)
 		)
 		(property "Part Number" "PDZ7.5B"
-			(at 168.91 100.33 90)
+			(at 184.15 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2085,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 120.65 0)
+		(at 158.75 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2093,7 +2093,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d6ba91d")
 		(property "Reference" "#PWR036"
-			(at 143.51 127 0)
+			(at 158.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.637 125.0442 0)
+			(at 158.877 125.0442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 120.65 0)
+			(at 158.75 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 120.65 0)
+			(at 158.75 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2128,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 120.65 0)
+			(at 158.75 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 179.07 82.55 90)
+		(at 144.78 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2220,7 +2220,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bafc296-513a-4b68-b307-2986e1f89b67")
 		(property "Reference" "F3"
-			(at 179.07 76.2 90)
+			(at 144.78 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,15 +2228,15 @@
 			)
 		)
 		(property "Value" "50mA"
-			(at 179.07 78.74 90)
+			(at 144.78 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 179.07 84.328 90)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 144.78 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,8 +2244,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/4426720.pdf"
-			(at 179.07 82.55 0)
+		(property "Datasheet" "https://www.mouser.ie/datasheet/3/386/1/typ_USFF_1206.pdf"
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2254,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 179.07 82.55 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,8 +2262,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "F0603G0R05FNTR"
-			(at 179.07 82.55 90)
+		(property "Part Number" "3413.0002.11"
+			(at 144.78 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
