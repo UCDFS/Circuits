@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "d093329e-1533-4bb2-af31-8d89d9afb117")
 	(paper "A2")
+	(title_block
+		(company "UCD Formula Student")
+		(comment 1 "Author: Keelan Reilly")
+	)
 	(lib_symbols
 		(symbol "Adafruit:MPU6050"
 			(exclude_from_sim no)

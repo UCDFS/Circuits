@@ -7,7 +7,7 @@
 	(title_block
 		(title "BMS-Slave")
 		(rev "V0.1")
-		(company "ENNOID")
+		(company "UCD Formula Student")
 		(comment 1 "Author: Keelan Reilly")
 	)
 	(lib_symbols

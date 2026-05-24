@@ -5,6 +5,7 @@
 	(uuid "36f1ae50-2b10-4b31-bb8f-6b63a74fd0c3")
 	(paper "A3")
 	(title_block
+		(company "UCD Formula Student")
 		(comment 1 "Author: Keelan Reilly")
 	)
 	(lib_symbols
