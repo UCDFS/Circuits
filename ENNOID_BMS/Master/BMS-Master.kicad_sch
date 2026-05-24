@@ -2534,16 +2534,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 43.18) (xy 87.63 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d7b3fca-c68c-405f-b82c-c281ac54c5a2")
-	)
-	(wire
-		(pts
 			(xy 55.88 61.595) (xy 55.88 64.135)
 		)
 		(stroke
@@ -3334,6 +3324,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 40.64) (xy 87.63 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977f2101-d386-4f98-89ac-c92ef13c20f4")
+	)
+	(wire
+		(pts
 			(xy 29.845 44.45) (xy 29.845 43.18)
 		)
 		(stroke
@@ -3664,16 +3664,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 40.64) (xy 87.63 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df7ba56d-94ba-4e41-9ee0-4af7b710889a")
-	)
-	(wire
-		(pts
 			(xy 308.61 180.34) (xy 304.8 180.34)
 		)
 		(stroke
@@ -3861,6 +3851,16 @@
 			(type default)
 		)
 		(uuid "fd75ca2f-5348-4ef7-b392-0f07bcd0efa6")
+	)
+	(wire
+		(pts
+			(xy 85.09 43.18) (xy 87.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9ca016-1e0e-441c-b34d-f59168f938f6")
 	)
 	(label "BAT+"
 		(at 65.405 22.86 0)
@@ -6306,7 +6306,8 @@
 	)
 	(symbol
 		(lib_id "BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue")
-		(at 92.71 40.64 0)
+		(at 92.71 43.18 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6314,7 +6315,7 @@
 		(dnp no)
 		(uuid "a91b40ed-491f-470c-a235-b464cb859cb7")
 		(property "Reference" "J6"
-			(at 94.7166 40.8432 0)
+			(at 94.7166 42.9768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6324,7 @@
 			)
 		)
 		(property "Value" "INV_Power"
-			(at 94.7166 43.1546 0)
+			(at 94.7166 40.6654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +6333,7 @@
 			)
 		)
 		(property "Footprint" "Kicad_Libraries:Phoenix_1x2_1729128"
-			(at 92.71 40.64 0)
+			(at 92.71 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6342,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-2-508-1729128?type=pdf"
-			(at 92.71 40.64 0)
+			(at 92.71 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 40.64 0)
+			(at 92.71 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +6359,7 @@
 			)
 		)
 		(property "MPN" "1729128"
-			(at 92.71 40.64 0)
+			(at 92.71 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)

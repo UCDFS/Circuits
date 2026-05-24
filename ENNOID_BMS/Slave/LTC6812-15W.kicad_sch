@@ -18189,7 +18189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 176.53 140.462 90)
 			(effects
 				(font
@@ -18198,7 +18198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 176.53 142.24 0)
 			(effects
 				(font
@@ -18216,7 +18216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 176.53 142.24 90)
 			(effects
 				(font
@@ -18265,7 +18265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 259.08 87.122 90)
 			(effects
 				(font
@@ -18274,7 +18274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 259.08 88.9 0)
 			(effects
 				(font
@@ -18292,7 +18292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 259.08 88.9 90)
 			(effects
 				(font
@@ -18505,7 +18505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 384.048 129.54 90)
 			(effects
 				(font
@@ -18514,7 +18514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 382.27 129.54 0)
 			(effects
 				(font
@@ -18532,7 +18532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 382.27 129.54 90)
 			(effects
 				(font
@@ -18733,7 +18733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 384.048 114.3 90)
 			(effects
 				(font
@@ -18742,7 +18742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 382.27 114.3 0)
 			(effects
 				(font
@@ -18760,7 +18760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 382.27 114.3 90)
 			(effects
 				(font
@@ -21689,7 +21689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 708.66 196.342 90)
 			(effects
 				(font
@@ -21698,7 +21698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 708.66 198.12 0)
 			(effects
 				(font
@@ -21716,7 +21716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 708.66 198.12 90)
 			(effects
 				(font
@@ -22089,7 +22089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 778.002 227.33 90)
 			(effects
 				(font
@@ -22098,7 +22098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 779.78 227.33 0)
 			(effects
 				(font
@@ -22116,7 +22116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 779.78 227.33 90)
 			(effects
 				(font
@@ -22390,7 +22390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 867.918 181.61 90)
 			(effects
 				(font
@@ -22399,7 +22399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 866.14 181.61 0)
 			(effects
 				(font
@@ -22417,7 +22417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 866.14 181.61 90)
 			(effects
 				(font
@@ -23763,7 +23763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 772.922 227.33 90)
 			(effects
 				(font
@@ -23772,7 +23772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 774.7 227.33 0)
 			(effects
 				(font
@@ -23790,7 +23790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 774.7 227.33 90)
 			(effects
 				(font
@@ -24220,7 +24220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 867.918 196.85 90)
 			(effects
 				(font
@@ -24229,7 +24229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 866.14 196.85 0)
 			(effects
 				(font
@@ -24247,7 +24247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 866.14 196.85 90)
 			(effects
 				(font
@@ -25473,7 +25473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 767.842 227.33 90)
 			(effects
 				(font
@@ -25482,7 +25482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 769.62 227.33 0)
 			(effects
 				(font
@@ -25500,7 +25500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 769.62 227.33 90)
 			(effects
 				(font
@@ -26093,7 +26093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 708.66 176.022 90)
 			(effects
 				(font
@@ -26102,7 +26102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 708.66 177.8 0)
 			(effects
 				(font
@@ -26120,7 +26120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 708.66 177.8 90)
 			(effects
 				(font
@@ -27746,7 +27746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 708.66 186.182 90)
 			(effects
 				(font
@@ -27755,7 +27755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 708.66 187.96 0)
 			(effects
 				(font
@@ -27773,7 +27773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 708.66 187.96 90)
 			(effects
 				(font
@@ -27900,7 +27900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 817.88 193.802 90)
 			(effects
 				(font
@@ -27909,7 +27909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 817.88 195.58 0)
 			(effects
 				(font
@@ -27927,7 +27927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 817.88 195.58 90)
 			(effects
 				(font
@@ -27976,7 +27976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 708.66 170.942 90)
 			(effects
 				(font
@@ -27985,7 +27985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 708.66 172.72 0)
 			(effects
 				(font
@@ -28003,7 +28003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 708.66 172.72 90)
 			(effects
 				(font
@@ -28980,7 +28980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 660.4 158.242 90)
 			(effects
 				(font
@@ -28989,7 +28989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 660.4 160.02 0)
 			(effects
 				(font
@@ -29007,7 +29007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 660.4 160.02 90)
 			(effects
 				(font
@@ -29196,7 +29196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 752.602 227.33 90)
 			(effects
 				(font
@@ -29205,7 +29205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 754.38 227.33 0)
 			(effects
 				(font
@@ -29223,7 +29223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 754.38 227.33 90)
 			(effects
 				(font
@@ -29272,7 +29272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 747.522 227.33 90)
 			(effects
 				(font
@@ -29281,7 +29281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 749.3 227.33 0)
 			(effects
 				(font
@@ -29299,7 +29299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 749.3 227.33 90)
 			(effects
 				(font
@@ -29816,7 +29816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 817.88 188.722 90)
 			(effects
 				(font
@@ -29825,7 +29825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 817.88 190.5 0)
 			(effects
 				(font
@@ -29843,7 +29843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 817.88 190.5 90)
 			(effects
 				(font
@@ -30055,7 +30055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 757.682 227.33 90)
 			(effects
 				(font
@@ -30064,7 +30064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 759.46 227.33 0)
 			(effects
 				(font
@@ -30082,7 +30082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 759.46 227.33 90)
 			(effects
 				(font
@@ -30616,7 +30616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 742.442 227.33 90)
 			(effects
 				(font
@@ -30625,7 +30625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 744.22 227.33 0)
 			(effects
 				(font
@@ -30643,7 +30643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 744.22 227.33 90)
 			(effects
 				(font
@@ -31090,7 +31090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 708.66 181.102 90)
 			(effects
 				(font
@@ -31099,7 +31099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 708.66 182.88 0)
 			(effects
 				(font
@@ -31117,7 +31117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 708.66 182.88 90)
 			(effects
 				(font
@@ -31385,7 +31385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 730.25 104.902 90)
 			(effects
 				(font
@@ -31394,7 +31394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 730.25 106.68 0)
 			(effects
 				(font
@@ -31412,7 +31412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 730.25 106.68 90)
 			(effects
 				(font
@@ -31694,7 +31694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 708.66 165.862 90)
 			(effects
 				(font
@@ -31703,7 +31703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?20065"
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
 			(at 708.66 167.64 0)
 			(effects
 				(font
@@ -31721,7 +31721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RCS0603100RFKEA"
+		(property "Part Number" "CRCW0805100RFKEAHP"
 			(at 708.66 167.64 90)
 			(effects
 				(font

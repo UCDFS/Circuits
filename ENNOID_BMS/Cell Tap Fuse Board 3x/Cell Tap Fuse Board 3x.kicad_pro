@@ -201,7 +201,8 @@
         0.25,
         0.5,
         1.0,
-        2.0
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -486,7 +487,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Cell Tap Fuse Board.kicad_pro",
+    "filename": "Cell Tap Fuse Board 3x.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -525,7 +526,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Cell Tap Fuse Board.step",
+      "step": "Cell Tap Fuse Board 3x.step",
       "svg": "",
       "vrml": ""
     },

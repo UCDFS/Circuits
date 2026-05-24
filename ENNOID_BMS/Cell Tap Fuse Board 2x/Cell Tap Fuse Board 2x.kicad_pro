@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.9,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -131,11 +131,7 @@
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.2,
         "min_connection": 0.25,
@@ -151,13 +147,9 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.25,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.2,
         "min_via_diameter": 0.65,
-        "solder_mask_clearance": 0.051,
-        "solder_mask_min_width": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -207,7 +199,10 @@
       "track_widths": [
         0.0,
         0.25,
-        0.5
+        0.5,
+        1.0,
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -471,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -492,7 +487,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LTC6812-15W.kicad_pro",
+    "filename": "Cell Tap Fuse Board 2x.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -527,13 +522,12 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "BMS-Slave.net",
+      "netlist": "",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "LTC6812-15W.step",
+      "step": "Cell Tap Fuse Board 2x.step",
       "svg": "",
-      "vmrl": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -604,12 +598,6 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
-        },
-        {
           "group_by": false,
           "label": "Description",
           "name": "Description",
@@ -623,8 +611,8 @@
         },
         {
           "group_by": false,
-          "label": "Part Number",
-          "name": "Part Number",
+          "label": "MPN",
+          "name": "MPN",
           "show": true
         }
       ],
@@ -648,25 +636,24 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
     },
-    "net_format_name": "Pcbnew",
+    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -678,68 +665,8 @@
   },
   "sheets": [
     [
-      "2d3f1ad3-25f4-49ef-8b25-1989df14b0f9",
+      "71727048-3b8b-4af3-94ff-94a6467dfd29",
       "Root"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b50aaba",
-      "cell15"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b509a8b",
-      "cell14"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b508c6c",
-      "cell13"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b50804f",
-      "cell12"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b507536",
-      "cell11"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b506bb1",
-      "cell10"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b50594b",
-      "cell9"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b5050bc",
-      "cell8"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b504814",
-      "cell7"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b504105",
-      "cell6"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b50355c",
-      "cell5"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b502fef",
-      "cell4"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b50012a",
-      "cell3"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b4fd503",
-      "cell2"
-    ],
-    [
-      "00000000-0000-0000-0000-00005b4fcc47",
-      "cell1"
     ]
   ],
   "text_variables": {}
