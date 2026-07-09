@@ -3274,9 +3274,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Should be set to whatever sensor outputs at 16A\n\nV_threshold = 2.5 V + (15.9 A × 0.010 V/A) ≈ 2.66 V\n\nor better:\n\nTP4 = zero-current sensor voltage + 0.16 V\n\n"
+	(text "Current sensor potentiometer should be set to whatever sensor outputs at 16A\n\nV_threshold = 2.5 V + (15.9 A × 0.010 V/A) ≈ 2.66 V\n\nor better:\n\nTP4 = zero-current sensor voltage + 0.16 V\n\n"
 		(exclude_from_sim no)
-		(at 89.916 87.122 0)
+		(at 78.994 112.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3352,7 +3352,7 @@
 	)
 	(text "ALl LEDs are off when BSPD is OK"
 		(exclude_from_sim no)
-		(at 85.598 172.466 0)
+		(at 77.216 150.876 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3425,9 +3425,9 @@
 		)
 		(uuid "a5bc2b0f-1725-4778-a8a0-128233ef5152")
 	)
-	(text "Anything below 0.455 volts is invalid\n20 bar corresponds 2.8V\n25 bar corresponds to 3.36V\n30 bar correspons to 3.93v"
+	(text "Anything below 0.455 volts is invalid\n\n20 bar corresponds 2.8V\n25 bar corresponds to 3.36V\n30 bar correspons to 3.93v"
 		(exclude_from_sim no)
-		(at 96.266 136.906 0)
+		(at 78.232 137.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3448,7 +3448,7 @@
 	)
 	(text "BSPD is closed when NOT( hard braking AND too much power for >500 ms )"
 		(exclude_from_sim no)
-		(at 79.756 106.172 0)
+		(at 78.486 125.984 0)
 		(effects
 			(font
 				(size 1.27 1.27)
