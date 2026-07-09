@@ -2757,142 +2757,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:2N7000"
 			(pin_names
 				(hide yes)
@@ -3192,16 +3056,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "HVIl1"
-		(exclude_from_sim no)
-		(at -40.386 71.882 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "01bf4cfb-c17b-4af0-b848-e696f6aa7fb4")
-	)
 	(text "test commit 1"
 		(exclude_from_sim no)
 		(at 179.07 41.656 0)
@@ -3261,16 +3115,6 @@
 			)
 		)
 		(uuid "5852627c-4a69-4611-a6a8-34c064ed2d50")
-	)
-	(text "This is redundant\nPrecharge relay is not a part of charger path\n(probably...)"
-		(exclude_from_sim no)
-		(at 37.338 189.484 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "66e4eed8-bedd-46cc-9c65-4dee7f5a78a5")
 	)
 	(text "Manual Reset Button"
 		(exclude_from_sim no)
@@ -3332,16 +3176,6 @@
 			)
 		)
 		(uuid "a1d08184-7b50-4671-8008-93f7b73b1cbb")
-	)
-	(text "HVIl2"
-		(exclude_from_sim no)
-		(at -22.098 71.882 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af4ff28e-c883-4d3d-bdbb-d97fd2ec525f")
 	)
 	(text "IMD NOT OK latches LOW, making Q' HIGH"
 		(exclude_from_sim no)
@@ -3568,16 +3402,6 @@
 			(type default)
 		)
 		(uuid "043aaece-83a3-46a7-9eb3-d92497da8933")
-	)
-	(wire
-		(pts
-			(xy -55.88 83.82) (xy -44.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0610df93-7ade-4585-aaab-5ba4d6c4a77d")
 	)
 	(wire
 		(pts
@@ -4101,16 +3925,6 @@
 	)
 	(wire
 		(pts
-			(xy -16.51 83.82) (xy -6.35 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58eccaf9-b090-4131-a979-111c48818c39")
-	)
-	(wire
-		(pts
 			(xy 66.04 58.42) (xy 66.04 62.23)
 		)
 		(stroke
@@ -4378,16 +4192,6 @@
 			(type default)
 		)
 		(uuid "88b062b3-8256-4ae2-9344-70d1e308ec74")
-	)
-	(wire
-		(pts
-			(xy -34.29 83.82) (xy -26.67 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b560574-14dc-491e-bd04-3e2ca62df50c")
 	)
 	(wire
 		(pts
@@ -5127,28 +4931,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HVIL-"
-		(shape input)
-		(at -6.35 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03746be2-817e-4c06-8632-8352dc3d2e6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 2.2596 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6117,28 +5899,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Charger_12V+"
-		(shape input)
-		(at -55.88 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6eeedf0d-5f21-436f-aab9-6db24cf66acc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -72.2908 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7875,74 +7635,6 @@
 			(project ""
 				(path "/ba2fd4c7-be96-4612-905b-530e6de824dd"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at -39.37 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c02cee3-d538-4df2-a6ca-91e069f31c3d")
-		(property "Reference" "SW1"
-			(at -39.37 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at -39.37 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -39.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -39.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at -39.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51af6fb0-8947-4ba3-a180-037a0e04daeb")
-		)
-		(pin "1"
-			(uuid "0f1832f1-46dd-4f6f-83e9-3204e203c0a2")
-		)
-		(instances
-			(project ""
-				(path "/ba2fd4c7-be96-4612-905b-530e6de824dd"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10257,74 +9949,6 @@
 			(project "Charger_Shutdown_KR"
 				(path "/ba2fd4c7-be96-4612-905b-530e6de824dd"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at -21.59 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c24e8e3b-0775-45cd-8b0f-c81ce80689d7")
-		(property "Reference" "SW2"
-			(at -21.59 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at -21.59 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -21.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -21.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at -21.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b222c3dd-3c8d-4b34-88f9-57932af71c43")
-		)
-		(pin "1"
-			(uuid "27df83e8-6ce6-4c08-bd33-ffa5ffd58402")
-		)
-		(instances
-			(project "Charger_Shutdown_KR"
-				(path "/ba2fd4c7-be96-4612-905b-530e6de824dd"
-					(reference "SW2")
 					(unit 1)
 				)
 			)

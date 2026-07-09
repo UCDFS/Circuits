@@ -3274,16 +3274,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Should be set to whatever sensor outputs at 16A\n\nV_threshold = 2.5 V + (15.9 A × 0.010 V/A) ≈ 2.66 V\n\nor better:\n\nTP4 = zero-current sensor voltage + 0.16 V\n\n"
-		(exclude_from_sim no)
-		(at 89.916 87.122 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "17c2a48d-ed04-4a5d-9a7f-09d3cbbeba6b")
-	)
 	(text "NOR Logic"
 		(exclude_from_sim no)
 		(at 219.71 97.79 0)
@@ -3350,16 +3340,6 @@
 		)
 		(uuid "33539192-9af8-4e43-b6ca-11ed8b03dd38")
 	)
-	(text "ALl LEDs are off when BSPD is OK"
-		(exclude_from_sim no)
-		(at 85.598 172.466 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3f4cb7b7-55cc-4f6a-8ed0-ae8acc82e601")
-	)
 	(text "Orion BMS Current Sesor"
 		(exclude_from_sim no)
 		(at 137.16 78.486 0)
@@ -3425,16 +3405,6 @@
 		)
 		(uuid "a5bc2b0f-1725-4778-a8a0-128233ef5152")
 	)
-	(text "Anything below 0.455 volts is invalid\n20 bar corresponds 2.8V\n25 bar corresponds to 3.36V\n30 bar correspons to 3.93v"
-		(exclude_from_sim no)
-		(at 96.266 136.906 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "be8f8a61-8687-45aa-9e4d-bad39b45e496")
-	)
 	(text "Brake Pressure Sensor FRONT"
 		(exclude_from_sim no)
 		(at 125.73 110.49 0)
@@ -3445,16 +3415,6 @@
 			(justify left bottom)
 		)
 		(uuid "c40e7df9-5a60-4040-aad3-c9f029a9033c")
-	)
-	(text "BSPD is closed when NOT( hard braking AND too much power for >500 ms )"
-		(exclude_from_sim no)
-		(at 79.756 106.172 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c69b715f-bdfc-4741-a446-00ebb187eb54")
 	)
 	(text "Brake Pressure Sensor REAR"
 		(exclude_from_sim no)
@@ -3510,16 +3470,6 @@
 			(justify left bottom)
 		)
 		(uuid "f47b6de3-ef01-4451-8665-c053f3f76f04")
-	)
-	(text "LED5 OFF = relay closed\n\nLED5 ON  = relay open"
-		(exclude_from_sim no)
-		(at 366.268 93.472 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f61f0ecd-d189-415c-98fb-efe290f1883e")
 	)
 	(junction
 		(at 137.16 46.99)
@@ -3670,12 +3620,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "70fb572d-d5ec-41e7-9482-63d4578b4f47")
-	)
-	(junction
-		(at 290.83 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7127d754-2cbe-48d0-94e5-2f76ff9f4929")
 	)
 	(junction
 		(at 160.02 86.36)
@@ -3874,6 +3818,16 @@
 			(type solid)
 		)
 		(uuid "03871908-0e07-41f7-b800-3a8cb6bdea62")
+	)
+	(wire
+		(pts
+			(xy 289.56 129.54) (xy 300.99 129.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "038c0cea-c5de-42ca-8772-5fc07c63316e")
 	)
 	(wire
 		(pts
@@ -4284,16 +4238,6 @@
 			(type solid)
 		)
 		(uuid "279243f8-1dfd-44f5-ac4e-245243c70d45")
-	)
-	(wire
-		(pts
-			(xy 290.83 129.54) (xy 300.99 129.54)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "28ac299c-a3a1-4988-9f1c-bd7c21294d91")
 	)
 	(wire
 		(pts
@@ -5307,16 +5251,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 129.54) (xy 289.56 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "934712d2-0556-4958-b0b3-150e121c3b67")
-	)
-	(wire
-		(pts
 			(xy 262.89 129.54) (xy 264.16 129.54)
 		)
 		(stroke
@@ -6158,16 +6092,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 128.27) (xy 290.83 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4babc9b-f288-4c3a-bc18-8d9176ba2762")
-	)
-	(wire
-		(pts
 			(xy 175.26 72.39) (xy 175.26 73.66)
 		)
 		(stroke
@@ -6387,7 +6311,7 @@
 		(uuid "ffaead30-0ea9-4b16-a913-8f6bd53d08c2")
 	)
 	(label "10s"
-		(at 290.83 128.27 0)
+		(at 289.56 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)

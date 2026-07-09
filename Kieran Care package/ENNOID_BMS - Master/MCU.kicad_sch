@@ -5728,7 +5728,7 @@
 		(uuid "00ca22b8-ddfd-4a73-86a4-1cd922d90d12")
 	)
 	(hierarchical_label "MA_CELL"
-		(shape output)
+		(shape input)
 		(at 317.5 48.26 180)
 		(effects
 			(font
@@ -5739,7 +5739,7 @@
 		(uuid "0a438577-6c95-401d-a284-4423a742af8e")
 	)
 	(hierarchical_label "PA_TEMP"
-		(shape output)
+		(shape input)
 		(at 318.77 128.27 180)
 		(effects
 			(font
@@ -5794,7 +5794,7 @@
 		(uuid "563561cb-552a-4617-803b-2e91972fd4fc")
 	)
 	(hierarchical_label "MA_TEMP"
-		(shape output)
+		(shape input)
 		(at 318.77 118.11 180)
 		(effects
 			(font
@@ -5871,7 +5871,7 @@
 		(uuid "a743d346-6941-47fb-b6d2-015f7cbaaba9")
 	)
 	(hierarchical_label "PA_CELL"
-		(shape output)
+		(shape input)
 		(at 317.5 58.42 180)
 		(effects
 			(font

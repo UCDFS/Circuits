@@ -5727,7 +5727,7 @@
 		)
 		(uuid "00ca22b8-ddfd-4a73-86a4-1cd922d90d12")
 	)
-	(hierarchical_label "MA_CELL"
+	(hierarchical_label "MA_CELL_P"
 		(shape output)
 		(at 317.5 48.26 180)
 		(effects
@@ -5738,7 +5738,7 @@
 		)
 		(uuid "0a438577-6c95-401d-a284-4423a742af8e")
 	)
-	(hierarchical_label "PA_TEMP"
+	(hierarchical_label "PA_TEMP_N"
 		(shape output)
 		(at 318.77 128.27 180)
 		(effects
@@ -5793,7 +5793,7 @@
 		)
 		(uuid "563561cb-552a-4617-803b-2e91972fd4fc")
 	)
-	(hierarchical_label "MA_TEMP"
+	(hierarchical_label "MA_TEMP_P"
 		(shape output)
 		(at 318.77 118.11 180)
 		(effects
@@ -5870,7 +5870,7 @@
 		)
 		(uuid "a743d346-6941-47fb-b6d2-015f7cbaaba9")
 	)
-	(hierarchical_label "PA_CELL"
+	(hierarchical_label "PA_CELL_N"
 		(shape output)
 		(at 317.5 58.42 180)
 		(effects
@@ -6148,6 +6148,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "U12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6208,6 +6214,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR083")
 					(unit 1)
 				)
@@ -6298,6 +6310,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C43")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6384,6 +6402,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C42")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6459,6 +6483,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6519,6 +6549,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR070")
 					(unit 1)
 				)
@@ -6587,6 +6623,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6647,6 +6689,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR074")
 					(unit 1)
 				)
@@ -6737,6 +6785,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "J15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6797,6 +6851,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR099")
 					(unit 1)
 				)
@@ -6878,6 +6938,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C44")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6938,6 +7004,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR073")
 					(unit 1)
 				)
@@ -7006,6 +7078,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7070,6 +7148,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7130,6 +7214,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR090")
 					(unit 1)
 				)
@@ -7220,6 +7310,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C53")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7284,6 +7380,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7344,6 +7446,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR092")
 					(unit 1)
 				)
@@ -7434,6 +7542,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C54")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7498,6 +7612,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7558,6 +7678,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR094")
 					(unit 1)
 				)
@@ -7648,6 +7774,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C55")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7712,6 +7844,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7772,6 +7910,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR096")
 					(unit 1)
 				)
@@ -7862,6 +8006,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C56")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7926,6 +8076,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7986,6 +8142,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR075")
 					(unit 1)
 				)
@@ -8073,6 +8235,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8148,6 +8316,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "R69")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8219,6 +8393,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "R70")
 					(unit 1)
 				)
@@ -8300,6 +8480,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C47")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8373,6 +8559,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "C45")
 					(unit 1)
 				)
@@ -8465,6 +8657,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "TR3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8529,6 +8727,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8589,6 +8793,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR072")
 					(unit 1)
 				)
@@ -8670,6 +8880,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "R66")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8741,6 +8957,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "R73")
 					(unit 1)
 				)
@@ -8820,6 +9042,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "R67")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8880,6 +9108,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR078")
 					(unit 1)
 				)
@@ -8961,6 +9195,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C49")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9021,6 +9261,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR084")
 					(unit 1)
 				)
@@ -9142,6 +9388,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "U13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9202,6 +9454,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR080")
 					(unit 1)
 				)
@@ -9277,6 +9535,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "R75")
 					(unit 1)
 				)
@@ -9368,6 +9632,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C51")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9428,6 +9698,12 @@
 		(instances
 			(project ""
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR086")
 					(unit 1)
 				)
@@ -9509,6 +9785,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C46")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9569,6 +9851,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR079")
 					(unit 1)
 				)
@@ -9650,6 +9938,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C48")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9721,6 +10015,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "R72")
 					(unit 1)
 				)
@@ -9813,6 +10113,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "TR4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9886,6 +10192,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "C50")
 					(unit 1)
 				)
@@ -9965,6 +10277,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "R74")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10025,6 +10343,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR087")
 					(unit 1)
 				)
@@ -10116,6 +10440,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "C52")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10180,6 +10510,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10240,6 +10576,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR085")
 					(unit 1)
 				)
@@ -10319,6 +10661,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "R76")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10394,6 +10742,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "R71")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10454,6 +10808,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR077")
 					(unit 1)
 				)
@@ -10522,6 +10882,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10582,6 +10948,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "#PWR088")
 					(unit 1)
 				)
@@ -10703,6 +11075,12 @@
 					(unit 1)
 				)
 			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
+					(reference "U14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10774,6 +11152,12 @@
 		(instances
 			(project "BMS-Master"
 				(path "/b08f1666-8d98-49de-9988-f6179a2f79fe/00000000-0000-0000-0000-00005ab72d4d"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+			(project "BMS-Master"
+				(path "/d73f53fd-1b49-4484-b7d4-0d273fcc73c8/f125d962-e9a4-4e97-ac37-9ff0cd541986"
 					(reference "R68")
 					(unit 1)
 				)

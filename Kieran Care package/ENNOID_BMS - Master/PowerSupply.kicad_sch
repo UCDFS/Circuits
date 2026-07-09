@@ -1678,16 +1678,6 @@
 		)
 		(uuid "4e9dccdb-0b50-4d1b-93cc-f88eda95f997")
 	)
-	(text "If USB or CAN is connected enable request goes low\nThey are an external wake request for MCU"
-		(exclude_from_sim no)
-		(at 425.958 219.456 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "75a2a8e4-d44b-40b8-a075-5a0af31e49f2")
-	)
 	(text "Charger 12V Aux supply"
 		(exclude_from_sim no)
 		(at 197.104 193.04 0)

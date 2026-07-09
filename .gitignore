@@ -16,3 +16,5 @@ _autosave-*
 # Local KiCad library tables (use global/shared libs instead)
 sym-lib-table
 fp-lib-table
+
+*.zip

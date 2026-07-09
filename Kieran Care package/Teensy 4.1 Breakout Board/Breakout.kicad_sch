@@ -4380,7 +4380,7 @@
 	)
 	(text "Button contacts"
 		(exclude_from_sim no)
-		(at 303.022 352.552 0)
+		(at 308.864 368.046 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5144,16 +5144,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 434.34) (xy 267.97 435.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3edd5a2a-ca72-4b25-b09d-6246d8604d88")
-	)
-	(wire
-		(pts
 			(xy 403.86 165.1) (xy 403.86 167.64)
 		)
 		(stroke
@@ -5534,16 +5524,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 424.18) (xy 267.97 424.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bf10978-400c-4914-b767-e4e2ac27605a")
-	)
-	(wire
-		(pts
 			(xy 257.81 359.41) (xy 257.81 356.87)
 		)
 		(stroke
@@ -5591,16 +5571,6 @@
 			(type default)
 		)
 		(uuid "71e29914-e506-4914-abee-2578a34a8c95")
-	)
-	(wire
-		(pts
-			(xy 250.19 424.18) (xy 255.27 424.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724b5b74-a555-46de-98e2-3970b22705d9")
 	)
 	(wire
 		(pts
@@ -6001,16 +5971,6 @@
 			(type default)
 		)
 		(uuid "ab2c24d1-63da-4422-913a-405290928138")
-	)
-	(wire
-		(pts
-			(xy 267.97 426.72) (xy 267.97 424.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac3c0900-451d-41af-827f-4f45072091e5")
 	)
 	(wire
 		(pts
@@ -7634,28 +7594,6 @@
 		(uuid "aa5d77dc-0130-4cfb-829a-dfc1dd572541")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 261.7348 159.9406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RTD_button"
-		(shape output)
-		(at 250.19 424.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b698c92a-cf6a-4a9e-8336-bf8329c56525")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.6822 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13500,113 +13438,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 267.97 430.53 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2969f33-7482-4b30-b533-6ba2422c3bf9")
-		(property "Reference" "C11"
-			(at 264.16 429.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 264.16 431.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FA14_Capacitor:FA18X7R1H104KNU00"
-			(at 267.0048 434.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/2923220.pdf"
-			(at 267.97 430.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 267.97 430.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 267.97 430.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 267.97 430.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 267.97 430.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "FA18X7R1H104KNU00"
-			(at 267.97 430.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "830a64ee-bcb0-4316-94af-4f6275d8527f")
-		)
-		(pin "2"
-			(uuid "f15d8827-b687-4f4f-a6a4-5ed0a44a1358")
-		)
-		(instances
-			(project "Breakout"
-				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 381 152.4 180)
 		(unit 1)
@@ -13910,72 +13741,6 @@
 			(project "Breakout"
 				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 267.97 435.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc3e3d0a-d065-46b7-8d97-6485d1631281")
-		(property "Reference" "#PWR032"
-			(at 267.97 441.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 440.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 435.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 435.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 435.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf383a0c-349d-4f67-ace1-edc0c3460c2a")
-		)
-		(instances
-			(project "Breakout"
-				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -15144,110 +14909,6 @@
 			(project "Breakout"
 				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 259.08 424.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eac2d1b2-dc4a-4587-ae84-6541f0acdf93")
-		(property "Reference" "R21"
-			(at 259.08 417.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 259.08 420.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 259.08 425.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3436052.pdf?_gl=1*1pxxutc*_gcl_au*OTY1ODIxNDc3LjE3MzU0MDg2OTk"
-			(at 259.08 424.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 259.08 424.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "MCF 0.25W 220"
-			(at 259.08 424.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 259.08 424.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 259.08 424.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 259.08 424.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "682656d6-f76f-4bbe-b8de-e7407ac0b4bc")
-		)
-		(pin "2"
-			(uuid "42d4be74-1d74-4865-a4be-a5918f4d7d70")
-		)
-		(instances
-			(project "Breakout"
-				(path "/d093329e-1533-4bb2-af31-8d89d9afb117"
-					(reference "R21")
 					(unit 1)
 				)
 			)

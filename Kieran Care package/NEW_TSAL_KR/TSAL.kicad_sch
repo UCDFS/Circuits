@@ -5978,16 +5978,6 @@
 		)
 		(uuid "b8cf8f99-3d96-45fe-8324-d11a72ede0a7")
 	)
-	(text "This is wrong, these are both digital signals, High or Low.\nThe precharge Relay is not like the AIRS"
-		(exclude_from_sim no)
-		(at 256.54 292.862 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b91ebb36-aafd-490e-9c94-ede19a1f2d9a")
-	)
 	(text "HIGH is 3.9V, LOW is 0V. CLOSE_AIR1 Signal may be redundant here because \nthe auxilliary inputs of the AIRS are also being read, and CLOSE_AIR1 is only one AIR"
 		(exclude_from_sim no)
 		(at 27.686 265.176 0)
