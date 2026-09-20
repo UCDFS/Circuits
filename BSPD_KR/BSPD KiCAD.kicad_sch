@@ -3273,6 +3273,267 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "74xGxx:74AHC1G02"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHC1G02"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single NOR Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate NOR LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG-*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74AHC1G02_0_1"
+				(arc
+					(start -7.62 5.08)
+					(mid -5.838 0)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.202 -3.202)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 3.2271 3.2271)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AHC1G02_1_1"
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Current sensor potentiometer should be set to whatever sensor outputs at 16A\n\nV_threshold = 2.5 V + (15.9 A × 0.010 V/A) ≈ 2.66 V\n\nor better:\n\nTP4 = zero-current sensor voltage + 0.16 V\n\n"
 		(exclude_from_sim no)
@@ -3489,7 +3750,7 @@
 		)
 		(uuid "ca2a18c4-d33e-4e56-9437-38ae68b0715b")
 	)
-	(text "Reset Timer Circuit"
+	(text "Latch Circuit (fault latched until LVMS power cycle)"
 		(exclude_from_sim no)
 		(at 275.59 110.49 0)
 		(effects
@@ -3544,12 +3805,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d9e5a54-1f32-47b0-8b7e-16f9926e0ab6")
-	)
-	(junction
-		(at 289.56 129.54)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "109caac1-5036-4f23-9a66-f569d871501b")
 	)
 	(junction
 		(at 179.07 118.11)
@@ -3670,12 +3925,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "70fb572d-d5ec-41e7-9482-63d4578b4f47")
-	)
-	(junction
-		(at 290.83 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7127d754-2cbe-48d0-94e5-2f76ff9f4929")
 	)
 	(junction
 		(at 160.02 86.36)
@@ -3964,26 +4213,6 @@
 			(type solid)
 		)
 		(uuid "0a8898a8-8a44-4540-9407-b36f809787b9")
-	)
-	(wire
-		(pts
-			(xy 254 106.68) (xy 254 119.38)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "0beb1ff0-a649-4efd-9b5b-57350af8e9b0")
-	)
-	(wire
-		(pts
-			(xy 262.89 124.46) (xy 262.89 129.54)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "0dfcc658-5574-4d49-bc99-e3ca591db5ac")
 	)
 	(wire
 		(pts
@@ -4287,16 +4516,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 129.54) (xy 300.99 129.54)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "28ac299c-a3a1-4988-9f1c-bd7c21294d91")
-	)
-	(wire
-		(pts
 			(xy 195.58 120.65) (xy 198.12 120.65)
 		)
 		(stroke
@@ -4354,16 +4573,6 @@
 			(type solid)
 		)
 		(uuid "2ec8d08e-e451-4c83-a7bb-f9f9a21dcd83")
-	)
-	(wire
-		(pts
-			(xy 289.56 127) (xy 289.56 129.54)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "2f142154-cc5f-4156-88b5-581d84e5dbe3")
 	)
 	(wire
 		(pts
@@ -4495,16 +4704,6 @@
 		)
 		(uuid "38904559-d538-434e-b830-04431c2a1f9c")
 	)
-	(wire
-		(pts
-			(xy 289.56 137.16) (xy 289.56 139.7)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "38c10010-d51f-4d27-a204-e7022f0a28d9")
-	)
 	(polyline
 		(pts
 			(xy 215.9 106.68) (xy 215.9 147.32)
@@ -4594,16 +4793,6 @@
 			(type solid)
 		)
 		(uuid "416f5903-7db7-4f00-a7eb-c5b17e69a690")
-	)
-	(wire
-		(pts
-			(xy 289.56 129.54) (xy 289.56 132.08)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "444ac684-a5a8-4501-9d9d-7b158052f1de")
 	)
 	(wire
 		(pts
@@ -4775,16 +4964,6 @@
 		)
 		(uuid "5a29b0e3-6494-4827-8139-c91083b0bfc9")
 	)
-	(wire
-		(pts
-			(xy 254 106.68) (xy 312.42 106.68)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "5ae259b5-acac-4711-b50e-acafb59fcaae")
-	)
 	(polyline
 		(pts
 			(xy 124.46 105.41) (xy 124.46 64.77)
@@ -4817,13 +4996,33 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 107.95) (xy 274.32 147.32)
+			(xy 274.32 107.95) (xy 274.32 123.19)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "623bdb1a-614f-451c-a171-caab11359e48")
+	)
+		(polyline
+		(pts
+			(xy 274.32 123.19) (xy 226.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d29766bc-903a-4472-b5ea-3a6830c24aeb")
+	)
+		(polyline
+		(pts
+			(xy 226.06 123.19) (xy 226.06 157.48)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e4bf1e16-1016-4c92-9e58-3674d2c44176")
 	)
 	(wire
 		(pts
@@ -4904,16 +5103,6 @@
 			(type solid)
 		)
 		(uuid "6cbb32d9-d85e-4543-a2ce-363658581837")
-	)
-	(wire
-		(pts
-			(xy 289.56 119.38) (xy 289.56 121.92)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "6da57d8d-5df6-4292-a892-157ac8a00fca")
 	)
 	(wire
 		(pts
@@ -5087,7 +5276,7 @@
 	)
 	(polyline
 		(pts
-			(xy 335.28 147.32) (xy 335.28 107.95)
+			(xy 335.28 107.95) (xy 335.28 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5197,16 +5386,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 119.38) (xy 255.27 119.38)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "8b269d49-683c-4998-b5ca-4aeb885678b6")
-	)
-	(wire
-		(pts
 			(xy 217.17 172.72) (xy 224.79 172.72)
 		)
 		(stroke
@@ -5294,36 +5473,6 @@
 			(type solid)
 		)
 		(uuid "922c5093-30fa-40bc-b589-2e6244ab39a1")
-	)
-	(wire
-		(pts
-			(xy 312.42 93.98) (xy 312.42 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e340ee-7033-4102-8c26-5250af0be603")
-	)
-	(wire
-		(pts
-			(xy 290.83 129.54) (xy 289.56 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "934712d2-0556-4958-b0b3-150e121c3b67")
-	)
-	(wire
-		(pts
-			(xy 262.89 129.54) (xy 264.16 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b209e7-84a3-43a4-9ad3-c4260a937dbd")
 	)
 	(wire
 		(pts
@@ -5427,16 +5576,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 129.54) (xy 289.56 129.54)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "9ebb2a0d-d826-4b33-b7ef-5038a7519d22")
-	)
-	(wire
-		(pts
 			(xy 147.32 128.27) (xy 144.78 128.27)
 		)
 		(stroke
@@ -5454,16 +5593,6 @@
 			(type default)
 		)
 		(uuid "9f72681e-1293-4cce-9399-a915d30fdc92")
-	)
-	(wire
-		(pts
-			(xy 262.89 113.03) (xy 262.89 114.3)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "9ff0e405-6d72-4ed7-ab7e-4dcfe7d65712")
 	)
 	(wire
 		(pts
@@ -5785,16 +5914,6 @@
 			(type default)
 		)
 		(uuid "bb4552a5-d978-4193-b7ca-b1599f7773ca")
-	)
-	(wire
-		(pts
-			(xy 314.96 93.98) (xy 312.42 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc005454-cead-4f9f-89e4-c7504018b2f6")
 	)
 	(polyline
 		(pts
@@ -6158,16 +6277,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 128.27) (xy 290.83 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4babc9b-f288-4c3a-bc18-8d9176ba2762")
-	)
-	(wire
-		(pts
 			(xy 175.26 72.39) (xy 175.26 73.66)
 		)
 		(stroke
@@ -6308,7 +6417,7 @@
 	)
 	(polyline
 		(pts
-			(xy 274.32 147.32) (xy 335.28 147.32)
+			(xy 226.06 157.48) (xy 335.28 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6385,16 +6494,6 @@
 			(type solid)
 		)
 		(uuid "ffaead30-0ea9-4b16-a913-8f6bd53d08c2")
-	)
-	(label "10s"
-		(at 290.83 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32b79fa4-57b5-468c-bc8b-434d8eabbf53")
 	)
 	(label "500ms"
 		(at 289.56 81.28 0)
@@ -7827,7 +7926,7 @@
 				)
 			)
 		)
-		(property "Value" "56k"
+		(property "Value" "39k"
 			(at 281.94 78.613 90)
 			(effects
 				(font
@@ -7898,7 +7997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 56K"
+		(property "Part Number" "MCF 0.25W 39K"
 			(at 281.94 81.28 0)
 			(effects
 				(font
@@ -8133,243 +8232,6 @@
 			(project "BSPD KiCAD"
 				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 289.56 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d57dc39")
-		(property "Reference" "#PWR0132"
-			(at 289.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 289.687 144.0942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22525dd2-5086-41d7-8264-c17086e84beb")
-		)
-		(instances
-			(project "Full Wiring - OCT 24"
-				(path "/845d5001-f106-4baa-9f12-f238d91eb76b/83dfbe6d-214e-4b84-b88d-ffd94565b0a1/be86ec91-1451-4cd0-a2b8-6531a5622165"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-			(project "BSPD KiCAD"
-				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
-					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 289.56 124.46 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d57dc3a")
-		(property "Reference" "C11"
-			(at 287.2486 123.2916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF"
-			(at 287.2486 125.603 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1050.pdf"
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 100.33 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 100.33 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Store" ""
-			(at 100.33 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Store Part Number" ""
-			(at 100.33 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "ECE-A1EKA100I"
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bb9aa56-cda5-44dd-a872-36224a1d13da")
-		)
-		(pin "2"
-			(uuid "940b565e-c7f8-40f2-985a-bc8d114f9e2c")
-		)
-		(instances
-			(project "Full Wiring - OCT 24"
-				(path "/845d5001-f106-4baa-9f12-f238d91eb76b/83dfbe6d-214e-4b84-b88d-ffd94565b0a1/be86ec91-1451-4cd0-a2b8-6531a5622165"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-			(project "BSPD KiCAD"
-				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10991,336 +10853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 289.56 134.62 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d693a2e")
-		(property "Reference" "R21"
-			(at 288.0614 133.4516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 288.061 135.763 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 289.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/3436052.pdf?_gl=1*c0yucm*_gcl_au*MzQwNzkxNTUuMTczODE3NzUyNw"
-			(at 289.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Store" ""
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Store Part Number" ""
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "MCF 0.25W 1M"
-			(at 289.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 289.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 289.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 289.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 289.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 289.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a8c08e4-7ed4-435f-9a6d-5e88823a0f51")
-		)
-		(pin "2"
-			(uuid "b17f4b39-3cd1-4e3d-bbc0-b22ae69f3160")
-		)
-		(instances
-			(project "Full Wiring - OCT 24"
-				(path "/845d5001-f106-4baa-9f12-f238d91eb76b/83dfbe6d-214e-4b84-b88d-ffd94565b0a1/be86ec91-1451-4cd0-a2b8-6531a5622165"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-			(project "BSPD KiCAD"
-				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 266.7 129.54 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d6b8694")
-		(property "Reference" "R19"
-			(at 266.7 124.5616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 266.7 126.873 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3436052.pdf?_gl=1*1pxxutc*_gcl_au*OTY1ODIxNDc3LjE3MzU0MDg2OTk"
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 351.79 -68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 351.79 -68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Store" ""
-			(at 351.79 -68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Store Part Number" ""
-			(at 351.79 -68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "MCF 0.25W 1K"
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95143fb4-d7f1-4ff3-8a09-f7960b46165b")
-		)
-		(pin "2"
-			(uuid "14e33946-ba8d-4e7e-b04b-c02cd1b41305")
-		)
-		(instances
-			(project "Full Wiring - OCT 24"
-				(path "/845d5001-f106-4baa-9f12-f238d91eb76b/83dfbe6d-214e-4b84-b88d-ffd94565b0a1/be86ec91-1451-4cd0-a2b8-6531a5622165"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-			(project "BSPD KiCAD"
-				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay:G5Q-1A")
 		(at 365.76 115.57 90)
 		(unit 1)
@@ -13461,91 +12993,6 @@
 			(project "BSPD KiCAD"
 				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 260.35 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27cd8e97-07a6-4e7d-a386-8e4cfac61ec6")
-		(property "Reference" "Q3"
-			(at 266.7 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 266.7 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 265.43 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 265.43 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 260.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "2N7002"
-			(at 260.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a63893be-37f0-4f8b-b119-980e1dddec6e")
-		)
-		(pin "2"
-			(uuid "a07a6c0a-0f5d-496d-ba74-d18e1fabe28a")
-		)
-		(pin "1"
-			(uuid "deed04f2-29c5-4bd9-a8fa-11a5eb3c6d83")
-		)
-		(instances
-			(project ""
-				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -16481,77 +15928,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 262.89 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9122077f-9f3b-4e3b-aaec-c0ec5c349ff5")
-		(property "Reference" "#PWR0144"
-			(at 262.89 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 263.2583 108.7056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "363d3a66-2f51-470a-b088-bb411bded7b3")
-		)
-		(instances
-			(project "Full Wiring - OCT 24"
-				(path "/845d5001-f106-4baa-9f12-f238d91eb76b/83dfbe6d-214e-4b84-b88d-ffd94565b0a1/be86ec91-1451-4cd0-a2b8-6531a5622165"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-			(project "BSPD KiCAD"
-				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
-					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Comparator:LM339")
 		(at 187.96 135.89 0)
 		(unit 2)
@@ -17541,77 +16917,6 @@
 			(project ""
 				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
 					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 289.56 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a87ee584-2c89-456b-93c0-6e8add35c7aa")
-		(property "Reference" "#PWR0134"
-			(at 289.56 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 289.9283 115.0556 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06577b52-7cfb-4049-86d0-75fba86717dc")
-		)
-		(instances
-			(project "Full Wiring - OCT 24"
-				(path "/845d5001-f106-4baa-9f12-f238d91eb76b/83dfbe6d-214e-4b84-b88d-ffd94565b0a1/be86ec91-1451-4cd0-a2b8-6531a5622165"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-			(project "BSPD KiCAD"
-				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
-					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -19915,6 +19220,881 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1G02")
+		(at 266.7 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0adbaf54-c608-421e-90f0-8a082bb1ab0c")
+		(property "Reference" "U20"
+			(at 266.7 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC1G02DBVR"
+			(at 266.7 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 266.7 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g02.pdf"
+			(at 266.7 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single NOR Gate, Low-Voltage CMOS"
+			(at 266.7 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SN74AHC1G02DBVR"
+			(at 266.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d3e35e4-8e18-4db4-8156-f75c2d8b0df7")
+		)
+		(pin "2"
+			(uuid "930e9e8c-48c4-449d-b227-94220eabb95e")
+		)
+		(pin "3"
+			(uuid "bd6f2cbc-f86a-4f5e-a30f-8d49b13ace0a")
+		)
+		(pin "4"
+			(uuid "f9e3c2a9-3f85-4ac9-85b3-78d1e8f3257b")
+		)
+		(pin "5"
+			(uuid "f840172a-2dd7-4df8-8e88-817bcedbd4a5")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1G02")
+		(at 266.7 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca081a9a-013a-413b-9f9d-81712e36e1d2")
+		(property "Reference" "U21"
+			(at 266.7 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC1G02DBVR"
+			(at 266.7 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 266.7 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g02.pdf"
+			(at 266.7 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single NOR Gate, Low-Voltage CMOS"
+			(at 266.7 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SN74AHC1G02DBVR"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e105cb87-a07b-42c9-859b-fd226fc30220")
+		)
+		(pin "2"
+			(uuid "ed686939-eaf4-4e9f-b9cd-5add600923b2")
+		)
+		(pin "3"
+			(uuid "8d663f4e-f899-495e-95ea-cc22f19917d5")
+		)
+		(pin "4"
+			(uuid "cb844640-3a28-4038-a923-db8eb80562bf")
+		)
+		(pin "5"
+			(uuid "780c04cb-6e3b-412a-9892-f7c0cf07ed26")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d40bee4-139e-41f5-966e-92e267c85f37")
+		(property "Reference" "C13"
+			(at 236.22 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.22uF"
+			(at 236.22 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kicad_Libraries:FA14X7R1H224KNU00"
+			(at 236.22 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "FA14X7R1H224KNU00"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "637ef333-789a-4a6a-aae1-931d90e0ae03")
+		)
+		(pin "2"
+			(uuid "338e46b7-7864-4421-8f88-efefdb802664")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 236.22 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97945fa8-9ba4-4e2d-b69e-bc853aa5541d")
+		(property "Reference" "R30"
+			(at 236.22 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470k"
+			(at 236.22 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 236.22 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 236.22 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "MCF 0.25W 470K"
+			(at 236.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a57936b-d328-4aa7-ad32-bc7f3ffc48bd")
+		)
+		(pin "2"
+			(uuid "7ef92820-9e95-40ce-adf1-ece6d5a3ae59")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 228.6 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d5992fc-21c4-4f23-b335-f1bfc707efb3")
+		(property "Reference" "D10"
+			(at 228.6 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 228.6 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 228.6 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 228.6 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1N4148"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bb12dac-a387-4806-8444-b503ca22a400")
+		)
+		(pin "2"
+			(uuid "416926dc-7054-4c0b-88d2-add23c79d594")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 285.75 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01c2190a-85d5-4fe7-9a6e-f3196b4010ad")
+		(property "Reference" "C14"
+			(at 285.75 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 285.75 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kicad_Libraries:FA18X7R1H104KNU00"
+			(at 285.75 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2923220.pdf"
+			(at 285.75 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 285.75 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "FA18X7R1H104KNU00"
+			(at 285.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44296922-5f5b-4d75-a53a-b5d7182c4211")
+		)
+		(pin "2"
+			(uuid "bb3b4a9f-c09e-41f7-9c01-37bfadbb06e8")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 285.75 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97f1168e-5180-45c5-b90f-f20a37b2f4a1")
+		(property "Reference" "C15"
+			(at 285.75 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 285.75 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Kicad_Libraries:FA18X7R1H104KNU00"
+			(at 285.75 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2923220.pdf"
+			(at 285.75 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 285.75 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "FA18X7R1H104KNU00"
+			(at 285.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4bbacc9-1c4a-45d9-af2e-15be630ddfea")
+		)
+		(pin "2"
+			(uuid "b6faffbf-449f-4ddf-8c2e-381d3ded2f7c")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Latch: fault >500ms -> BSPD_TRIP high -> LATCH_Q high -> U5D out low -> Q1 off -> relay open.\nStays latched until LVMS power cycle (T11.6.1). POR (C13/R30/D10) clears latch at power-up.\nReplaces 10s RC self-reset: hold time was 6.8-13.6s vs 10s minimum."
+		(exclude_from_sim no)
+		(at 264.16 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d407dd02-23cc-40c3-80fb-90f7592e05f0")
+	)
+	(label "LATCH_QN"
+		(at 251.45999999999998 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20c0cae8-1305-4adf-b191-b829c04d6fc8")
+	)
+	(label "POR"
+		(at 251.45999999999998 124.46000000000001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4700bba-d88d-4688-abe8-1d07f6d93592")
+	)
+	(label "GND"
+		(at 266.7 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b8f7b2a-417e-40a0-b70e-d07cfc109615")
+	)
+	(label "LATCH_Q"
+		(at 279.4 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5977841d-7058-4295-8662-60154e43c340")
+	)
+	(label "+5V"
+		(at 266.7 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04653436-7e02-46ca-b05e-ae212896bfff")
+	)
+	(label "LATCH_Q"
+		(at 251.45999999999998 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "500f2578-7df1-4ef0-b544-5cd1c83ff59c")
+	)
+	(label "BSPD_TRIP"
+		(at 251.45999999999998 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "595ab259-64b6-4114-9c8a-ed8c1c8d7915")
+	)
+	(label "GND"
+		(at 266.7 154.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83381274-e0ea-437a-b898-c0f2bb75209f")
+	)
+	(label "LATCH_QN"
+		(at 279.4 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e87cb64c-d110-43bf-b3d7-ca931e2742ed")
+	)
+	(label "+5V"
+		(at 266.7 134.62 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f619e977-2b3f-44a0-811e-bfcdf81b46e9")
+	)
+	(label "LATCH_Q"
+		(at 300.99 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caa71fe9-4e37-43fd-92f6-7e55b6924806")
+	)
+	(label "BSPD_TRIP"
+		(at 314.96 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fcf7a20-acc3-4dca-a14b-23b54af76ef6")
+	)
+	(label "+5V"
+		(at 236.22 124.46 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65b38848-d064-4675-a9ae-23c64aa34c33")
+	)
+	(label "POR"
+		(at 236.22 129.54 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35b05a08-b4e8-41a2-8c1c-077ec69f023a")
+	)
+	(wire
+		(pts
+			(xy 236.22 134.62) (xy 236.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be2ee81-03e6-4f17-87ff-d72279e64a9a")
+	)
+	(label "GND"
+		(at 236.22 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5d5b3bf-494e-4791-a542-dec3c0acf668")
+	)
+	(label "POR"
+		(at 228.6 139.7 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae272339-1a42-46e2-a9a8-662a64ee9bfa")
+	)
+	(label "+5V"
+		(at 285.75 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "887aa9e6-9fcb-453a-8a95-6f40eb3d32a3")
+	)
+	(label "GND"
+		(at 285.75 119.38000000000001 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a923eb2f-7950-4654-8c68-81e7446f1a72")
+	)
+	(label "+5V"
+		(at 285.75 137.16 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bc5ba07-1201-4c65-aa9d-eaf12f9ebcef")
+	)
+	(label "GND"
+		(at 285.75 142.23999999999998 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b606153f-eef8-4ea0-a66a-5c28ad97dea7")
+	)
+	(label "GND"
+		(at 228.6 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da527cc2-0e1c-41e8-b75f-c884d09cfc32")
 	)
 	(sheet_instances
 		(path "/"
