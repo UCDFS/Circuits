@@ -19628,7 +19628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 228.6 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -19774,98 +19774,7 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 285.75 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "97f1168e-5180-45c5-b90f-f20a37b2f4a1")
-		(property "Reference" "C15"
-			(at 285.75 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 285.75 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Kicad_Libraries:FA18X7R1H104KNU00"
-			(at 285.75 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2923220.pdf"
-			(at 285.75 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 285.75 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "FA18X7R1H104KNU00"
-			(at 285.75 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4bbacc9-1c4a-45d9-af2e-15be630ddfea")
-		)
-		(pin "2"
-			(uuid "b6faffbf-449f-4ddf-8c2e-381d3ded2f7c")
-		)
-		(instances
-			(project "BSPD KiCAD"
-				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(text "Latch: fault >500ms -> BSPD_TRIP high -> LATCH_Q high -> U5D out low -> Q1 off -> relay open.\nStays latched until LVMS power cycle (T11.6.1). POR (C13/R30/D10) clears latch at power-up.\nReplaces 10s RC self-reset: hold time was 6.8-13.6s vs 10s minimum."
+	)	(text "Latch: fault >500ms -> BSPD_TRIP high -> LATCH_Q high -> U5D out low -> Q1 off -> relay open.\nStays latched until LVMS power cycle (T11.6.1). POR (C13/R30/D10) clears latch at power-up.\nReplaces 10s RC self-reset: hold time was 6.8-13.6s vs 10s minimum."
 		(exclude_from_sim no)
 		(at 264.16 161.29 0)
 		(effects
@@ -20065,26 +19974,6 @@
 			(justify left bottom)
 		)
 		(uuid "a923eb2f-7950-4654-8c68-81e7446f1a72")
-	)
-	(label "+5V"
-		(at 285.75 137.16 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6bc5ba07-1201-4c65-aa9d-eaf12f9ebcef")
-	)
-	(label "GND"
-		(at 285.75 142.23999999999998 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b606153f-eef8-4ea0-a66a-5c28ad97dea7")
 	)
 	(label "GND"
 		(at 228.6 134.62 90)
