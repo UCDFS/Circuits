@@ -7744,7 +7744,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 289.56 86.36 0)
+		(at 289.56 86.36 180)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19437,7 +19437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22uF"
+		(property "Value" "10uF"
 			(at 236.22 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19448,7 +19448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Kicad_Libraries:FA14X7R1H224KNU00"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 236.22 127 0)
 			(hide yes)
 			(show_name no)
@@ -19459,7 +19459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1050.pdf"
 			(at 236.22 127 0)
 			(hide yes)
 			(show_name no)
@@ -19481,7 +19481,7 @@
 				)
 			)
 		)
-		(property "Part Number" "FA14X7R1H224KNU00"
+		(property "Part Number" "ECE-A1EKA100I"
 			(at 236.22 127 0)
 			(effects
 				(font
@@ -19527,7 +19527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "100k"
 			(at 236.22 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19571,7 +19571,7 @@
 				)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 470K"
+		(property "Part Number" "MCF 0.25W 100K"
 			(at 236.22 137.16 0)
 			(effects
 				(font
