@@ -243,7 +243,7 @@
 				)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 56K"
+		(property "Part Number" "MCF 0.25W 39K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1964,7 +1964,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1976,7 +1976,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1988,7 +1988,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "(MDD) Jiangsu Yutai Elec"
+		(property "Manufacturer" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2001,7 +2001,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "1N4001"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2014,7 +2014,7 @@
 				)
 			)
 		)
-		(property "Store" "LCSC"
+		(property "Store" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2027,7 +2027,7 @@
 				)
 			)
 		)
-		(property "Store Part Number" "C2456"
+		(property "Store Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7605,7 +7605,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13599,6 +13599,17 @@
 				)
 			)
 		)
+		(property "Part Number" "2N7002"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92dfaf16-674e-4c36-b97a-9f4378a90185")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/121a0e67-b983-4437-bf6d-d6944af7771e")
 		(sheetname "/")
@@ -18990,7 +19001,7 @@
 				)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "100k"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "076f7945-9439-41e3-951a-7fd49e43c229")
@@ -19001,7 +19012,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3436052.pdf?_gl=1*6igt67*_gcl_au*OTY1ODIxNDc3LjE3MzU0MDg2OTk."
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19013,7 +19024,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19077,7 +19088,7 @@
 				)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 470K"
+		(property "Part Number" "MCF 0.25W 100K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20219,7 +20230,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24473,7 +24484,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g02.pdf?ts=1738520903275"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g02.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -24806,7 +24817,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g02.pdf?ts=1738520903275"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g02.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
