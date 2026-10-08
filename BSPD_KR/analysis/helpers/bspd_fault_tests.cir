@@ -1,0 +1,159 @@
+* BSPD_KR sensor-fault tests (schematic v06). Car idle: current sensor 2.5 V (0 A), brakes 0.6 V.
+* Sensors ramp up with power (or TON later). Each scenario changes sensor values to a fault value from TF to TE; checks the shutdown circuit (sdc)
+* 1 s after TF (1 = closed / car can drive, 0 = open / tripped) and how long the trip took.
+* Run: ngspice -b bspd_fault_tests.cir   (trip_at = time the relay opened, in s; fault starts at 1.0 s)
+.param TF=1.0 TE=3.0 TON=0
+.param CUR0=2.5 BF0=0.6 BR0=0.6
+.param CURF=2.5 BFF=0.6 BRF=0.6
+VGLV glv 0 PWL(0 0 5m 12)
+VCUR cur 0 PWL(0 0 {TON+1m} {CUR0} {TF} {CUR0} {TF+1m} {CURF} {TE} {CURF} {TE+1m} {CUR0})
+VBF  bf  0 PWL(0 0 {TON+1m} {BF0} {TF} {BF0} {TF+1m} {BFF} {TE} {BFF} {TE+1m} {BF0})
+VBR  br  0 PWL(0 0 {TON+1m} {BR0} {TF} {BR0} {TF+1m} {BRF} {TE} {BRF} {TE+1m} {BR0})
+.include bspd_core.inc
+.control
+* front_unplugged: expect trip
+alterparam curf=2.5
+alterparam bff=0
+alterparam brf=0.6
+alterparam te=3.0
+alterparam ton=0
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT front_unplugged (expect trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+* rear_unplugged: expect trip
+alterparam curf=2.5
+alterparam bff=0.6
+alterparam brf=0
+alterparam te=3.0
+alterparam ton=0
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT rear_unplugged (expect trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+* current_unplugged: expect trip
+alterparam curf=0
+alterparam bff=0.6
+alterparam brf=0.6
+alterparam te=3.0
+alterparam ton=0
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT current_unplugged (expect trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+* front_short_to_5V: expect trip
+alterparam curf=2.5
+alterparam bff=5.0
+alterparam brf=0.6
+alterparam te=3.0
+alterparam ton=0
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT front_short_to_5V (expect trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+* rear_short_to_5V: expect trip
+alterparam curf=2.5
+alterparam bff=0.6
+alterparam brf=5.0
+alterparam te=3.0
+alterparam ton=0
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT rear_short_to_5V (expect trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+* current_short_to_5V: expect trip
+alterparam curf=5.0
+alterparam bff=0.6
+alterparam brf=0.6
+alterparam te=3.0
+alterparam ton=0
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT current_short_to_5V (expect trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+* front_glitch_50ms: expect no trip
+alterparam curf=2.5
+alterparam bff=0
+alterparam brf=0.6
+alterparam te=1.05
+alterparam ton=0
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT front_glitch_50ms (expect no trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+* front_glitch_120ms: expect no trip
+alterparam curf=2.5
+alterparam bff=0
+alterparam brf=0.6
+alterparam te=1.12
+alterparam ton=0
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT front_glitch_120ms (expect no trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+* hard_braking_only_4V: expect no trip
+alterparam curf=2.5
+alterparam bff=4.0
+alterparam brf=4.0
+alterparam te=2.0
+alterparam ton=0
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT hard_braking_only_4V (expect no trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+* brake_full_scale_4V5: expect no trip
+alterparam curf=2.5
+alterparam bff=4.5
+alterparam brf=4.5
+alterparam te=2.0
+alterparam ton=0
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT brake_full_scale_4V5 (expect no trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+* sensors_valid_200ms_late: expect no trip
+alterparam curf=2.5
+alterparam bff=0.6
+alterparam brf=0.6
+alterparam te=3.0
+alterparam ton=0.2
+reset
+tran 200u 2.6 0 500u uic
+meas tran sdc_before FIND v(sdc) AT=0.95
+meas tran sdc_after FIND v(sdc) AT=2.0
+meas tran fault_min MIN v(fault) FROM=0.5 TO=2.6
+echo "RESULT sensors_valid_200ms_late (expect no trip): sdc_closed_before=$&sdc_before sdc_closed_1s_after=$&sdc_after fault_n_min=$&fault_min"
+meas tran trip_at WHEN v(sdc)=0.5 FALL=1
+quit
+.endc
+.end

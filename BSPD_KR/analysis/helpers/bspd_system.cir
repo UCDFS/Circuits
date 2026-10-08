@@ -1,91 +1,13 @@
-* BSPD_KR full-chain behavioral sim (post-fix schematic 598df90/7e13db8)
-.param VTL=2.5
+* BSPD_KR full-chain sim: implausibility timer, latch and power cycle (schematic v06)
+* Run: ngspice -b bspd_system.cir
 .param TRAMP=5m
-.param VTH_I=2.66 VTH_BF=2.8 VTH_BR=2.8
 * GLV 12V: on at t=0, power-cycled 5.0-5.2 s
 VGLV glv 0 PWL(0 0 {TRAMP} 12 5.0 12 5.005 0 5.2 0 {5.2+TRAMP} 12)
-* 7805 behavioral + 10u output cap
-B7805 v5raw 0 V = (V(glv) > 7.5) ? 5 : (V(glv) > 0 ? V(glv)*5/7.5 : 0)
-R7805 v5raw vcc 1
-C7805 vcc 0 10u
-Rload vcc 0 1k
-* sensors: fault A = 300 ms at t=1.0 (must NOT trip), fault B = 1 s at t=2.0 (must trip), clears at 3.0
+* sensors: implausibility A = 300 ms at t=1.0 (must NOT trip), B = 1 s at t=2.0 (must trip), clears at 3.0
 VCUR cur 0 PWL(0 2.5 1.0 2.5 1.001 2.9 1.3 2.9 1.301 2.5 2.0 2.5 2.001 2.9 3.0 2.9 3.001 2.5)
 VBF  bf  0 PWL(0 0.6 1.0 0.6 1.001 3.5 1.3 3.5 1.301 0.6 2.0 0.6 2.001 3.5 3.0 3.5 3.001 0.6)
 VBR  br  0 PWL(0 0.6 1.0 0.6 1.001 3.5 1.3 3.5 1.301 0.6 2.0 0.6 2.001 3.5 3.0 3.5 3.001 0.6)
-R1 cur 0 100k
-R4 cur nA 1k
-R2 bf 0 100k
-R5 bf nB 1k
-R3 br 0 100k
-R6 br nC 1k
-* min-voltage references 0.4545 V
-R7 vcc vrefI 100k
-R8 vrefI 0 10k
-R9 vcc vrefF 100k
-R10 vrefF 0 10k
-R11 vcc vrefR 100k
-R12 vrefR 0 10k
-* pots (wiper as fraction of vcc)
-BRV1 rv1 0 V = V(vcc)*{VTH_I/5}
-BRV2 rv2 0 V = V(vcc)*{VTH_BF/5}
-BRV3 rv3 0 V = V(vcc)*{VTH_BR/5}
-* LM339 open-collector: switch to GND closes when (in-) > (in+)
-.model CMP SW(RON=50 ROFF=1G VT=0 VH=2m)
-S5A net2 0 nA rv1 CMP
-S5B net2 0 vrefI nA CMP
-R13 vcc net2 10k
-S19A net1 0 nB rv2 CMP
-S19B net1 0 vrefF nB CMP
-R14 vcc net1 10k
-S19D net22 0 nC rv3 CMP
-S19C net22 0 vrefR nC CMP
-R15 vcc net22 10k
-* U18 AND, U6 NOR
-B18 and_o 0 V = ((V(net1) > {VTL}) && (V(net22) > {VTL})) ? V(vcc) : 0
-R18 and_o and_y 100
-C18 and_y 0 100p
-B6 nor_o 0 V = ((V(net2) < {VTL}) && (V(and_y) < {VTL})) ? V(vcc) : 0
-R6o nor_o nor_y 100
-C6 nor_y 0 100p
-* 500 ms timer: R20 39k, C10 10u, ref 3.0 V, U5C
-R20 nor_y t500 39k
-C10 t500 0 10u
-R22 vcc vref3 10k
-R23 vref3 0 15k
-S5C net7 0 t500 vref3 CMP
-R26 vcc net7 10k
-* U9 inverter -> BSPD_TRIP
-B9 inv_o 0 V = (V(net7) < {VTL}) ? V(vcc) : 0
-R9o inv_o trip 100
-C9 trip 0 100p
-* SR latch U21 NOR(Q,TRIP)=QN ; U20 NOR(QN,POR)=Q
-B21 qn_o 0 V = ((V(q) < {VTL}) && (V(trip) < {VTL})) ? V(vcc) : 0
-R21o qn_o qn 100
-C21 qn 0 100p
-B20 q_o 0 V = ((V(qn) < {VTL}) && (V(por) < {VTL})) ? V(vcc) : 0
-R20o q_o q 100
-C20 q 0 100p
-* POR: C13 10u vcc->por, R30 100k, D10 clamp
-C13 vcc por 10u
-R30 por 0 100k
-D10 0 por DCLAMP
-.model DCLAMP D(IS=1e-12)
-* U5D: in-=q, in+=1.02 V -> Q1 gate (R27 pull-up)
-R24 vcc vref1 39k
-R25 vref1 0 10k
-S5D gate 0 q vref1 CMP
-R27 vcc gate 10k
-* Q1 2N7002 + relay coil 12 V/400 ohm + D9 flyback
-M1 coil gate 0 0 MN2N7002
-.model MN2N7002 NMOS(LEVEL=1 VTO=1.5 KP=0.3 LAMBDA=0.01)
-L1 glv coilL 20m
-Rcoil coilL coilx 400
-Vsense coilx coil 0
-D9 coil glv DFLY
-.model DFLY D(IS=1e-9)
-* SDC contact closed (1) when coil current > 20 mA
-Bsdc sdc 0 V = (i(Vsense) > 20m) ? 1 : 0
+.include bspd_core.inc
 .control
 tran 100u 6 0 200u uic
 meas tran relay_on_after_poweron WHEN v(sdc)=0.5 RISE=1
@@ -99,6 +21,7 @@ meas tran sdc_2s_after_clear FIND v(sdc) AT=4.9
 meas tran relay_on_after_powercycle WHEN v(sdc)=0.5 RISE=2
 meas tran por_peak_at_poweron MAX v(por) FROM=0 TO=0.2
 meas tran por_time_above_vtl WHEN v(por)=2.5 FALL=1
+meas tran fault_n_min MIN v(fault) FROM=0.3 TO=4.9
 quit
 .endc
 .end

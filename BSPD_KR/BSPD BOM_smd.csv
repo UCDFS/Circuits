@@ -1,6 +1,13 @@
 Reference,Value,Part Number,Datasheet,Footprint,Qty,DNP
+C15,1uF,CL21B105KBFNNNE,,Capacitor_SMD:C_0805_2012Metric,1,
+C16,0.1uF,CL21B104KBCNNNC,,Capacitor_SMD:C_0805_2012Metric,1,
 Q1,2N7002,2N7002,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF,Package_TO_SOT_SMD:SOT-23,1,
+R31,10k,RC0805FR-0710KL,,Resistor_SMD:R_0805_2012Metric,1,
+R32,100k,RC0805FR-07100KL,,Resistor_SMD:R_0805_2012Metric,1,
+"R33,R35",1k,RC0805FR-071KL,,Resistor_SMD:R_0805_2012Metric,2,
+"R34,R36",18k,RC0805FR-0718KL,,Resistor_SMD:R_0805_2012Metric,2,
 U4,LM7805MPX/NOPB,LM7805MPX/NOPB,https://www.ti.com/lit/gpn/lm7800,Package_TO_SOT_SMD:SOT-223-3_TabPin2,1,
 "U6,U20,U21",SN74AHC1G02DBVR,SN74AHC1G02DBVR,"https://www.ti.com/lit/ds/symlink/sn74ahc1g02.pdf,https://www.ti.com/lit/ds/symlink/sn74ahc1g02.pdf?ts=1738520903275",Package_TO_SOT_SMD:SOT-23-5,3,
 U9,SN74LVC1G04DBVT,SN74LVC1G04DBVT,https://www.ti.com/lit/gpn/sn74lvc1g04,Package_TO_SOT_SMD:SOT-23-5,1,
 U18,SN74AHCT1G08DBVR,SN74AHCT1G08DBVR,https://www.ti.com/lit/gpn/sn74ahct1g08,Package_TO_SOT_SMD:SOT-23-5,1,
+"U22,U23",LM393,LM393DR,https://www.ti.com/lit/ds/symlink/lm393.pdf,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,2,

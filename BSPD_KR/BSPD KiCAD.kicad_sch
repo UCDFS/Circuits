@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Brake System Plausibility Device")
-		(date "2024-10-21")
-		(rev "v05.1")
+		(date "2026-10-08")
+		(rev "v06")
 		(company "UCD Formula Student")
 		(comment 1 "Author: Nebojša Cvetković")
 		(comment 2 "Updated by: Keelan Reilly")
@@ -3534,6 +3534,302 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Comparator:LM393"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 3.81 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM393"
+				(at 6.35 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp open collector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM393_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM393_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM393_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Current sensor potentiometer should be set to whatever sensor outputs at 16A\n\nV_threshold = 2.5 V + (15.9 A × 0.010 V/A) ≈ 2.66 V\n\nor better:\n\nTP4 = zero-current sensor voltage + 0.16 V\n\n"
 		(exclude_from_sim no)
@@ -3686,7 +3982,7 @@
 		)
 		(uuid "a5bc2b0f-1725-4778-a8a0-128233ef5152")
 	)
-	(text "Anything below 0.455 volts is invalid\n\n20 bar corresponds 2.8V\n25 bar corresponds to 3.36V\n30 bar correspons to 3.93v"
+	(text "Below 0.24 V or above 4.74 V = sensor fault (trips the BSPD)\n\n20 bar corresponds 2.8V\n25 bar corresponds to 3.36V\n30 bar correspons to 3.93v"
 		(exclude_from_sim no)
 		(at 78.232 137.414 0)
 		(effects
@@ -3825,12 +4121,6 @@
 		(uuid "19b0959e-a79b-43b2-a5ad-525ced7e9131")
 	)
 	(junction
-		(at 199.39 177.8)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "1c18d1e5-e20d-45aa-b65c-a2b6f2379d3e")
-	)
-	(junction
 		(at 327.66 110.49)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -3945,12 +4235,6 @@
 		(uuid "8c1605f9-6c91-4701-96bf-e753661d5e23")
 	)
 	(junction
-		(at 198.12 86.36)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "970e0f64-111f-41e3-9f5a-fb0d0f6fa101")
-	)
-	(junction
 		(at 207.01 111.76)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -3985,12 +4269,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "b4300db7-1220-431a-b7c3-2edbdf8fa6fc")
-	)
-	(junction
-		(at 198.12 128.27)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "b6135480-ace6-42b2-9c47-856ef57cded1")
 	)
 	(junction
 		(at 237.49 49.53)
@@ -4393,16 +4671,6 @@
 			(type solid)
 		)
 		(uuid "1e2fed30-4718-47cc-a5ab-5336b55b5155")
-	)
-	(wire
-		(pts
-			(xy 198.12 128.27) (xy 198.12 135.89)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "1ed9be09-c994-41a5-8024-67aa80bc8f9c")
 	)
 	(wire
 		(pts
@@ -5056,16 +5324,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 177.8) (xy 199.39 185.42)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "6487bdde-e382-4724-9879-65277008f4a5")
-	)
-	(wire
-		(pts
 			(xy 205.74 127) (xy 205.74 128.27)
 		)
 		(stroke
@@ -5403,16 +5661,6 @@
 			(type solid)
 		)
 		(uuid "8df5a7e5-a645-4813-8b32-aa1f36d6e336")
-	)
-	(wire
-		(pts
-			(xy 198.12 86.36) (xy 198.12 93.98)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "8e51eef8-5a8a-47d4-98e5-be632b857f39")
 	)
 	(wire
 		(pts
@@ -8988,7 +9236,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 173.99 102.743 90)
 			(effects
 				(font
@@ -9023,7 +9271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 10K"
+		(property "Part Number" "MCF 0.25W 5K1"
 			(at 173.99 97.79 0)
 			(effects
 				(font
@@ -10044,7 +10292,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 173.99 144.653 90)
 			(effects
 				(font
@@ -10079,7 +10327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 10K"
+		(property "Part Number" "MCF 0.25W 5K1"
 			(at 173.99 139.7 0)
 			(effects
 				(font
@@ -12616,7 +12864,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 175.26 194.183 90)
 			(effects
 				(font
@@ -12651,7 +12899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MCF 0.25W 10K"
+		(property "Part Number" "MCF 0.25W 5K1"
 			(at 175.26 189.23 0)
 			(effects
 				(font
@@ -19984,6 +20232,2136 @@
 			(justify left bottom)
 		)
 		(uuid "da527cc2-0e1c-41e8-b75f-c884d09cfc32")
+	)
+	(label "SENS_CUR"
+		(at 180.34 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94ddba5e-f805-4556-a670-9f8d169611ff")
+	)
+	(label "SENS_FRONT"
+		(at 180.34 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "221e2d2e-77c5-4e65-8345-87c3b532fcfc")
+	)
+	(label "SENS_REAR"
+		(at 181.61 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c11fb21-a723-4a86-8590-e2a5366fb94b")
+	)
+	(label "REF_1V0"
+		(at 300.99 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92ce2c80-ba94-4474-9f29-93102d662cd9")
+	)
+	(label "TRIP_REQ_N"
+		(at 316.23 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e35f69fe-2880-41ee-8048-0e490ac04751")
+	)
+	(label "FAULT_N"
+		(at 198.12 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb7d73c3-02e5-49be-bc1f-83642b111abd")
+	)
+	(label "FAULT_N"
+		(at 198.12 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bc4b2d9-bd06-4d8c-90f2-c3c5822de56d")
+	)
+	(label "FAULT_N"
+		(at 199.39 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4d2185c-e731-4ba2-be20-6e995b07c87b")
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 149.86 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e292eab-7c8d-40e0-962b-225b7eb17f2a")
+		(property "Reference" "U22"
+			(at 149.86 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 149.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 149.86 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 149.86 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Differential Comparators, SOIC-8"
+			(at 149.86 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM393DR"
+			(at 149.86 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5f0d57b-eca7-457d-8700-2dd3d5c40ddb")
+		)
+		(pin "2"
+			(uuid "0f24aaa3-b36c-46b5-943f-c28b9e442606")
+		)
+		(pin "3"
+			(uuid "57c6b94a-d852-4d75-9f28-f7322c56e22b")
+		)
+		(pin "4"
+			(uuid "44d3e948-f71e-4306-9486-aebcf665555c")
+		)
+		(pin "5"
+			(uuid "65af884e-b492-41f9-9f41-68f0742647bb")
+		)
+		(pin "6"
+			(uuid "3ebb95e1-409a-4e13-bbf8-847bd82ee8de")
+		)
+		(pin "7"
+			(uuid "71189f35-9d86-429f-8670-1d8d6af0d3f9")
+		)
+		(pin "8"
+			(uuid "ade0a806-d55f-492b-9a47-c59d6b22ed82")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "OVR_REF_CUR"
+		(at 142.24 220.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd0a28a8-6e92-4881-8823-b8b0554c4451")
+	)
+	(label "SENS_CUR"
+		(at 142.24 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21f4dde7-521d-46d9-b37b-68c4c57fb53f")
+	)
+	(label "FAULT_N"
+		(at 157.48 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28fd99d9-f65a-4717-80a9-99a27af65bec")
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 185.42 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f63fe64-9e14-4720-b664-09067a2d19d7")
+		(property "Reference" "U23"
+			(at 185.42 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 185.42 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 185.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 185.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Differential Comparators, SOIC-8"
+			(at 185.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM393DR"
+			(at 185.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b830866e-6bce-4783-9247-016e0a7399e6")
+		)
+		(pin "2"
+			(uuid "8da77a7f-608d-4e4a-9af9-b4ee72558f26")
+		)
+		(pin "3"
+			(uuid "47e329df-a837-4aec-80e1-7a655fcb9a03")
+		)
+		(pin "4"
+			(uuid "f92ae997-53f3-4bf7-a49e-c206e0c5325d")
+		)
+		(pin "5"
+			(uuid "25512ba0-3638-4827-86e6-4110a044ca01")
+		)
+		(pin "6"
+			(uuid "2520ac30-1106-4ad8-9c58-305dbcea2905")
+		)
+		(pin "7"
+			(uuid "f1d35838-026d-490c-9539-6c060924e3d0")
+		)
+		(pin "8"
+			(uuid "7810eaa1-1cc8-4337-9196-0e4937b70c6f")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "U23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "OVR_REF_BRK"
+		(at 177.8 220.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f2ef5e1-f202-45e8-a540-01a7e124d22d")
+	)
+	(label "SENS_FRONT"
+		(at 177.8 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27353558-db44-42f8-9b07-0eda6bbb7116")
+	)
+	(label "FAULT_N"
+		(at 193.04 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8105805e-5b1d-4456-a0e1-d7cbbf882ff3")
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 220.98 223.52 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "037844a7-43c4-4555-b174-ffecbb7c9dc7")
+		(property "Reference" "U23"
+			(at 220.98 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 220.98 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 220.98 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 220.98 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Differential Comparators, SOIC-8"
+			(at 220.98 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM393DR"
+			(at 220.98 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52bb0a06-eacd-411f-8915-f2d6227a79ec")
+		)
+		(pin "2"
+			(uuid "b2e79f84-1912-4659-961b-9867eb6c1fe8")
+		)
+		(pin "3"
+			(uuid "7bb56de6-0991-45a6-ad63-b6e20abc2c5c")
+		)
+		(pin "4"
+			(uuid "1a458c4f-2aca-4075-9236-7b176c8d5821")
+		)
+		(pin "5"
+			(uuid "dda9d134-f3ca-48d6-95f4-1e2b9b6099c6")
+		)
+		(pin "6"
+			(uuid "2f9a1d95-0228-423b-8c8d-e69b54f98c0f")
+		)
+		(pin "7"
+			(uuid "a7f752df-1e49-4037-b862-1ba9fc0b5105")
+		)
+		(pin "8"
+			(uuid "df30fd16-7069-4420-bcc3-c3fdabe96147")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "U23")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(label "OVR_REF_BRK"
+		(at 213.36 220.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f18130d5-93a8-4ae4-8d09-6b3132c59392")
+	)
+	(label "SENS_REAR"
+		(at 213.36 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4260946-e4e3-40ef-9403-6e43cc201123")
+	)
+	(label "FAULT_N"
+		(at 228.6 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8baf3729-c197-4579-92ef-48fba852582f")
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 269.24 223.52 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "491e8407-250e-4ccc-9bb4-72613d01024d")
+		(property "Reference" "U22"
+			(at 269.24 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 269.24 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 269.24 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 269.24 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Differential Comparators, SOIC-8"
+			(at 269.24 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM393DR"
+			(at 269.24 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18c400d3-5fb8-48e6-b249-59b4038f6378")
+		)
+		(pin "2"
+			(uuid "970e3d36-a603-4bd2-a181-c34aefe1b03c")
+		)
+		(pin "3"
+			(uuid "c7c08e56-e4bf-49f9-9769-9364dec22088")
+		)
+		(pin "4"
+			(uuid "f99f9986-8813-4783-91f7-cec2fa04a9e5")
+		)
+		(pin "5"
+			(uuid "675b1ee9-f8e9-4550-aaa7-42d80b08cd54")
+		)
+		(pin "6"
+			(uuid "42482545-521e-48f3-996e-85a69f0afc68")
+		)
+		(pin "7"
+			(uuid "b55d99c4-a2a2-41c5-b510-4950eb345899")
+		)
+		(pin "8"
+			(uuid "fa72f531-3cb0-4ac2-8f5f-6a76a13f8fde")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "U22")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(label "FAULT_F"
+		(at 261.62 220.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b08bebe-54f7-47cf-b986-84bfff71a5a1")
+	)
+	(label "REF_1V0"
+		(at 261.62 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e43f43fb-3307-4dc4-a38f-2fc7cf6571f9")
+	)
+	(label "TRIP_REQ_N"
+		(at 276.86 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "319d0174-cede-4e46-9b3d-3eb765081da2")
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 149.86 243.84 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e31935f-d532-4e17-9da9-40de4c72fd2e")
+		(property "Reference" "U22"
+			(at 149.86 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 152.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 149.86 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 149.86 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Differential Comparators, SOIC-8"
+			(at 149.86 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM393DR"
+			(at 149.86 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "553e9e11-d1b5-44ef-a414-c7c868be3887")
+		)
+		(pin "2"
+			(uuid "6ffa1225-7f08-43ec-ae25-b16a18998ba7")
+		)
+		(pin "3"
+			(uuid "b603722f-b04a-4b21-b3d3-7588765e08af")
+		)
+		(pin "4"
+			(uuid "3ac9325d-0f36-4463-adb0-688242f37346")
+		)
+		(pin "5"
+			(uuid "bd748199-8782-4f32-b259-6bdce1f1c92c")
+		)
+		(pin "6"
+			(uuid "58826c22-f8d9-4e49-9ce8-34f5190e1a09")
+		)
+		(pin "7"
+			(uuid "4ebf83ef-0e59-4c53-966a-e17ac3ed2fe2")
+		)
+		(pin "8"
+			(uuid "9d28726f-0c56-4b7b-b0ec-23632d3b6834")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "U22")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(global_label "GLV+"
+		(shape input)
+		(at 142.24 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "156dc802-d67e-4419-9112-756b64f7773b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "38aaf905-06f9-4034-bc61-7477bcf81069")
+		(property "Reference" "#PWR0156"
+			(at 157.48 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a28753bd-a77a-4880-9240-67e8ec8da5b2")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 149.86 256.54 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c8e4dfd-6ca4-4eb0-a0c2-78dc352f0b66")
+		(property "Reference" "U23"
+			(at 149.86 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 152.4 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 149.86 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 149.86 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Differential Comparators, SOIC-8"
+			(at 149.86 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM393DR"
+			(at 149.86 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca8813f7-aed7-4d35-b841-d51277592c51")
+		)
+		(pin "2"
+			(uuid "23193ac9-79f1-45a8-a4b8-f6422443b04c")
+		)
+		(pin "3"
+			(uuid "4e59cd49-ddfa-40ec-8223-9f203335e767")
+		)
+		(pin "4"
+			(uuid "156b6d80-dd1b-4080-844e-f329e4884d2f")
+		)
+		(pin "5"
+			(uuid "a1979bee-027e-499c-a23e-6d9e15713590")
+		)
+		(pin "6"
+			(uuid "134048d4-e10d-442f-a2d9-49d467ffd2d2")
+		)
+		(pin "7"
+			(uuid "bc978ea3-132e-4fc6-b1d7-2b5ec8363389")
+		)
+		(pin "8"
+			(uuid "2a7ba38e-7bf3-4cac-a2d7-40763d553329")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "U23")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(global_label "GLV+"
+		(shape input)
+		(at 142.24 259.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6f5cdcd-5627-4295-be2a-b1ae8ed3cb27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb299652-0c48-43a0-80c6-11ec45a06d29")
+		(property "Reference" "#PWR0157"
+			(at 157.48 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ea9d7ef-d3b3-47c3-91be-89970e96011d")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 182.88 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e8eff8a-461c-4f2c-b1ed-b102a9e4aa50")
+		(property "Reference" "R31"
+			(at 184.15 240.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 184.15 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 182.88 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-0710KL"
+			(at 182.88 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34ade648-473a-4640-a7f6-fa3e58d4042d")
+		)
+		(pin "2"
+			(uuid "a992fe81-d9a9-4376-b847-042e5a3e7454")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 182.88 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f26c8fe-a33d-45dd-8594-8daa8bb458ab")
+		(property "Reference" "#PWR0158"
+			(at 182.88 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 182.88 235.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6122b67-e7c2-444a-8fbc-3a94c5e5e632")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "FAULT_N"
+		(at 182.88 243.84 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa238ba1-2a06-42ed-92c6-ae85d50d278a")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 198.12 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c4e4236-3927-4cbb-824d-73aadbfcd9ea")
+		(property "Reference" "R32"
+			(at 199.39 240.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 199.39 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 198.12 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-07100KL"
+			(at 198.12 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8cc63ba-1574-47ac-8941-c81bbbd019d8")
+		)
+		(pin "2"
+			(uuid "e337fe23-c80e-4dd6-b1b1-911abc737682")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "FAULT_N"
+		(at 198.12 238.76 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "282a78c8-c3bf-4389-8f80-fd697bc4dff4")
+	)
+	(label "FAULT_F"
+		(at 198.12 243.84 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c0454e3-c10c-40d0-ba6e-442a4ae453cf")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 213.36 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd5938d6-809c-4532-96bd-72d756055b2f")
+		(property "Reference" "C15"
+			(at 214.63 240.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 214.63 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 213.36 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B105KBFNNNE"
+			(at 213.36 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9cf9138-288c-4b91-aad5-12c06bf63138")
+		)
+		(pin "2"
+			(uuid "1ec3b174-53f5-4062-b742-192dbf775fd5")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "FAULT_F"
+		(at 213.36 238.76 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "859a5dfe-9993-409e-9e80-845a0a3d6f4a")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fc1c9e1-8e3d-481f-a3a7-17b978a961dd")
+		(property "Reference" "#PWR0159"
+			(at 213.36 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9721a5fe-caae-41e9-9bb5-4ab3c4bdee72")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 233.68 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "485b2f81-7859-4584-b7fd-508dfb07370a")
+		(property "Reference" "R33"
+			(at 234.95 240.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 234.95 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 233.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-071KL"
+			(at 233.68 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a662e6d-456b-4f77-96ea-c96e0c3468ee")
+		)
+		(pin "2"
+			(uuid "5b475ec2-320b-4d1c-9132-d73973c42bd8")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 233.68 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b35095f5-eaf8-480c-ab31-b103f7422a9c")
+		(property "Reference" "#PWR0160"
+			(at 233.68 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 233.68 235.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8d37d7a-758d-4043-983c-68eb4ec5c32d")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "OVR_REF_CUR"
+		(at 233.68 243.84 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b952f3f-a905-4454-9c06-062aa14e5d01")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 248.92 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eec85bcd-3d55-45a2-a7e9-59d9d6effd6b")
+		(property "Reference" "R34"
+			(at 250.19 240.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18k"
+			(at 250.19 243.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 248.92 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-0718KL"
+			(at 248.92 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb928c09-38ab-4d54-a35f-5c566d4ac693")
+		)
+		(pin "2"
+			(uuid "d4bda8b7-dfce-4ee9-81c4-c35c38c9f258")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "OVR_REF_CUR"
+		(at 248.92 238.76 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "300d47ce-c750-4422-bcfb-a417b76ce130")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00fc3010-38b1-439e-ad30-1fa02643f8d9")
+		(property "Reference" "#PWR0161"
+			(at 248.92 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b49ec2c-6da8-4234-8344-a4fc80967cc5")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 167.64 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2538d114-f9fb-465a-a791-74caf9bf26c1")
+		(property "Reference" "C16"
+			(at 168.91 255.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 168.91 258.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 167.64 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B104KBCNNNC"
+			(at 167.64 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6688ce8-80fe-4d7b-99e8-8d72c82c8f09")
+		)
+		(pin "2"
+			(uuid "e4c69bc2-dc63-4160-8e1e-35f13858a7c7")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "GLV+"
+		(shape input)
+		(at 167.64 254 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c3300dd-38c8-49c3-a83c-81b46d4070c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "70568967-e469-4810-9171-ff340fabf152")
+		(property "Reference" "#PWR0162"
+			(at 167.64 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b6580b8-4e89-4e61-9874-c5680e9c8694")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 182.88 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c001b2b-6093-4dc4-9e9d-e83690a2c174")
+		(property "Reference" "R35"
+			(at 184.15 255.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 184.15 258.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 182.88 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-071KL"
+			(at 182.88 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d590d11-8009-4d8d-87e2-babbfa41e7bc")
+		)
+		(pin "2"
+			(uuid "d2ec6c54-6a6a-4150-9915-556e46850cf2")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 182.88 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "69c1d969-a223-4618-92a1-cde4ab630e6a")
+		(property "Reference" "#PWR0163"
+			(at 182.88 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 182.88 250.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8da616e4-8e6d-4b1b-a6f3-95ba53a24208")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "OVR_REF_BRK"
+		(at 182.88 259.08 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "193ac973-2bce-4e18-8be1-3ff79bb1faa4")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 198.12 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08948f9a-e8c4-4210-9275-623a2784d49a")
+		(property "Reference" "R36"
+			(at 199.39 255.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18k"
+			(at 199.39 258.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 198.12 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-0718KL"
+			(at 198.12 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b0a98cc-fa87-4639-af35-b561beb413f9")
+		)
+		(pin "2"
+			(uuid "4724b870-754c-454a-80be-842b50e77abd")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "OVR_REF_BRK"
+		(at 198.12 254 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f879a6c-8ebc-43de-8c21-a704f015e818")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "181e982e-72da-477b-8f48-7129bc52a80e")
+		(property "Reference" "#PWR0164"
+			(at 198.12 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8229ea8-2f4b-4a46-96ef-75c8185bac52")
+		)
+		(instances
+			(project "BSPD KiCAD"
+				(path "/a06e8e78-f567-42e6-b645-013b1073ca31"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Sensor Fault Detection (T11.9.2): a sensor reading below 0.24 V (open circuit, short to GND) or above\n4.74 V (short to supply) pulls FAULT_N low (under-range: U5B, U19B, U19D; over-range: U22A, U23A, U23B).\nR32/C15 debounce it (~0.17 s), then U22B pulls TRIP_REQ_N low -> U9 -> BSPD_TRIP -> latch (until LVMS power cycle).\nOVR_REF = 5 V x 18k/19k = 4.74 V. U22/U23 are SOIC-8 on the bottom side, inside the U5/U19 footprints;\nU22 shares U5 supply pins and decoupling cap C7, C16 decouples U23."
+		(exclude_from_sim no)
+		(at 128.27 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46f1d0ea-89b1-4a0d-ba42-28804626dab7")
 	)
 	(sheet_instances
 		(path "/"
