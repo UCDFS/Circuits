@@ -66,7 +66,7 @@ C21 qn 0 100p
 B20 q_o 0 V = ((V(qn) < {VTL}) && (V(por) < {VTL})) ? V(vcc) : 0
 R20o q_o q 100
 C20 q 0 100p
-* POR: C13 220n vcc->por, R30 470k, D10 clamp
+* POR: C13 10u vcc->por, R30 100k, D10 clamp
 C13 vcc por 10u
 R30 por 0 100k
 D10 0 por DCLAMP
@@ -98,7 +98,7 @@ meas tran sdc_after_fault_cleared FIND v(sdc) AT=3.5
 meas tran sdc_2s_after_clear FIND v(sdc) AT=4.9
 meas tran relay_on_after_powercycle WHEN v(sdc)=0.5 RISE=2
 meas tran por_peak_at_poweron MAX v(por) FROM=0 TO=0.2
-meas tran por_time_above_VTL WHEN v(por)={VTL} FALL=1
+meas tran por_time_above_vtl WHEN v(por)=2.5 FALL=1
 quit
 .endc
 .end
