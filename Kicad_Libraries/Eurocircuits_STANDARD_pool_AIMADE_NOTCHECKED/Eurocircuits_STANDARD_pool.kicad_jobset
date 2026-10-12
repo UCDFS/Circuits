@@ -1,0 +1,85 @@
+{
+  "jobs": [
+    {
+      "id": "5c6f7da1-136d-4a91-931f-872801570626",
+      "type": "pcb_export_gerbers",
+      "description": "Gerber X2 + job file: copper, soldermask, legend, outline (Eurocircuits)",
+      "settings": {
+        "description": "",
+        "layers": [
+          "F.Cu",
+          "B.Cu",
+          "F.Mask",
+          "B.Mask",
+          "F.SilkS",
+          "B.SilkS",
+          "Edge.Cuts"
+        ],
+        "layers_to_include_on_all_layers": [
+          "Edge.Cuts"
+        ],
+        "mirror": false,
+        "black_and_white": false,
+        "negative": false,
+        "plot_footprint_values": true,
+        "plot_ref_des": true,
+        "hide_dnp_footprints_on_fab_layers": false,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "plot_pad_numbers": false,
+        "plot_drawing_sheet": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false,
+        "drill_shape": "none",
+        "drawing_sheet": "",
+        "check_zones": true,
+        "variant": "",
+        "include_netlist_attributes": true,
+        "use_x2_format": true,
+        "disable_aperture_macros": false,
+        "use_protel_file_extension": false,
+        "precision": 6,
+        "create_gerber_job_file": true
+      }
+    },
+    {
+      "id": "cb3a9fda-f0fd-4a55-bb6b-7b29ceafa20b",
+      "type": "pcb_export_drill",
+      "description": "Excellon drill: finished sizes, separate PTH/NPTH files, mm, routed slots",
+      "settings": {
+        "description": "",
+        "output_dir": "",
+        "excellon.mirror_y": false,
+        "excellon.minimal_header": false,
+        "excellon.combine_pth_npth": false,
+        "excellon.oval_drill_route": true,
+        "format": "excellon",
+        "drill_origin": "abs",
+        "units": "mm",
+        "zero_format": "decimal",
+        "generate_map": false,
+        "generate_tenting": false,
+        "map_format": "gerberx2",
+        "gerber_precision": 6,
+        "generate_report": false,
+        "report_filename": ""
+      }
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "id": "be9f16a5-0ab1-4d46-8670-888717c4bfc1",
+      "type": "archive",
+      "description": "Eurocircuits fabrication data (zip)",
+      "only": [],
+      "settings": {
+        "output_path": "fab/${PROJECTNAME}-Eurocircuits-fab.zip",
+        "format": "zip"
+      }
+    }
+  ]
+}
